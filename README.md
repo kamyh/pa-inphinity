@@ -30,3 +30,20 @@ $ docker run -v <path to local directory>:<mount path on container machine> -i -
 ```bash
 $ docker exec -i -t <container ID> /bin/bash
 ``` 
+
+#### Clean the doker-machine
+
+##### Remove all images
+```bash
+$ docker rmi $(docker images -q)
+``` 
+
+##### Stop all container
+```bash
+$ docker stop $(docker ps -a -q)
+``` 
+
+##### Remove all container
+```bash
+$ docker rm $(docker ps -a -q)
+``` 
