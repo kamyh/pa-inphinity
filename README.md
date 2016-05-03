@@ -20,6 +20,8 @@ $ docker run -i -t -d -p 8888:8888 <image name>
 ```
 
 #### Run an image with a local directory mount in the docker container
+
+Be careful, the project directory have to be in ~/...
 ```bash
 $ docker run -v <path to local directory>:<mount path on container machine> -i -t -d -p 8888:8888 <image name>
 ```
