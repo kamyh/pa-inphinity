@@ -1,8 +1,5 @@
-FROM ubuntu:12.04
+FROM ubuntu:14.04
 
-MAINTAINER Wei-Ming Wu <wnameless@gmail.com>
-
-RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe" > /etc/apt/sources.list
 RUN apt-get update
 
 # Install sshd
