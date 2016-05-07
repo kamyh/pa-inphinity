@@ -1,6 +1,7 @@
 docker-mysql_phpmyadmin
 ============================
 
+<<<<<<< HEAD
 ```
 docker pull wnameless/mysql-phpmyadmin
 ```
@@ -21,3 +22,7 @@ Login by SSH
 ssh root@localhost -p 49160
 password: admin
 ```
+=======
+
+$ docker run -d -p 49160:22 -p 49161:80 -p 49162:3306 wnameless/mysql-phpmyadmin
+>>>>>>> c4a726ec7cfd73f950eb1eddd8d2819f6e8305b5
