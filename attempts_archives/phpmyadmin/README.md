@@ -1,14 +1,9 @@
 docker-mysql_phpmyadmin
 ============================
 
-<<<<<<< HEAD
-```
-docker pull wnameless/mysql-phpmyadmin
-```
-
 Run with 22, 80 and 3306 ports opened:
 ```
-docker run -d -p 49160:22 -p 49161:80 -p 49162:3306 wnameless/mysql-phpmyadmin
+docker run -d -p 49160:22 -p 49161:80 -p 49162:3306 pa/mysql-phpmyadmin
 ```
 
 Open http://localhost:49161/phpmyadmin in your browser with following credential:
@@ -22,7 +17,4 @@ Login by SSH
 ssh root@localhost -p 49160
 password: admin
 ```
-=======
 
-$ docker run -d -p 49160:22 -p 49161:80 -p 49162:3306 wnameless/mysql-phpmyadmin
->>>>>>> c4a726ec7cfd73f950eb1eddd8d2819f6e8305b5
