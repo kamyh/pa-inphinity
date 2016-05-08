@@ -25,6 +25,10 @@ RUN mysqld & \
 	mysqladmin -u root shutdown
 
 RUN sed -i "s#// \$cfg\['Servers'\]\[\$i\]\['AllowNoPassword'\] = TRUE;#\$cfg\['Servers'\]\[\$i\]\['AllowNoPassword'\] = TRUE;#g" /etc/phpmyadmin/config.inc.php 
+RUN sed -i '/upload_max_filesize/s/= *2M/=150M/' /etc/php5/apache2/php.ini
+RUN sed -i '/memory_limit/s/= *128M/=150M/' /etc/php5/apache2/php.ini
+RUN sed -i '/post_max_size/s/= *8M/=150M/' /etc/php5/apache2/php.ini
+#RUN service apache2 restart
 
 EXPOSE 22
 EXPOSE 80
