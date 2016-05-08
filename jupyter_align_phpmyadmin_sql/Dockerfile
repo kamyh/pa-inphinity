@@ -1,10 +1,15 @@
-FROM ubuntu:14.04
+FROM debian:jessie
+
+RUN apt-get update
+# Install sshd
+RUN apt-get install -y openssh-server
+RUN mkdir /var/run/sshd
 
 USER root
 
 # Install all OS dependencies for fully functional notebook server
 ENV DEBIAN_FRONTEND noninteractive
-RUN apt-get update && apt-get install -yq --no-install-recommends \
+RUN apt-get install -yq --no-install-recommends \
     git \
     vim \
     jed \
@@ -25,8 +30,8 @@ RUN apt-get update && apt-get install -yq --no-install-recommends \
     sudo \
     locales \
     libxrender1 \
-    && apt-get clean && \
-    rm -rf /var/lib/apt/lists/*
+    && apt-get clean
+#RUN rm -rf /var/lib/apt/lists/*
 
 RUN echo "en_US.UTF-8 UTF-8" > /etc/locale.gen && \
     locale-gen
@@ -117,9 +122,7 @@ RUN ls ./inphinity
 
 ###### START FUSION FROM pa-inphinity/attempts_archives/phpmyadmin
 
-# Install sshd
-RUN apt-get install -y openssh-server
-RUN mkdir /var/run/sshd
+
 
 # Set password to 'admin'
 RUN printf admin\\nadmin\\n | passwd

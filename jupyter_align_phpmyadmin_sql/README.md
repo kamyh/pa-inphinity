@@ -7,10 +7,11 @@
 
 ## Build
 ```bash
-$ docker build -t "pa/align" .
+$ docker build -t "pa/align_phpmyadmin" .
 ```
 
 ## Run
-```bash
-$ docker run -v ~/pa-inphinity/jupyter_align/src:/home/pa/work/jupyter_align -i -t -d -p 8888:8888 pa/align
+Run with 22, 80 and 3306 ports opened:
+```
+docker run -v ~/pa-inphinity/jupyter_align_phpmyadmin_sql/src:/home/pa/work/jupyter_align -i -t -d -p 49160:22 -p 49161:80 -p 49162:3306 -p 8888:8888 pa/align_phpmyadmin
 ```
