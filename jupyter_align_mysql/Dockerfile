@@ -28,7 +28,8 @@ RUN apt-get update && apt-get install -yq --no-install-recommends \
     nano \
     openssh-server \
     mysql-server mysql-client libmysqlclient-dev \
-    php5 libapache2-mod-php5 php5-mcrypt
+    php5 libapache2-mod-php5 php5-mcrypt \
+    fasttree
 
 RUN mkdir /var/run/sshd
 
@@ -92,6 +93,8 @@ USER root
 RUN pip install biopython \
 && conda install basemap \
 && pip install pandas
+
+RUN pip install scipy
 
 RUN pip install PyMySQL
 
