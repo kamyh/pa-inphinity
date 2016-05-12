@@ -116,18 +116,6 @@ RUN chown -R $NB_USER:users /home/$NB_USER/.jupyter
 
 ADD muscle3.8.31_i86linux64 ./
 
-#Get Labo HEIGVD
-RUN mkdir ./inphinity \
-&& sudo chmod 777 ./inphinity \
-&& cd ./inphinity
-
-ADD Labo-2_BBC-2016.ipynb ./inphinity
-RUN sudo chmod +x ./inphinity/Labo-2_BBC-2016.ipynb \
-&& sudo chmod 755 ./inphinity/Labo-2_BBC-2016.ipynb
-
-RUN chown pa ./inphinity/Labo-2_BBC-2016.ipynb
-
-RUN ls ./inphinity
 
 ADD sea.sql /tmp/sea.sql
 
