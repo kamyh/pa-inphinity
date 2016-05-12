@@ -6,6 +6,8 @@
 
 mysql -u root sea < /tmp/sea.sql
 
+echo -e "\nc.NotebookApp.password = u'sha1:76801da06c55:763f1c407fa25c52c744ea0525cc74884d460518'" >> /home/pa/.jupyter/jupyter_notebook_config.py
+
 # Handle special flags if we're root
 if [ $UID == 0 ] ; then
     # Change UID of NB_USER to NB_UID if it does not match
