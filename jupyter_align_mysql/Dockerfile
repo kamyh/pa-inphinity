@@ -96,7 +96,8 @@ RUN pip install biopython \
 
 RUN pip install scipy
 
-RUN pip install PyMySQL
+RUN pip install PyMySQL \
+&& pip install termcolor
 
 EXPOSE 3306
 RUN ls
