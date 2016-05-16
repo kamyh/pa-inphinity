@@ -1,10 +1,4 @@
-# PhamDB
-# A web application for quickly creating and modifying Phamerator databases.
-# github.com/jglamine/phamdb
-
 from jglamine/ncbi-cdd:wheezy
-
-maintainer jglamine@gmail.com
 
 # install packages
 # split into multiple lines to decrease the size of each image commit because
@@ -18,6 +12,12 @@ run apt-get install -y rabbitmq-server && apt-get clean && rm -rf /tmp/* /var/tm
 
 # download source code
 run git clone https://github.com/jglamine/phamdb.git /home/docker/code && rm -rf /home/docker/code/.git
+
+run apt-get install -y wget unzip
+
+run wget https://cdn.mysql.com/Downloads/Connector-Python/mysql-connector-python-2.0.3.zip
+run unzip mysql-connector-python-2.0.3.zip
+run cd mysql-connector-python-2.0.3/ && python setup.py install
 
 # install pip packages
 # installs and then removes build-essential to save space

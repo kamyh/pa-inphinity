@@ -47,3 +47,10 @@ $ docker stop $(docker ps -a -q)
 ```bash
 $ docker rm $(docker ps -a -q)
 ``` 
+
+### Windows Only - Change docker-machine size
+
+```bash
+$ docker-machine rm default
+$ docker-machine create -d virtualbox --virtualbox-memory=4096 --virtualbox-cpu-count=2 --virtualbox-disk-size=50000 default
+``` 
