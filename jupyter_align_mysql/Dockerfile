@@ -96,8 +96,11 @@ RUN pip install biopython \
 
 RUN pip install scipy
 
+RUN apt-get -y install libxml2-dev libxslt-dev
+
 RUN pip install PyMySQL \
-&& pip install termcolor
+&& pip install termcolor \
+&& pip install lxml
 
 EXPOSE 3306
 RUN ls
@@ -116,7 +119,6 @@ COPY jupyter_notebook_config.py /home/$NB_USER/.jupyter/
 RUN chown -R $NB_USER:users /home/$NB_USER/.jupyter
 
 ADD muscle3.8.31_i86linux64 /home/pa/work
-
 
 ADD sea.sql /tmp/sea.sql
 
