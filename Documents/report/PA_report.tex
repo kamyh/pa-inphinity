@@ -1,0 +1,218 @@
+\documentclass[a4paper,11pt]{report}
+
+% General tools
+\usepackage{etoolbox}
+
+\usepackage[utf8]{inputenc}
+
+% Fonts
+\usepackage[T1]{fontenc}
+
+% LaTeX modern fonts
+\usepackage{lmodern}
+
+% Sans serif
+%\usepackage{tgheros}
+
+% Serif
+%\usepackage[bitstream-charter]{mathdesign}
+
+% Monospace
+%\usepackage{sourcecodepro}
+
+% Language
+\usepackage[english]{babel}
+\usepackage{blindtext}
+
+% Page style
+\usepackage{fullpage} % page margins to 1.5cm
+\usepackage{fancyhdr} % headers and footers
+
+% Colors & graphics
+\usepackage[table]{xcolor}    % colors
+\usepackage[pdftex]{graphicx} % graphics importing
+
+% Misc
+\usepackage{titlesec} % section titles formatting
+\usepackage{minted}   % code highlighting
+\usepackage{lscape}   % landscape
+\usepackage{tikz}     % charts in LaTeX
+\usepackage{amsmath}  % better math
+\usepackage{float}    % floats
+\usepackage[small,justification=centering]{caption}
+\usepackage{microtype} % typographic improvements
+
+% Paragraphs
+\usepackage{parskip}
+\usepackage[defaultlines=3,all]{nowidow}
+
+% Chapter titles
+% Remove space before title
+\titlespacing{\chapter}{0pt}{*-4}{*3}
+% Remove "Chapter N" and use a sans-serif font
+\titleformat{\chapter}[hang]{\bf\huge}{\thechapter}{1pc}{}
+% Change chapter page style
+\patchcmd{\chapter}{plain}{fancy}{}{}
+
+% Tables
+\usepackage{multirow}
+
+% Cross-references
+\usepackage{hyperref}
+
+
+% Metadata
+% --------
+\input{metadata}
+
+\newcommand{\Course}{Projet d'approfondissement}
+
+% Header and footer
+% -----------------
+\pagestyle{fancy}
+\lhead[]{\Course}
+\chead[]{}
+\rhead[]{\Place, \today}
+
+\setlength{\headheight}{14pt}
+\setlength{\headsep}{14pt}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+% Code styles for highlighting
+% ----------------------------
+
+% How to use (replace 'java' with language name):
+% - code blocks:
+%     \begin{javacode}
+%     CODE
+%     \end{javacode}
+% - files:
+%     full: \javafile{PATH}
+%     extract: \javafile[startline=x, endline=y]{PATH}
+% TODO: inline?
+
+% Java
+\newminted{java}{frame=single, framesep=6pt, breaklines=true, fontsize=\scriptsize}
+\newmintedfile{java}{frame=single, framesep=6pt, breaklines=true, fontsize=\scriptsize}
+
+% Scala
+\newminted{scala}{frame=single, framesep=6pt, breaklines=true, fontsize=\scriptsize}
+\newmintedfile{scala}{frame=single, framesep=6pt, breaklines=true, fontsize=\scriptsize}
+
+% Python
+\newminted{python}{frame=single, framesep=6pt, breaklines=true, fontsize=\scriptsize}
+\newmintedfile{python}{frame=single, framesep=6pt, breaklines=true, fontsize=\scriptsize}
+
+% Plain text
+\newminted{text}{frame=single, framesep=6pt, breaklines=true, breakanywhere, fontsize=\scriptsize}
+\newmintedfile{text}{frame=single, framesep=6pt, breaklines=true, breakanywhere, fontsize=\scriptsize}
+
+% Document
+% --------
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+
+        % only works if a paragraph has started.
+        \includegraphics[width=0.8\textwidth]{img/mse_logo}~\\[1.5cm]
+        \textsc{\Large \School}\\[0.25cm]
+        \textsc{\Large \Faculty}\\[1.5cm]
+
+        % Title
+        \HRule \\[0.4cm]
+        { \huge \bfseries \Course \\[0.4cm] }
+        \HRule \\[1.5cm]
+
+        % Author and supervisor
+        \begin{minipage}[t]{0.4\textwidth}
+            \begin{flushleft} \Large
+                \emph{Authors:}\\ \Authors
+            \end{flushleft}
+        \end{minipage}
+        \begin{minipage}[t]{0.4\textwidth}
+            \begin{flushright} \Large
+                \emph{Supervisors:}\\\Supervisors
+            \end{flushright}
+        \end{minipage}~\\[1.5cm]
+
+        \begin{center}
+            \includegraphics[scale=0.7]{img/logo_hes-so}
+        \end{center}
+
+        \vfill
+
+        % Bottom of the page
+        {\large \Place, \today}
+
+    \end{center}
+\end{titlepage}
+
+\tableofcontents
+
+
+\chapter{Cahier des charges}
+ 
+
+\chapter{Compte rendu}
+
+\section{Semaine 24-01 fevrier}
+\subsection{Réunion de prise de contact}
+\todo PV --> recopier notes manuscrite ICI
+
+\subsection{Lectures}
+Lectures sur la biologie et début bio-informatique
+
+\subsection{Machine Virtuel}
+Apres quelques recherches sur les différent outils se trouvant dans les lectures, mise en place d'une machine virtuelle, Linux Ubuntu, avec l'installation des package necessaire.
+
+
+
+Installation Anaconda
+
+\begin{verbatim}
+conda install biopython
+conda install -c https://conda.anaconda.org/biocore scikit-bio
+conda install basemap
+conda install graphviz
+conda install pyproj
+conda install pillow
+
+wget http://www.ormbunkar.se/aliview/downloads/linux/linux-version-1.17.1/aliview.install.run
+sudo chmod +x aliview.install.run
+sudo ./aliview.install.run 
+
+wget http://www.clustal.org/download/current/clustalw-2.1-linux-x86_64-libcppstatic.tar.gz
+tar -xzvf clustalw-2.1-linux-x86_64-libcppstatic.tar.gz
+
+wget http://www.drive5.com/muscle/downloads3.8.31/muscle3.8.31_i86linux64.tar.gz
+tar -xzvf muscle3.8.31_i86linux64.tar.gz
+
+wget http://darwin.zoology.gla.ac.uk/~rpage/treeviewx/download/0.5/tv-0.5.1.tar.gz
+tar -xzvf tv-0.5.1.tar.gz
+cd tv-0.5.1
+
+sudo apt-get install build-essential
+sudo apt-get install libwxgtk2.8-dev
+
+./configure
+
+cd ..
+
+http://weblogo.berkeley.edu/release/weblogo.2.8.2.tar.gz
+tar -xzvf weblogo.2.8.2.tar.gz
+\end{verbatim}
+
+\subsection{Cahier des charges}
+
+\section{Semaine 02-08 mars}
+\subsection{Réunion}
+\todo PV
+
+\subsection{Lectures}
+
+\subsection{Tutorial}
+
+\end{document}
+
