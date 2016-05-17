@@ -104,6 +104,8 @@ RUN pip install PyMySQL \
 && pip install termcolor \
 && pip install lxml
 
+RUN pip install sh
+
 EXPOSE 3306
 RUN ls
 # Configure container startup as root
