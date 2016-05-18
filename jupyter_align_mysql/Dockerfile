@@ -124,5 +124,5 @@ RUN chown -R $NB_USER:users /home/$NB_USER/.jupyter
 
 ADD muscle3.8.31_i86linux64 /home/pa/work
 
-ADD sea.sql /tmp/sea.sql
+ADD db/ /tmp/db
 

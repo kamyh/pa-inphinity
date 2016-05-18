@@ -1,10 +1,13 @@
 #!/bin/bash
 
+# TODO foreach db in /tmp/db
 /bin/bash -c "/usr/bin/mysqld_safe &" && \
   sleep 5 && \
-  mysql -u root -e "CREATE DATABASE sea"
+  mysql -u root -e "CREATE DATABASE sea" && \
+  mysql -u root -e "CREATE DATABASE sea_own"
 
-mysql -u root sea < /tmp/sea.sql
+mysql -u root sea < /tmp/db/sea.sql
+mysql -u root sea_own < /tmp/db/sea_own.sql
 
 echo -e "\nc.NotebookApp.password = u'sha1:df7082a842be:6801987df94a9580d18e9c78b2eee2d3c59a4aed'" >> /home/pa/.jupyter/jupyter_notebook_config.py
 
