@@ -23,6 +23,7 @@
 % Language
 \usepackage[english]{babel}
 \usepackage{blindtext}
+\usepackage{url}
 
 % Page style
 \usepackage{fullpage} % page margins to 1.5cm
@@ -168,10 +169,27 @@
 \tableofcontents
 
 
-
 \chapter{Introduction}
+\section{foreword}
+This project falls within the context of a thesis proposed by Prof. Carlos Peña, YokAi
+Que, MDPhD and Grégory Resch, PhD entitled \textit{In silico prediction of phagebacteria
+infection networks as a tool to implement personalized phage therapy} \cite{ref1}.
 
-\todo phages Vs bacteria
+The official statment of the project is:\\
+By using automated learning methods, explore alternate metodologies for bacteria and phages interaction modelisation on genomic informations or proteins.
+
+
+\section{phages Vs bacteria}
+In our modern world a challenging issues has apear concerning conventional antibiotics. In deed, some batceria have developpe resistance to antibiotics. To overcome this people are looking at phage therapy. 
+
+Phage therapy is the utilisation of phages, bacteriophage viruses, to threat infectious diseases of bacterial origin. This therapy is known to have only very few and only benign side effets. This last point make phagotherapy, not only useful to avoid antibiotic in case of resistance, but also to avoid their "toxicity".
+
+Briefly, phage therapy was the only threatment solution in the before the 1930's. The apearence of the penicillin in the early 1940's and other modern drugs, releagate phage therapy to the past. But, in the slavic countries, phage therapy continued to be used as a current treatment.
+
+Luckly for us, we don't have to start from nothing in phage therapy. However, we have the necessity to find a way, a methode to validate the phage selection.
+
+\cite{ref2}
+
 
 
 
@@ -235,7 +253,11 @@
 \subsection{Resultats validation}
 \subsection{Results by host}
 
-\chapter{References}
+\addtocounter{chapter}{1}
+\addcontentsline{toc}{chapter}{\protect\numberline{\thechapter}References}
+\bibliographystyle{plain} % Le style est mis entre accolades.
+\bibliography{bibli} % mon fichier de base de données s'appelle bibli.bib
+
 
 \chapter{Annexes}
 
