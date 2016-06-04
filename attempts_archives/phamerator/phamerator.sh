@@ -22,12 +22,15 @@ wget http://biopython.org/DIST/biopython-1.50.tar.gz &&
 tar -xzvf biopython-1.50.tar.gz &&
 cd biopython-1.50/
 
+sudo python setup.py install
+
 sudo apt-get install python-glade2 &&
 sudo apt-get install easy_install &&
 sudo apt-get install python-setuptools &&
-sudo easy_install weblogo %%
+sudo easy_install weblogo &&
 sudo apt-get install python-webkit &&
-sudo apt-get install python-webkit-dev
+sudo apt-get install python-webkit-dev &&
+sudo apt-get install python-gconf
 
 cd ../phamerator-1.1/phamerator
 sudo ./Phamerator

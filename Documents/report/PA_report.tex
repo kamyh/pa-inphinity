@@ -2,9 +2,9 @@
 
 % General tools
 \usepackage{etoolbox}
-
+\usepackage{color}
 \usepackage[utf8]{inputenc}
-
+\usepackage{minted}
 % Fonts
 \usepackage[T1]{fontenc}
 
@@ -304,10 +304,32 @@ When you're logged in you can access the "inphinity" directory. It contains most
 Phameraotr is \textit{a bioinformatic tool for comparative bacteriophage genomics} \cite{ref4}. Phamerator will allow us to compute and store phamily, in a database. 
 
 \subsection{Installation}
-\todo install on GUI machine
+To use phamerator you have to install a linux enviornment. Thus copy the file "phamerator.sh" from the directory and execute it in order to install and run Phamerator.
+
+Normally you Phamerator should start at the end.
+
+\begin{figure}[H] 
+	\begin{center}
+		\includegraphics[scale=0.45]{img/phamerator_1}
+		\caption{phamerator interface}
+	\end{center}
+\end{figure}
 
 \subsection{How it's works}
-\todo screens + explain
+\todo explain
+\begin{figure}[H] 
+	\begin{center}
+		\includegraphics[scale=0.45]{img/phamerator_2}
+		\caption{phamerator interface}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H] 
+	\begin{center}
+		\includegraphics[scale=0.45]{img/12859_2011_Article_4954_Fig8_HTML}
+		\caption{phamerator interface}
+	\end{center}
+\end{figure}
 
 \section{PhamDB}
 To facilited the construction of databases containing our phamily we will use PhamDb. In deed, with phamDb we can populate a database with new phage. At every addition of phage, it will recompute phamily accordingly to the new phage added. 
@@ -359,6 +381,8 @@ You can create a new database from three different ways:
 	\end{center}
 \end{figure}
 
+
+
 \section{Database \& Dataset}
 We use the default database from phamerator for this phase of the project in order to gain some time. You can see the database structure on the figure 3.5 .
 
@@ -372,7 +396,31 @@ We use the default database from phamerator for this phase of the project in ord
 From the dataset at my disposal, I've used the list of phage "phages\_list\_1.txt". You can find it in annexe of this document.
 
 \section{Phamily}
+Now we will discuss about phamily and the main script realise during this phase of the project.
+
+You can see and run the folowing code from the jupyter interface, Cf. chapter 3.1.4.
+
 \subsection{Alignment}
+
+\textbf{Have to:} You are now in your browser and have open the source file "inphinity/show\_phamily.ipynb". The class "sea\_inphinity()" have every methods that we use in this part. cf. file if you want to see it all.
+
+You can display the list of every existing phamily in the database curently selected.
+
+\begin{minted}
+[
+frame=lines,
+framesep=2mm,
+baselinestretch=1.2,
+bgcolor=lightgray,
+fontsize=\footnotesize,
+linenos
+]
+{python}
+
+list_name = sea_inphinity\_var.get\_list\_name_pham(-1)
+print(list\_name)
+
+\end{minted}
 \subsection{Phages selection}
 \subsection{Data completion}
 
