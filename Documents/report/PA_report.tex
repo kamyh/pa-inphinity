@@ -381,8 +381,6 @@ You can create a new database from three different ways:
 	\end{center}
 \end{figure}
 
-
-
 \section{Database \& Dataset}
 We use the default database from phamerator for this phase of the project in order to gain some time. You can see the database structure on the figure 3.5 .
 
@@ -400,12 +398,13 @@ Now we will discuss about phamily and the main script realise during this phase 
 
 You can see and run the folowing code from the jupyter interface, Cf. chapter 3.1.4.
 
-\subsection{Alignment}
+\subsection{Introduction}
 
 \textbf{Have to:} You are now in your browser and have open the source file "inphinity/show\_phamily.ipynb". The class "sea\_inphinity()" have every methods that we use in this part. cf. file if you want to see it all.
 
-You can display the list of every existing phamily in the database curently selected.
+First we have to create an Inphinity() object capable to access our data. We will use a modified database 'sea\_own', we will discuss his creation later in the document (cf section 4.2.2).
 
+\begin{figure}[H] 
 \begin{minted}
 [
 frame=lines,
@@ -417,11 +416,244 @@ linenos
 ]
 {python}
 
-list_name = sea_inphinity\_var.get\_list\_name_pham(-1)
-print(list\_name)
+inphinity = Inphinity('sea_own')
+#Result: Number of phages loaded: 167
 
 \end{minted}
+\caption{Inphinity object}
+\end{figure}
+
+You can display the list of every existing phamily in the database curently selected.
+
+\begin{figure}[H] 
+\begin{minted}
+[
+frame=lines,
+framesep=2mm,
+baselinestretch=1.2,
+bgcolor=lightgray,
+fontsize=\footnotesize,
+linenos
+]
+{python}
+
+list_name = inphinity.get_list_name_pham(-1)
+print(list_name)
+#Result: [... ,2798,2799,2800,2801, ...]
+
+\end{minted}
+\caption{Phame names listing}
+\end{figure}
+
+\textbf{Note:} A verbosity parameter allows to turn off console message from python execution work flow.
+
+\begin{figure}[H] 
+\begin{minted}
+[
+frame=lines,
+framesep=2mm,
+baselinestretch=1.2,
+bgcolor=lightgray,
+fontsize=\footnotesize,
+linenos
+]
+{python}
+
+inphinity.verbose = False
+
+\end{minted}
+\caption{Verbosity attribut}
+\end{figure}
+
 \subsection{Phages selection}
+Now we want to be able to get a philogenetic tree for a phage. To do so we choose a phame, here pham '2799' and we call our method \textit{inphinity.build\_tree('2799')}.
+
+\begin{figure}[H] 
+\begin{minted}
+[
+frame=lines,
+framesep=2mm,
+baselinestretch=1.2,
+bgcolor=lightgray,
+fontsize=\footnotesize,
+linenos
+]
+{python}
+
+def build_tree(self,pham):
+    genes = self.get_genes_from_a_pham(pham)
+    self.create_fasta(genes)
+    self.align_muscle()
+    self.compute_tree()
+    self.prepare_tree_fig()
+
+\end{minted}
+\caption{Creation of philogenetic tree}
+\end{figure}
+
+As you can see, this methods those a couple of different things. First we're retriving all the genes composing our pham.
+
+Now that we have selected only few genes, we have to store them into a FASTA file to be use with MUSCLE for align them.
+
+\begin{figure}[H] 
+\begin{minted}
+[
+frame=lines,
+framesep=2mm,
+baselinestretch=1.2,
+bgcolor=lightgray,
+fontsize=\footnotesize,
+linenos
+]
+{python}
+
+def create_fasta(self, genes):
+    print('Creation of the FASTA file')
+    fasta = open("%sfasta.fa" % (self.out_dir), "w")
+    self.print_("Number of Genes: %d" % (len(genes)))
+    for gene in genes:
+        GeneID = gene['GeneID']
+        name = gene['Name']
+        description = ">%s - %s" % (GeneID, name)
+
+        translation = gene['translation']
+
+        self.print_(description)
+        self.print_(translation)
+
+        fasta.write(description)
+        fasta.write('\n')
+        fasta.write(translation)
+        fasta.write('\n')
+
+    fasta.close()
+
+\end{minted}
+\caption{FASTA creation function}
+\end{figure}
+
+The FASTA file should looks like figure 3.16. A gene takes two lines. First the gene identification number and his name. Then, the second line, the gene translation. You can fine in annexe ()
+
+\begin{figure}[H] 
+	\begin{center}
+		\includegraphics[scale=0.6]{img/fasta}
+		\caption{PhamDb database creation}
+	\end{center}
+\end{figure}
+
+Now we are ready to use MUSCLE to aline genes together. \todo explain MUSCLE. In the future it will be interesting to take some time to customized with options our call to MUSCLE \cite{ref5}
+
+
+
+\begin{figure}[H] 
+\begin{minted}
+[
+frame=lines,
+framesep=2mm,
+baselinestretch=1.2,
+bgcolor=lightgray,
+fontsize=\footnotesize,
+linenos
+]
+{python}
+
+def align_muscle(self):
+        print('Alignment with MUSCLE')
+        muscle_loc = r'/home/pa/work/muscle3.8.31_i86linux64' # modifier si nécessaire
+
+        muscle_cline = MuscleCommandline(cmd=muscle_loc,input='%sfasta.fa' % 
+        	(self.out_dir),out='%sout.aln' % (self.out_dir),clwstrict=True)
+        stdout, stderr = muscle_cline()
+
+        muscle_align = AlignIO.read('%sout.aln' % (self.out_dir),'clustal')
+        self.print_(muscle_align)
+
+\end{minted}
+\caption{FASTA creation function}
+\end{figure}
+
+MUSCLE takes our generated FASTA file to produce a .aln file who will contains the alignments.
+
+Now we have our alignments ready to compute a phylogenetic tree. To realise the tree we use \textit{FastTree} software. It will produce "approximately-maximum-likelihood phylogenetic trees" using our .aln file proviously generated. 
+
+\begin{figure}[H] 
+\begin{minted}
+[
+frame=lines,
+framesep=2mm,
+baselinestretch=1.2,
+bgcolor=lightgray,
+fontsize=\footnotesize,
+linenos
+]
+{python}
+
+def compute_tree(self):
+    print('Compute tree')
+    AlignIO.convert('%sout.aln' % (self.out_dir),'clustal','%sintermediate.phy' \
+    	% (self.out_dir), 'phylip-relaxed')
+
+    cmd_fasttree = r'fasttree'
+    fasttree_cmdline = FastTreeCommandline(cmd=cmd_fasttree,fastest=True, \
+    	input='%sintermediate.phy' % (self.out_dir),out='%stree.tre' % (self.out_dir))
+    out_log, err_log = fasttree_cmdline()
+
+    self.print_('Out Log:')
+    self.print_(out_log)
+
+    self.print_('Error Log')
+    self.print_(err_log)
+
+    self.tree = Phylo.read('%stree.tre' % (self.out_dir), 'newick')
+
+\end{minted}
+\caption{FASTA creation function}
+\end{figure}
+
+\textbf{Note:} As for MUSCLE utilisation, myaybe some modification to the call of FastTree can be used to improve the solution.
+
+The followinf figure (3.19) show that we now have a file with our tree. Every genes have a score that will decide for is place in the tree.
+
+\begin{figure}[H] 
+	\begin{center}
+		\includegraphics[scale=0.6]{img/tree}
+		\caption{PhamDb database creation}
+	\end{center}
+\end{figure}
+
+Now we can compute the visualisation of the tree using two function, \textit{prepare\_tree\_fig()} and \textit{draw\_tree()}.
+
+The function \textit{compute\_tree()} set an attribut, \textit{self.tree}, to \textit{Inphinity()} class. This is our tree, so we can used it after computation. For the selected Pham we have the tree from figure 3.19. We will disscuss the result in the chapter 4.
+
+\begin{figure}[H] 
+	\begin{center}
+		\includegraphics[scale=0.28]{img/tree_fig}
+		\caption{PhamDb database creation}
+	\end{center}
+\end{figure}
+
+\subsection{Displaying results}
+\begin{figure}[H] 
+\begin{minted}
+[
+frame=lines,
+framesep=2mm,
+baselinestretch=1.2,
+bgcolor=lightgray,
+fontsize=\footnotesize,
+linenos
+]
+{python}
+
+inphinity = Inphinity('sea')
+inphinity.verbose = False
+inphinity.build_tree('2799')
+inphinity.print_informations_on_phages(inphinity.leaves)
+
+\end{minted}
+\caption{FASTA creation function}
+\end{figure}
+
 \subsection{Data completion}
 
 
@@ -450,13 +682,18 @@ print(list\_name)
 \subsection{Results by host}
 
 \addtocounter{chapter}{1}
+\addcontentsline{toc}{chapter}{\protect\numberline{\thechapter}List of figures}
+\listoffigures
+
+\addtocounter{chapter}{1}
 \addcontentsline{toc}{chapter}{\protect\numberline{\thechapter}References}
 \bibliographystyle{plain} % Le style est mis entre accolades.
 \bibliography{bibli} % mon fichier de base de données s'appelle bibli.bib
 
 
 \chapter{Annexes}
-
+\appendix
+\section{Fasta file}
 
 
 \end{document}
