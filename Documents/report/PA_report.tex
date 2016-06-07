@@ -182,27 +182,48 @@ By using automated learning methods, explore alternate metodologies for bacteria
 \section{phages Vs bacteria}
 In our modern world a challenging issues has apear concerning conventional antibiotics. In deed, some batceria have developpe resistance to antibiotics. To overcome this people are looking at phage therapy. 
 
-Phage therapy is the utilisation of phages, bacteriophage viruses, to threat infectious diseases of bacterial origin. This therapy is known to have only very few and only benign side effets. This last point make phagotherapy, not only useful to avoid antibiotic in case of resistance, but also to avoid their "toxicity".
+Phage therapy is the utilisation of phages (Section 2.2.2), bacteriophage viruses, to threat infectious diseases of bacterial origin. Phage, also called bacteriophage, are a specific type of virus infecting only bacteria. This therapy is known to have only very few and only benign side effets. This last point make phagotherapy, not only useful to avoid antibiotic in case of resistance, but also to avoid their "toxicity".
 
 Briefly, phage therapy was the only threatment solution in the before the 1930's. The apearence of the penicillin in the early 1940's and other modern drugs, releagate phage therapy to the past. But, in the slavic countries, phage therapy continued to be used as a current treatment.
 
 Luckly for us, we don't have to start from nothing in phage therapy. However, we have the necessity to find a way, a methode to validate the phage selection. \cite{ref2}
 
 
-
-
-\chapter{State of the art}
+\chapter{Theories}
+This chapter is made to ensure that every reader understand basics needed. It contains some simplifications and it's not, in any case, a biology guide.
 
 \section{Biology}
-\todo genome
+Before entering in the project content, let say some word about genomic. Almost all living organisms use \textbf{Deoxyribonucleic acid, DNA,} \cite{ref9}. DNA contains the necessary imformation for the developpment and activities of living creatures.
 
+\begin{figure}[H]
+\centering
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=.8\linewidth]{img/chromosome}
+  \captionof{figure}{A figure}
+  \label{fig:test1}
+\end{minipage}%
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=.7\linewidth]{img/geneticcode}
+  \captionof{figure}{Another figure}
+  \label{fig:test2}
+\end{minipage}
+\end{figure}
+
+Dna is composed of 4 units, called nucleotide bases, adenine (A), thymine (T), guanine (G), and cytosine (C). Those bases are stored in chromosome, in human cells (Fig 2.1). There are responsable for coding information used to create proteins (Fig. 2.2). Organisms structural organisation and every biological activity are made up from proteins.
 
 \section{Bio-informatic}
-\todo sequence alignment
+\subsection{DNA sequencing}
+Today we are capable of sequencing genetics code of any organism. When DNA is sequence, only one half is recorded, because every bases work in pairs (C-G | T-A).
 
-\todo explain phamily
+\textbf{Note:} For more information abour sequencing see article in reference \cite{ref9}.
 
-\todo explain genebank
+\subsection{Phamily}
+A pham is a regroupment of protein-coding genes where related sequence, determined by pairwise analysis, are used for comparaison. Sequence alignment is used to determin conserved domaine in DNA of phage. A phamily contains all related genes.
+
+\subsection{Genbank}
+Most of the genetics information used in this project can be found on GenBank \cite{ref10}. GenBank is a public database regrouping avalaible DNA sequences and information.
 
 
 \chapter{Methods}
@@ -393,14 +414,13 @@ We use the default database from phamerator for this phase of the project in ord
 
 From the dataset at my disposal, I've used the list of phage "phages\_list\_1.txt". You can find it in annexe of this document.
 
-\section{Phamily}
-Now we will discuss about phamily and the main script realise during this phase of the project.
 
-You can see and run the folowing code from the jupyter interface, Cf. chapter 3.1.4.
+\section{Phamily}
+Now we will discuss about phamily and the main script realise during this phase of the project. You can see and run the folowing code from the jupyter interface, Cf. chapter 3.1.4.
 
 \subsection{Introduction}
 
-\textbf{Have to:} You are now in your browser and have open the source file "inphinity/show\_phamily.ipynb". The class "sea\_inphinity()" have every methods that we use in this part. cf. file if you want to see it all.
+\textbf{Have to:} You are now in your browser and have open the source file \textit{inphinity/show\_phamily.ipynb}. The class \textit{sea\_inphinity()} have every methods that we use in this part. cf. file if you want to see it all.
 
 First we have to create an Inphinity() object capable to access our data. We will use a modified database 'sea\_own', we will discuss his creation later in the document (cf section 4.2.2).
 
@@ -633,6 +653,8 @@ The function \textit{compute\_tree()} set an attribut, \textit{self.tree}, to \t
 \end{figure}
 
 \subsection{Displaying results}
+you can display information concerning all pages of the selected Pham in text format.
+
 \begin{figure}[H] 
 \begin{minted}
 [
@@ -654,32 +676,150 @@ inphinity.print_informations_on_phages(inphinity.leaves)
 \caption{FASTA creation function}
 \end{figure}
 
-\subsection{Data completion}
+We will disscuss the content of those information in section 4.1.2. The avalaible informations are the phage gene id who's been use to build the tree, the phage identification number, the phage name, the page accession identifier on Genbank and the phage host strain.
 
+The host strain is labeled in three colors. Blue mean that the host strain is known from the loaded database. Red mean that host strain informtaion comes from GenBank access. Finally, informations are retrieve using webscraping on Phagedb.org.
+
+\subsection{Data completion}
+As said in previous section, 3.5.3, the original database was not fully populate. Informtaion about host strain was sometimes missing. In the future we will complete this database but for now the software retrieve them every time it's needed.
+
+\begin{figure}[H] 
+\begin{minted}
+[
+frame=lines,
+framesep=2mm,
+baselinestretch=1.2,
+bgcolor=lightgray,
+fontsize=\footnotesize,
+linenos
+]
+{python}
+
+def get_host_from_genbank(self, genome_id):
+
+    try:
+        record = Entrez.efetch(db="nuccore", id=genome_id, rettype="gb", retmode="text")
+
+        filename = 'out/genBankRecord.gb'
+        with open(filename, 'w') as f:
+            f.write(record.read())
+        parsed_gb_file = next(SeqIO.parse(filename, "genbank"))
+
+        #print(parsed_gb_file)
+        return parsed_gb_file.annotations["source"]
+
+    except:
+        return 'Not Found'
+
+def get_informations_from_phage_db(self, phage_name):
+    page = requests.get('http://phagesdb.org/phages/%s' % (phage_name))
+    tree = html.fromstring(page.content)
+
+    host = tree.xpath('//*[@id="phageDetails"]/tbody/tr[2]/td[2]/a/em/text()')[0]
+
+    return host
+
+\end{minted}
+\caption{FASTA creation function}
+\end{figure}
 
 \chapter{Results \& Analyse}
 
+In this chapter we'ill take about the results produce during this project.
+
 \section{First result}
-\subsection{Tree}
-\subsection{Hosts}
+I've not had lots of time to produce and analyze many results and the missing host strain in the data as slowed the work.
+
+We can produce phylogenetic tree for any calculated Pham in database.  For the moment we treat all gene from a tree the same way. See in section 5.2.4 for future developpment.
+
+For better lisibility, scores using in the tree building phase are not directly draw on it. To display scores, to analyze results use the methode from figure 4.1. It give pairwise distances between two leaves.
+
+\begin{figure}[H] 
+\begin{minted}
+[
+frame=lines,
+framesep=2mm,
+baselinestretch=1.2,
+bgcolor=lightgray,
+fontsize=\footnotesize,
+linenos
+]
+{python}
+
+def display_scores(self):
+    print('Display Scores')
+
+    self.leaves = [str(cladit) for k,cladit in enumerate(self.tree.get_terminals())]
+    for l1,leave1 in enumerate(self.leaves):
+        for l2,leave2 in enumerate(self.leaves):
+            distance = self.tree.distance(leave1,leave2)
+            if distance > 0:
+                print('-----------------------------')
+                print('%s - %s' % (leave1,leave2))
+                print(distance)
+
+\end{minted}
+\caption{FASTA creation function}
+\end{figure}
+
+For pham \textit{2799} we can split the pham into parts using those distances. On figure 3.20 those part are colored differentlly depending on ther appartenence.
+
+Using a figure tree is not really practicle to make things automatic. So funtion \textit{prepare\_tree\_fig} set the attribute \textit{self.leaves}. This attribute store all gene composing a pham. Using the code from figure 3.21 it show for all gene, the phage and his host strain.
+
+As you can see in annexe \textit{res\_pham\_2799\_host\_strain.pdf}, every host strain for this pham is \textbf{Mycobacterium smegmatis}.
+
+\textbf{Note:} See issue at section 5.2.3 about phage host strain in the current database.
+
 
 \section{Database}
 \subsection{SEA}
-\subsection{Phages list integration}
+For this phase of the project have used the \textit{SEA} database \cite{ref7}. This db is populated with 113 phages and 2771 phams.
 
+\textbf{Note:} See in annexes, file \textit{SEA.sql} for the db sql dump.
+
+We've used PhamDb to add some more phage to the database. For now the new database, \textit{SEA\_own}, contains 167 phages and 7549 phams. An issue with PhamDb, cf. section 5.1.3, is responsable for the fact that we only add 84 new phages.
+
+We have generated a list of phage from \textit{Ebi} \cite{ref8}. A file containing this list has been generated, cf annexes \textit{phages\_list\_1.txt}. Using the code from \textit{inphinity/GeneBank\_Fetch.ipynb} we can store in GenBank files informations and sequences about our new phages. 
 
 \chapter{Conclusion}
 
 \section{Problems encountered}
 \subsection{Phamerator Installation}
+Phamerator installation has been difficult. Some packages used in Phamerator are not all listed on their installation procedure. In addition, BioPython package last version seems not working sith Phamerator.
+
+For not loosing your time, you can find a installation bash in annexes, \textit{phamerator.sh}. This is the procedure I've came up with for installing and running Phamerator on Linux Ubuntu.
+
 \subsection{SEA database}
+As already said (section 3.5.4) the SEA database taken from Phamerator was missing some information. Furthermore we will certainly add permanantly to the db those missing information in the future.
+
 \subsection{PhamDB Limitation jobs}
+PhamDB is an excellent tool but for an unknown reason, if you load to many import in one job, it is uncapable to finish the job.
+
 \subsection{PhageDB.org}
+Some of the information were not present on GenBank. Thier are retrieve from PhageDB.org. But this website does not have an API to get data. For this particuliar reason, information are retrieve using webscraping.
+
+Webscraping consiste of getting an internet (HTML) page and parsing it. We use HTML balises to locate information in the document. Because we use document structure to locate information, it is not garanteed to work in the future. Indeed, if the page structure changes the retrive methods will not work anymore.
 
 \section{Perspectives}
 \subsection{Database population}
+
+In the purpose to realise a full automated pipeline, it will be interesting to take the PhamDb execution code without GUI elements. Indeed, at the end we can parse data from GenBank or FASTA files and inject them into PhamDB. When PhamDb will have process those data, the code from \textit{inphinity/show\_phamily.ipynb}.
+
 \subsection{Resultats validation}
-\subsection{Results by host}
+
+At the moment, we are not sure if our assomption is right, \textit{Is genes of a Pham are from phages infecting the same bateria ?}. To answer this question we need to add more phage to the database.
+
+After adding more phage we can make a script to iterate on all generated Pham and check if host strain are the same for all phage in a Pham.
+
+\subsection{Sub-tree selection}
+\begin{figure}[H] 
+	\begin{center}
+		\includegraphics[scale=0.7]{img/tree_fig_4}
+		\caption{PhamDb database creation}
+	\end{center}
+\end{figure}
+
+The figure 5.1 is a selection from figure 3.20. It will be interesting to extend the function in figure 4.1 to select those sub-parts. Wether listing all the sub-parts, wether by selecting a part from a specific gene.
 
 \addtocounter{chapter}{1}
 \addcontentsline{toc}{chapter}{\protect\numberline{\thechapter}List of figures}
@@ -692,8 +832,14 @@ inphinity.print_informations_on_phages(inphinity.leaves)
 
 
 \chapter{Annexes}
-\appendix
-\section{Fasta file}
+\begin{enumerate}
+	\item \textbf{phages\_list\_1.txt}
+	\item \textbf{phamerator.sh}
+	\item \textbf{respham2799hoststrain.pdf}
+	\item \textbf{SEA.sql}
+	\item \textbf{show\_phamily.ipynb.pdf}
+	\item \textbf{GeneBank\_Fetch.ipynb.pdf}
+\end{enumerate}
 
 
 \end{document}

@@ -1,0 +1,25 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{get\PYGZus{}host\PYGZus{}from\PYGZus{}genbank}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{genome\PYGZus{}id}\PYG{p}{):}
+
+    \PYG{k}{try}\PYG{p}{:}
+        \PYG{n}{record} \PYG{o}{=} \PYG{n}{Entrez}\PYG{o}{.}\PYG{n}{efetch}\PYG{p}{(}\PYG{n}{db}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}nuccore\PYGZdq{}}\PYG{p}{,} \PYG{n+nb}{id}\PYG{o}{=}\PYG{n}{genome\PYGZus{}id}\PYG{p}{,} \PYG{n}{rettype}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}gb\PYGZdq{}}\PYG{p}{,} \PYG{n}{retmode}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}text\PYGZdq{}}\PYG{p}{)}
+
+        \PYG{n}{filename} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}out/genBankRecord.gb\PYGZsq{}}
+        \PYG{k}{with} \PYG{n+nb}{open}\PYG{p}{(}\PYG{n}{filename}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}w\PYGZsq{}}\PYG{p}{)} \PYG{k}{as} \PYG{n}{f}\PYG{p}{:}
+            \PYG{n}{f}\PYG{o}{.}\PYG{n}{write}\PYG{p}{(}\PYG{n}{record}\PYG{o}{.}\PYG{n}{read}\PYG{p}{())}
+        \PYG{n}{parsed\PYGZus{}gb\PYGZus{}file} \PYG{o}{=} \PYG{n+nb}{next}\PYG{p}{(}\PYG{n}{SeqIO}\PYG{o}{.}\PYG{n}{parse}\PYG{p}{(}\PYG{n}{filename}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}genbank\PYGZdq{}}\PYG{p}{))}
+
+        \PYG{c+c1}{\PYGZsh{}print(parsed\PYGZus{}gb\PYGZus{}file)}
+        \PYG{k}{return} \PYG{n}{parsed\PYGZus{}gb\PYGZus{}file}\PYG{o}{.}\PYG{n}{annotations}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}source\PYGZdq{}}\PYG{p}{]}
+
+    \PYG{k}{except}\PYG{p}{:}
+        \PYG{k}{return} \PYG{l+s+s1}{\PYGZsq{}Not Found\PYGZsq{}}
+
+\PYG{k}{def} \PYG{n+nf}{get\PYGZus{}informations\PYGZus{}from\PYGZus{}phage\PYGZus{}db}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{phage\PYGZus{}name}\PYG{p}{):}
+    \PYG{n}{page} \PYG{o}{=} \PYG{n}{requests}\PYG{o}{.}\PYG{n}{get}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}http://phagesdb.org/phages/}\PYG{l+s+si}{\PYGZpc{}s}\PYG{l+s+s1}{\PYGZsq{}} \PYG{o}{\PYGZpc{}} \PYG{p}{(}\PYG{n}{phage\PYGZus{}name}\PYG{p}{))}
+    \PYG{n}{tree} \PYG{o}{=} \PYG{n}{html}\PYG{o}{.}\PYG{n}{fromstring}\PYG{p}{(}\PYG{n}{page}\PYG{o}{.}\PYG{n}{content}\PYG{p}{)}
+
+    \PYG{n}{host} \PYG{o}{=} \PYG{n}{tree}\PYG{o}{.}\PYG{n}{xpath}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}//*[@id=\PYGZdq{}phageDetails\PYGZdq{}]/tbody/tr[2]/td[2]/a/em/text()\PYGZsq{}}\PYG{p}{)[}\PYG{l+m+mi}{0}\PYG{p}{]}
+
+    \PYG{k}{return} \PYG{n}{host}
+\end{Verbatim}
