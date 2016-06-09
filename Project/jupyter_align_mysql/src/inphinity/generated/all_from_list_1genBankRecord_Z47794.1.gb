@@ -1,0 +1,1221 @@
+LOCUS       Z47794                 19343 bp    DNA     linear   PHG 23-JUN-2008
+DEFINITION  Streptococcus phage Cp-1 DNA, complete genome.
+ACCESSION   Z47794
+VERSION     Z47794.1  GI:2288892
+KEYWORDS    collar protein; connector protein; DNA polymerase; encapsidation
+            protein; holin protein; lysozyme; major head protein; scaffolding
+            protein; tail protein; terminal protein.
+SOURCE      Streptococcus phage Cp-1
+  ORGANISM  Streptococcus phage Cp-1
+            Viruses; dsDNA viruses, no RNA stage; Caudovirales; Podoviridae;
+            Picovirinae; unassigned Picovirinae.
+REFERENCE   1
+  AUTHORS   Escarmis,C., Gomez,A., Garcia,E., Ronda,C., Lopez,R. and Salas,M.
+  TITLE     Nucleotide sequence at the termini of the DNA of Streptococcus
+            pneumoniae phage Cp-1
+  JOURNAL   Virology 133 (1), 166-171 (1984)
+   PUBMED   6702104
+  REMARK    (sites)
+REFERENCE   2  (bases 1 to 4780)
+  AUTHORS   Martin,A.C., Lopez,R. and Garcia,P.
+  TITLE     Nucleotide sequence and transcription of the left early region of
+            Streptococcus pneumoniae bacteriophage Cp-1 coding for the terminal
+            protein and the DNA polymerase
+  JOURNAL   Virology 211 (1), 21-32 (1995)
+   PUBMED   7645213
+REFERENCE   3  (bases 1 to 19343)
+  AUTHORS   Martin,A.C., Lopez,R. and Garcia,P.
+  TITLE     Analysis of the complete nucleotide sequence and functional
+            organization of the genome of Streptococcus pneumoniae
+            bacteriophage Cp-1
+  JOURNAL   J. Virol. 70 (6), 3678-3687 (1996)
+   PUBMED   8648702
+REFERENCE   4
+  AUTHORS   Martin,A.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-JAN-1995) Martin A.C., Centro de Investigaciones
+            Biologicas. CSIC, Microbiologia Molecular, Velazquez 144, Madrid,
+            Madrid, SPAIN, 28006
+  REMARK    Revised by [5]
+REFERENCE   5  (bases 1 to 19343)
+  AUTHORS   Garcia,P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-JUL-1997) Garcia P., Centro de Investigaciones
+            Biologicas. CSIC, Microbiologia Molecular, Velazquez 144, Madrid,
+            Madrid, SPAIN, 28006
+COMMENT     On Jul 31, 1997 this sequence version replaced gi:1181956.
+FEATURES             Location/Qualifiers
+     source          1..19343
+                     /organism="Streptococcus phage Cp-1"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:10747"
+     repeat_region   1..236
+                     /standard_name="long terminal repeat"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /citation=[1]
+                     /citation=[2]
+                     /rpt_type=long_terminal_repeat
+     regulatory      complement(150..155)
+                     /regulatory_class="minus_10_signal"
+                     /citation=[2]
+     regulatory      complement(172..177)
+                     /regulatory_class="minus_35_signal"
+                     /citation=[2]
+     regulatory      222..227
+                     /regulatory_class="minus_35_signal"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /citation=[2]
+     regulatory      245..250
+                     /regulatory_class="minus_10_signal"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /citation=[2]
+     regulatory      316..321
+                     /regulatory_class="minus_35_signal"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /citation=[2]
+     regulatory      339..344
+                     /regulatory_class="minus_10_signal"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /citation=[2]
+     gene            351..642
+                     /gene="orf1"
+     5'UTR           351
+                     /gene="orf1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="transcription start site"
+                     /citation=[2]
+     5'UTR           357
+                     /gene="orf1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="transcription start site"
+                     /citation=[2]
+     regulatory      360..367
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="orf1"
+                     /citation=[2]
+     CDS             376..642
+                     /gene="orf1"
+                     /citation=[1]
+                     /citation=[2]
+                     /codon_start=1
+                     /transl_table=11
+                     /protein_id="CAA87721.1"
+                     /db_xref="GI:633159"
+                     /db_xref="UniProtKB/TrEMBL:Q37985"
+                     /translation="MKMKALYVNHNDETFAELTHGQALDVIFNADNAEMYGDHVNQIV
+                     DLGNEIKLELYRNNEYIPFAGYYERVKTLSELYTNISDWFEEVE"
+     regulatory      641..648
+                     /regulatory_class="ribosome_binding_site"
+                     /citation=[2]
+     gene            657..947
+                     /gene="orf2"
+     CDS             657..947
+                     /gene="orf2"
+                     /citation=[2]
+                     /codon_start=1
+                     /transl_table=11
+                     /protein_id="CAA87722.1"
+                     /db_xref="GI:633160"
+                     /db_xref="UniProtKB/TrEMBL:Q37986"
+                     /translation="MELRQLSVNNIENLTKKIIDLKTLTFKPDEFIESSMVCSEELIT
+                     STLKVMYEFSVKWDLKDKFYIDFFYKILNNRNDELHIKRLKFICYCWLNTEK"
+     regulatory      973..978
+                     /regulatory_class="minus_10_signal"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /citation=[2]
+     regulatory      996..1001
+                     /regulatory_class="minus_35_signal"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /citation=[2]
+     gene            1005..1346
+                     /gene="orf3"
+     5'UTR           1005
+                     /gene="orf3"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="transcription start site"
+                     /citation=[2]
+     5'UTR           1007
+                     /gene="orf3"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="transcription start site"
+                     /citation=[2]
+     regulatory      1136..1143
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="orf3"
+                     /citation=[2]
+     CDS             1152..1346
+                     /gene="orf3"
+                     /citation=[2]
+                     /codon_start=1
+                     /transl_table=11
+                     /protein_id="CAA87723.1"
+                     /db_xref="GI:836592"
+                     /db_xref="UniProtKB/TrEMBL:Q37987"
+                     /translation="MTITTEQVTINQRRQLPYIERYLKERFKGYLTIEVVDYEYKSYS
+                     ASIPFATALEYAEEQQAEGV"
+     regulatory      1336..1341
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="orf3"
+                     /citation=[2]
+     gene            1351..2043
+                     /gene="orf4"
+     CDS             1351..2043
+                     /gene="orf4"
+                     /function="initiation of DNA replication"
+                     /standard_name="TP"
+                     /citation=[2]
+                     /codon_start=1
+                     /transl_table=11
+                     /product="terminal protein"
+                     /protein_id="CAA87724.1"
+                     /db_xref="GI:633162"
+                     /db_xref="GOA:Q37988"
+                     /db_xref="UniProtKB/Swiss-Prot:Q37988"
+                     /translation="MALTPKQRKVRRDYLTRKKRTLQQQGASNAEIKAFMGGRWNFAG
+                     MSDKALERAYDEIKSKGRTQVFGNHVYTSDYVKKAKAWYGDKFSVEKLTQGFRSSQRS
+                     ELNRFHSVKEVKEYRSERDREAKERYIQALEEMHYNTRDAGNKAQEKAFKSMISRIRR
+                     MSASNFGAFLTGGRSDKVSFDNVMVFVDTDGKETAFEFQDSLAREILDNVDKFSKQFV
+                     SDMRRRKKRGKK"
+     regulatory      2026..2033
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="orf4"
+                     /citation=[2]
+     gene            2040..3746
+                     /gene="orf5"
+     CDS             2040..3746
+                     /gene="orf5"
+                     /function="DNA replication"
+                     /citation=[2]
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA polymerase"
+                     /protein_id="CAA87725.1"
+                     /db_xref="GI:836593"
+                     /db_xref="GOA:Q37989"
+                     /db_xref="InterPro:IPR004868"
+                     /db_xref="InterPro:IPR006172"
+                     /db_xref="InterPro:IPR012337"
+                     /db_xref="InterPro:IPR014416"
+                     /db_xref="InterPro:IPR017964"
+                     /db_xref="UniProtKB/Swiss-Prot:Q37989"
+                     /translation="MTCYYAGDFETTTNEEETEVWLSCFAKVIDYDKLDTFKVNTSLE
+                     DFLKSLYLDLDKTYTETGEDEFIIFFHNLKFDGSFLLSFFLNNDIECTYFINDMGVWY
+                     SITLEFPDFTLTFRDSLKILNFSIATMAGLFKMPIAKGTTPLLKHKPEVIKPEWIDYI
+                     HVDVAILARGIFAMYYEENFTKYTSASEALTEFKRIFRKSKRKFRDFFPILDEKVDDF
+                     CRKHIVGAGRLPTLKHRGRTLNQLIDIYDINSMYPATMLQNALPIGIPKRYKGKPKEI
+                     KEDHYYIYHIKADFDLKRGYLPTIQIKKKLDALRIGVRTSDYVTTSKNEVIDLYLTNF
+                     DLDLFLKHYDATIMYVETLEFQTESDLFDDYITTYRYKKENAQSPAEKQKAKIMLNSL
+                     YGKFGAKIISVKKLAYLDDKGILRFKNDDEEEVQPVYAPVALFVTSIARHFIISNAQE
+                     NYDNFLYADTDSLHLFHSDSLVLDIDPSEFGKWAHEGRAVKAKYLRSKLYIEELIQED
+                     GTTHLDVKGAGMTPEIKEKITFENFVIGATFEGKRASKQIKGGTLIYETTFKIRETDY
+                     LV"
+     regulatory      3684..3691
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="orf5"
+                     /citation=[2]
+     gene            3703..4149
+                     /gene="orf6"
+     CDS             3703..4149
+                     /gene="orf6"
+                     /citation=[2]
+                     /codon_start=1
+                     /transl_table=11
+                     /protein_id="CAA87726.1"
+                     /db_xref="GI:633164"
+                     /db_xref="UniProtKB/TrEMBL:Q37990"
+                     /translation="MKQPLKSEKQTILFDGFILSVYRSFFKNLLHKQQVKNKKGYYYQ
+                     KSNNAPKNTIFLKSYLKAHYAYEDFDYIMELYKFVSQEFDKISINAFYNLCNYLEENK
+                     IYSLSSNALYDCYEKSKNRQNDLENLNTIITPLKFLKSTNGDKQNG"
+     regulatory      3756..3775
+                     /regulatory_class="terminator"
+                     /gene="orf6"
+                     /standard_name="transcription terminator"
+                     /citation=[2]
+     regulatory      4126..4132
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="orf6"
+                     /citation=[2]
+     gene            4142..4654
+                     /gene="orf7"
+     CDS             4142..4654
+                     /gene="orf7"
+                     /citation=[2]
+                     /codon_start=1
+                     /transl_table=11
+                     /protein_id="CAA87727.1"
+                     /db_xref="GI:633165"
+                     /db_xref="UniProtKB/TrEMBL:Q37991"
+                     /translation="MAKQAPKHENFDTVVAQATITATSNKSDGKYKQKKATKAVYLVP
+                     ATEEDTKKLVDFGLTLYTPDTEKDPDAKPYFIVKATENVKIFTSETDFEEVNFGVSYE
+                     DVNPETGEITVKKTPNYKTEEPVHVAIMFVEGGDNGNDFFRLNALMMADTLTLEEVQP
+                     VNPFAGLFGK"
+     regulatory      4659..4682
+                     /regulatory_class="terminator"
+                     /standard_name="transcrition terminator"
+                     /citation=[2]
+     regulatory      4699..4704
+                     /regulatory_class="minus_35_signal"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /citation=[3]
+     regulatory      4724..4729
+                     /regulatory_class="minus_10_signal"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /citation=[3]
+     gene            4740..5166
+                     /gene="orf8"
+     5'UTR           4740
+                     /gene="orf8"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="transcription start point"
+                     /citation=[3]
+     regulatory      4798..4803
+                     /regulatory_class="minus_35_signal"
+                     /gene="orf8"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /citation=[3]
+     regulatory      4824..4829
+                     /regulatory_class="minus_10_signal"
+                     /gene="orf8"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /citation=[3]
+     5'UTR           4835
+                     /gene="orf8"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="transcription start site"
+                     /citation=[3]
+     regulatory      4863..4869
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="orf8"
+                     /citation=[3]
+     CDS             4876..5166
+                     /gene="orf8"
+                     /function="formation of the prohead"
+                     /citation=[3]
+                     /codon_start=1
+                     /transl_table=11
+                     /product="possible scaffolding protein"
+                     /protein_id="CAA87728.1"
+                     /db_xref="GI:1181957"
+                     /db_xref="UniProtKB/TrEMBL:Q37992"
+                     /translation="MTSQECLAVLDAAMAKVGNDEEIESLTADLIDIKAFVGEIDTVV
+                     SVLNEDVERPNLKNGNLRSANNELYRRLGQQDEIMKQAQEDMSVVSAINAVI"
+     regulatory      5394..5400
+                     /regulatory_class="ribosome_binding_site"
+                     /citation=[3]
+     gene            5410..6507
+                     /gene="orf9"
+     CDS             5410..6507
+                     /gene="orf9"
+                     /function="head of the phage"
+                     /citation=[3]
+                     /codon_start=1
+                     /transl_table=11
+                     /product="major head protein"
+                     /protein_id="CAA87729.1"
+                     /db_xref="GI:1181958"
+                     /db_xref="UniProtKB/Swiss-Prot:Q37993"
+                     /translation="MANKITTFLSGQTGKQISNIDLLNSIRTRASADYQADIPVLEGA
+                     RINHATVPYQDFQKHANEFFTALVNRIGSTVIKALTYENPLAIFKSETFEFGDTLQEI
+                     YVHPAEKKTYDAKSDVSPFKFADTDIEAFYHTLNNENYYERTFERAWIQKAFVSDMAF
+                     DEFVDKMFTSLLSSDTLDEYQAVRVYLRNHLRKSLIQTLKGNDKKITVAGTKIDETKQ
+                     DFVVDFNQSLINLSKRFTIPSRTTFNNPVGVPNMTAIEDQYLVISAEFSTHLDMLLAN
+                     AFNMDKASVLARTIVVDDFEKFTGEGANNGRKPVAFLISAKSIINKDKLVHMEAIRNP
+                     RNMTYNYFYHHHYMTSLSLFENIHFWYVEEA"
+     gene            complement(5976..6419)
+                     /gene="orff"
+     CDS             complement(5976..6419)
+                     /gene="orff"
+                     /citation=[3]
+                     /codon_start=1
+                     /transl_table=11
+                     /protein_id="CAA87730.1"
+                     /db_xref="GI:1181959"
+                     /db_xref="UniProtKB/TrEMBL:Q37994"
+                     /translation="MLRGLRIASMCTSLSLLMIDLAEIRKATGLRPLFAPSPVNFSKS
+                     STTIVRASTLALSMLKALASNMSRCVENSAEITRYWSSIAVMFGTPTGLLNVVRLGIV
+                     KRLDKLIRDWLKSTTKSCFVSSIFVPATVIFLSLPFKVCIRDFRK"
+     regulatory      complement(6428..6434)
+                     /regulatory_class="ribosome_binding_site"
+                     /citation=[3]
+     regulatory      6494..6499
+                     /regulatory_class="minus_35_signal"
+                     /gene="orf9"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /citation=[3]
+     regulatory      6524..6529
+                     /regulatory_class="minus_10_signal"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /citation=[3]
+     gene            6535..7577
+                     /gene="orf10"
+     5'UTR           6535
+                     /gene="orf10"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="transcription start site"
+                     /citation=[3]
+     regulatory      6552..6558
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="orf10"
+                     /citation=[3]
+     CDS             6564..7577
+                     /gene="orf10"
+                     /function="packaging of the DNA into the head"
+                     /citation=[3]
+                     /codon_start=1
+                     /transl_table=11
+                     /product="connector protein"
+                     /protein_id="CAA87731.1"
+                     /db_xref="GI:1181960"
+                     /db_xref="HSSP:1H5W"
+                     /db_xref="InterPro:IPR008016"
+                     /db_xref="UniProtKB/TrEMBL:Q37995"
+                     /translation="MSYKNYKRHLGKIELNKETVERNRLAFFEFYFNYFYNIVVNYFT
+                     WEGLPNDIDELFIEKKLIENGHVAFFHDDTFGYIAQGGTRGERLNHYDQPLTYQPVNA
+                     SSMNYFKQMEIAYTENDFRVIEELHKDNPDKIKRPCIVIPNNNFYEPYIGYLELFCEK
+                     LADIELTIQLNRNAQITPYFIFADNTNVLSMKNIFNKIANFEPVVYLNKQKDQDGQDS
+                     FKQLSDYIQVFRTDAPFLLDKLHDEKLRVMNQLLTFIGINNNPSDKKERLVVSEAISN
+                     NGVISANIEVGWKSRRKFVELINKCYGLEISVKPAETIQQFNLDKVALDLAEKEGTII
+                     DPE"
+     regulatory      7616..7622
+                     /regulatory_class="ribosome_binding_site"
+                     /citation=[3]
+     gene            7627..8211
+                     /gene="orf11"
+     CDS             7627..8211
+                     /gene="orf11"
+                     /function="collar"
+                     /citation=[3]
+                     /codon_start=1
+                     /transl_table=11
+                     /product="collar protein"
+                     /protein_id="CAA87732.1"
+                     /db_xref="GI:1181961"
+                     /db_xref="UniProtKB/TrEMBL:Q37996"
+                     /translation="MTGRLDGLAVDENGEFLHYNTIIDQTYNELFKDMELVNGVSDNF
+                     KKEFCKHFYNREIGLETFARFQIALEEVLNNECFNLFKYLAEIRNKAIKDLNQSMNID
+                     TVGNQKADGQALQIANTTPQERKEIVFTERYGVIEYADNLVENHQKNNADTKSNVSGW
+                     SGSSLAERLQRNAELKDIQFQIFNICDKLFLQVF"
+     regulatory      8165..8170
+                     /regulatory_class="minus_35_signal"
+                     /gene="orf11"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /citation=[3]
+     regulatory      8185..8190
+                     /regulatory_class="minus_10_signal"
+                     /gene="orf11"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /citation=[3]
+     gene            order(8193,8224..8808)
+                     /gene="orf12"
+     5'UTR           8193
+                     /gene="orf12"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="transcription start point"
+                     /citation=[3]
+     regulatory      8212..8218
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="orf12"
+                     /citation=[3]
+     CDS             8224..8808
+                     /gene="orf12"
+                     /citation=[3]
+                     /codon_start=1
+                     /transl_table=11
+                     /protein_id="CAA87733.1"
+                     /db_xref="GI:1181962"
+                     /db_xref="UniProtKB/TrEMBL:Q37997"
+                     /translation="MKDLSSAKILKYDSMLEEITLFSFQDFAYSDDGLYYIQSNSRRL
+                     GDLSKLWIKLKPIFYHYESIENETFWTIRKSYQPLQSIKALLFIRFKIVGAYYSFEKL
+                     TSKSKLKGFGRVIDDNNYFSRIPLVNEVVHWDNGVIVTPNYQMNITGLKETRVEVDGQ
+                     QLFEDWSTFKINVTNDRKGVPRTVMTAERGHENL"
+     regulatory      8786..8792
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="orf12"
+                     /citation=[3]
+     gene            8805..9119
+                     /gene="orf13"
+     CDS             8805..9119
+                     /gene="orf13"
+                     /citation=[3]
+                     /codon_start=1
+                     /transl_table=11
+                     /protein_id="CAA87748.2"
+                     /db_xref="GI:4691222"
+                     /db_xref="InterPro:IPR007422"
+                     /db_xref="UniProtKB/TrEMBL:Q37998"
+                     /translation="MIIINLSETTDTLQIEVTGHGDDTDQSCARVSTVCDCIYLFLKS
+                     NIDDYVKKDGYTLLRIFKKRTTVQTLKAILSYIVTLEQLYKNSIKVINKEKEVETNGK
+                     DN"
+     regulatory      9086..9092
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="orf13"
+                     /citation=[3]
+     gene            9103..9990
+                     /gene="orf14"
+     CDS             9103..9990
+                     /gene="orf14"
+                     /citation=[3]
+                     /codon_start=1
+                     /transl_table=11
+                     /protein_id="CAA87734.1"
+                     /db_xref="GI:1181964"
+                     /db_xref="UniProtKB/TrEMBL:Q37999"
+                     /translation="MAKTTKLVRGIHSWIKFQKHQGVESLSIEGKQALADLSQDKNGD
+                     TTLILNADVDKLNTIHSAIPFISVSEEFSGVDPNQMKTATISQDLTKFPLNNGELVKF
+                     NKEKDGISVNDEELKADISQLIEAKLTGFPVVLNYEHILLDNFSKIETSINISTYQPF
+                     NDFVEVTLTNPATNEQDTVIISTNELYNGKMIFNRFVCSVLVEKNDKHIIDITVNSHK
+                     EADRIHVTIKWFTQYRGQKILDVNEIGQDAHFEGYENPNVELTYSPIPPAVSTPTETP
+                     SPTPETTGNTPQPIAEESH"
+     regulatory      9997..10003
+                     /regulatory_class="ribosome_binding_site"
+                     /citation=[3]
+     gene            10012..10878
+                     /gene="orf15"
+     CDS             10012..10878
+                     /gene="orf15"
+                     /citation=[3]
+                     /codon_start=1
+                     /transl_table=11
+                     /protein_id="CAA87735.1"
+                     /db_xref="GI:1181965"
+                     /db_xref="GOA:Q38000"
+                     /db_xref="HSSP:1I50"
+                     /db_xref="InterPro:IPR012293"
+                     /db_xref="UniProtKB/TrEMBL:Q38000"
+                     /translation="MNPEEFKDEFFRAYRGRYSSYWVERWGLIPSIPTSFDNANSIYE
+                     LLAWLQRAFKQLLDDFVALESELEDYKNALTELLEQLIPLLIRRYMESKEADDWFNKK
+                     AAIYYNKIIKPYIDAEIAKVNKKIADLEKKVDDEVKRLDGRIDALNDKLEKEIKKLDD
+                     RITQEVAKLNERITAENNALKERIEALENLTQACKMLCVKSLKTLRGQALGLVGLLVA
+                     LTKGATSQQVILTCLVVHQTVQALSEPTAEAQKTTSQEVSNAFRNTLFNLYYSQRRKL
+                     WYRCSPLDGSLC"
+     regulatory      10073..10079
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="orf15"
+                     /citation=[3]
+     gene            complement(10550..10759)
+                     /gene="orfe"
+     CDS             complement(10550..10759)
+                     /gene="orfe"
+                     /citation=[3]
+                     /codon_start=1
+                     /transl_table=11
+                     /protein_id="CAA87736.1"
+                     /db_xref="GI:1181966"
+                     /db_xref="UniProtKB/TrEMBL:Q38001"
+                     /translation="MLPLLVRIKLEPSGVPPNKLILPVAMLRPWLKLPVSPPVQAPDP
+                     SRFSMILRKAFCKPALDFLALRFSP"
+     regulatory      complement(10767..10773)
+                     /regulatory_class="ribosome_binding_site"
+                     /citation=[3]
+     gene            10787..11548
+                     /gene="orf16"
+     CDS             10787..11548
+                     /gene="orf16"
+                     /citation=[3]
+                     /codon_start=1
+                     /transl_table=11
+                     /protein_id="CAA87737.1"
+                     /db_xref="GI:1181967"
+                     /db_xref="UniProtKB/TrEMBL:Q38002"
+                     /translation="MPLETRFSTSTTANVENFGTGVAPWTEAYANAWQFSGDTDYGYM
+                     TNGNTTYIQYGQNDPSVWASMRFWGESVEILEETKNDDNSITAKIRVKALFWWSKRVS
+                     SNAGYRVEYDIKINGRTVWTFSGYTTDEVIKNDEVAQDFTVTIPAEESSSASALNINV
+                     SYPDGQYSDNSFYVGVYLYNTNKKKPKTLKPWAIRKSGIFKTLNRPSGIFQQRKSSWQ
+                     DISEQPANAVGQAVTAPHSVRKSGQWIGQGQIGQE"
+     regulatory      11536..11541
+                     /regulatory_class="minus_35_signal"
+                     /gene="orf16"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /citation=[3]
+     regulatory      11556..11561
+                     /regulatory_class="minus_10_signal"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /citation=[3]
+     gene            11569..12279
+                     /gene="orf17"
+     5'UTR           11569
+                     /gene="orf17"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="transcription start point"
+                     /citation=[3]
+     regulatory      11575..11581
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="orf17"
+                     /citation=[3]
+     CDS             11587..12279
+                     /gene="orf17"
+                     /function="tail"
+                     /citation=[3]
+                     /codon_start=1
+                     /transl_table=11
+                     /product="tail protein"
+                     /protein_id="CAA87738.1"
+                     /db_xref="GI:1181968"
+                     /db_xref="UniProtKB/TrEMBL:Q38003"
+                     /translation="MQESTKIWLYAKSPFKNDYANVINFETRESMEDFFTKKNPHIEI
+                     VYEYDKFQYTQRNGSIVVSGRVEKYENVTYMRFINNGRTYYAFVFDVLYINEDATRII
+                     YEVDVWNTYQHELKALNVIGQVEQQTLPNELWALKDSQQGFSVGTKYATRAGEVGIDT
+                     EWLVVVAKPTIKMTTKANRPVNMSYSGMQKTFKYFFIPVNLKSGASSRLFFRAKSMIA
+                     FTLKTCISTFSD"
+     regulatory      12302..12308
+                     /regulatory_class="ribosome_binding_site"
+                     /citation=[3]
+     gene            12318..13031
+                     /gene="orf18"
+     CDS             12318..13031
+                     /gene="orf18"
+                     /citation=[3]
+                     /codon_start=1
+                     /transl_table=11
+                     /protein_id="CAA87739.1"
+                     /db_xref="GI:1181969"
+                     /db_xref="UniProtKB/TrEMBL:Q38004"
+                     /translation="MYLSRDIGVKYKETTEGDKTYIEILSNITGSVAEIGRKNSRNYR
+                     TSGSSSGGGSGSTNESGDISTEESRVRLVTRIIKKLVPDATAEGIAGIIGNFSAESNV
+                     TAKKYEADYATGYEYEKMESEPTAENLMGSWGAFASLYSISLNEAGYRGSDGNHWIGI
+                     GIGQWTGPRAEELLNFARSQGKSLWDFNLQFQFMNQESRADTFRRVASSTASASTNAS
+                     DFMNNWEGVAYKEAERIEH"
+     regulatory      13078..13083
+                     /regulatory_class="minus_35_signal"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /citation=[3]
+     regulatory      13100..13105
+                     /regulatory_class="minus_10_signal"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /citation=[3]
+     gene            13109..14915
+                     /gene="orf19"
+     5'UTR           13109
+                     /gene="orf19"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="transcription start point"
+                     /citation=[3]
+     regulatory      13145..13151
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="orf19"
+                     /citation=[3]
+     CDS             13155..14915
+                     /gene="orf19"
+                     /function="tail"
+                     /citation=[3]
+                     /codon_start=1
+                     /transl_table=11
+                     /product="tail protein"
+                     /protein_id="CAA87740.1"
+                     /db_xref="GI:1181970"
+                     /db_xref="InterPro:IPR007921"
+                     /db_xref="UniProtKB/TrEMBL:Q38005"
+                     /translation="MLRLVALYSQLLGGCDIGGGINTPNPNGNGRQASGSDTQRGMSA
+                     SNIGGDYDWEALGWKVRFDPSWADLRVGCIVCYIPSGSNIWGHTSVISAVNGSSYDVI
+                     EQNYAWNGYTTERTGIDTIANIESIIYPPEVVAGGDIGEITGNTGDRQLGNGDYSKTA
+                     FDVEALLIEVDVFFDYRPNVYEIPNLLKIAYDQIQEGLRSYMGKDDLEIEVQLLNSEF
+                     TEIELYDIYGNSYVYQPQYLPRTIDEAHKYKVIVSGSLGDSNQVHINFLEYNNANNVS
+                     YADKNILDSLESGDWAEHNPEHFKYGLNDVTGKSVAILNDAEASYIQSHKNQMEHTQL
+                     TFKENRDMLKQSVDLSNKQVATANSQASYNAQFAVDSANINQWTEGASGILNVAGNLL
+                     TGNFGGALGGLASGGMKVFNANRDYNDKVVQQGFTSENNALKSQSNALANMKSKIALD
+                     QSIRAYNATMADLQNQPISVQQIGNDLAFQSGNRLTDVYWKVSLAQKEIMGRANEYIK
+                     CYGVLVNWFTNDALSVMRSRKRFNYIKMINVNLGTLRANQSHMNAIQAIFQSGVRIWN
+                     YSANKEDGILFDIQKNNPNF"
+     gene            complement(13866..14147)
+                     /gene="orfd"
+     CDS             complement(13866..14147)
+                     /gene="orfd"
+                     /citation=[3]
+                     /codon_start=1
+                     /transl_table=11
+                     /protein_id="CAA87741.1"
+                     /db_xref="GI:1181971"
+                     /db_xref="UniProtKB/TrEMBL:Q38006"
+                     /translation="MFHLILMALDIAGFCVIQNSHAFPCHVIQTVFKMLWIVFRPVAT
+                     FQAIQNILISIAYIVSVVILKKIDMNLIAIPKASAYNNFILVCFVYGSR"
+     regulatory      complement(14156..14162)
+                     /regulatory_class="ribosome_binding_site"
+                     /citation=[3]
+     regulatory      14896..14901
+                     /regulatory_class="minus_35_signal"
+                     /gene="orf19"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /citation=[3]
+     regulatory      14924..14929
+                     /regulatory_class="minus_10_signal"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /citation=[3]
+     gene            14936
+                     /gene="orf20"
+     5'UTR           14936
+                     /gene="orf20"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="transcription start point"
+                     /citation=[3]
+     regulatory      14937..14943
+                     /regulatory_class="ribosome_binding_site"
+                     /citation=[3]
+     gene            14953..16035
+                     /gene="orf20"
+     CDS             14953..16035
+                     /gene="orf20"
+                     /function="encapsidation"
+                     /citation=[3]
+                     /codon_start=1
+                     /transl_table=11
+                     /product="encapsidation protein"
+                     /protein_id="CAA87742.1"
+                     /db_xref="GI:1181972"
+                     /db_xref="GOA:Q38007"
+                     /db_xref="InterPro:IPR008784"
+                     /db_xref="UniProtKB/TrEMBL:Q38007"
+                     /translation="MEATEKWYNPQKMLSYNQYLNFVIGGRGIGKTFALKKYLFKRFI
+                     EKGEQFIYLRRNKSELDRIDKDKFFTTELLKQVFTNFEVIDSDASKIHTKIIFRADNM
+                     EEEENILVLSSTKIILNGKIVCYLKSLSTWVDLKGSEYDEVMSILYDEVLIDVTSKKR
+                     YLDNEVEALLNFIFSVFRRRDGCHAYLLSNASNFNNPYFAFLKFYDDNGKRFYNLKQY
+                     ATLIEFPPHSAFQTEEEKESGFFKLLSKSSIYESVANNEFQIKNDKNIAKIKGLKSRL
+                     YSFYCDGTFLTGYYIDNMVYIAKGFDKNLTAYCLEVEQVEDGFVYLNKASALGKTLRS
+                     LYLKNMFIYEDLETKNKFIEVINHVI"
+     regulatory      15865..15870
+                     /regulatory_class="minus_35_signal"
+                     /gene="orf20"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     regulatory      15887..15892
+                     /regulatory_class="minus_10_signal"
+                     /gene="orf20"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /citation=[3]
+     gene            order(15906,16025..16429)
+                     /gene="orf21"
+     5'UTR           15906
+                     /gene="orf21"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="transcription start point"
+                     /citation=[3]
+     regulatory      15945..15950
+                     /regulatory_class="minus_35_signal"
+                     /gene="orf20"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /citation=[3]
+     regulatory      15969..15974
+                     /regulatory_class="minus_10_signal"
+                     /gene="orf20"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /citation=[3]
+     5'UTR           15982
+                     /gene="orf20"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="transcription start point"
+                     /citation=[3]
+     regulatory      16009..16015
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="orf20"
+                     /citation=[3]
+     CDS             16025..16429
+                     /gene="orf21"
+                     /function="lytic process"
+                     /citation=[3]
+                     /codon_start=1
+                     /transl_table=11
+                     /product="holin protein"
+                     /protein_id="CAA87743.1"
+                     /db_xref="GI:1181973"
+                     /db_xref="GOA:Q38008"
+                     /db_xref="InterPro:IPR006480"
+                     /db_xref="UniProtKB/Swiss-Prot:Q38008"
+                     /translation="MLYNIMLEVAKGDYITILFALILFDFITGFLKAWKWKVTDSWTG
+                     LKGVIKHTLTFIFYYFVAVFLTYIHAMAVGQILLVIINLYYALSIMENLAVMGVFIPK
+                     FMTARVQEELQKYTAQLDAGKDLLEEFKGEKK"
+     regulatory      16412..16418
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="orf21"
+                     /citation=[3]
+     gene            16429..17448
+                     /gene="cpl1"
+     CDS             16429..17448
+                     /gene="cpl1"
+                     /function="lytic process"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /citation=[3]
+                     /codon_start=1
+                     /transl_table=11
+                     /product="lysozyme"
+                     /protein_id="CAA87744.1"
+                     /db_xref="GI:1181974"
+                     /db_xref="GOA:P15057"
+                     /db_xref="InterPro:IPR002053"
+                     /db_xref="InterPro:IPR008270"
+                     /db_xref="InterPro:IPR013781"
+                     /db_xref="InterPro:IPR017853"
+                     /db_xref="InterPro:IPR018077"
+                     /db_xref="InterPro:IPR018337"
+                     /db_xref="PDB:1H09"
+                     /db_xref="PDB:1OBA"
+                     /db_xref="PDB:2IXU"
+                     /db_xref="PDB:2IXV"
+                     /db_xref="PDB:2J8F"
+                     /db_xref="PDB:2J8G"
+                     /db_xref="UniProtKB/Swiss-Prot:P15057"
+                     /translation="MVKKNDLFVDVSSHNGYDITGILEQMGTTNTIIKISESTTYLNP
+                     CLSAQVEQSNPIGFYHFARFGGDVAEAEREAQFFLDNVPMQVKYLVLDYEDDPSGDAQ
+                     ANTNACLRFMQMIADAGYKPIYYSYKPFTHDNVDYQQILAQFPNSLWIAGYGLNDGTA
+                     NFEYFPSMDGIRWWQYSSNPFDKNIVLLDDEEDDKPKTAGTWKQDSKGWWFRRNNGSF
+                     PYNKWEKIGGVWYYFDSKGYCLTSEWLKDNEKWYYLKDNGAMATGWVLVGSEWYYMDD
+                     SGAMVTGWVKYKNNWYYMTNERGNMVSNEFIKSGKGWYFMNTNGELADNPSFTKEPDG
+                     LITVA"
+     gene            complement(17895..18137)
+                     /gene="orfc"
+     CDS             complement(17895..18137)
+                     /gene="orfc"
+                     /citation=[3]
+                     /codon_start=1
+                     /transl_table=11
+                     /protein_id="CAA87745.1"
+                     /db_xref="GI:1181975"
+                     /db_xref="UniProtKB/TrEMBL:Q38010"
+                     /translation="MKNSYNKLNKKGRFWFWWFASCNLAILVFLVIMSLLTYTIFKQQ
+                     KQLEQQQSTITKLKRENDSNTASILRLVAYLENVGG"
+     regulatory      complement(18149..18155)
+                     /regulatory_class="ribosome_binding_site"
+                     /citation=[3]
+     gene            complement(18419..18688)
+                     /gene="orfb"
+     CDS             complement(18419..18688)
+                     /gene="orfb"
+                     /citation=[3]
+                     /codon_start=1
+                     /transl_table=11
+                     /protein_id="CAA87746.1"
+                     /db_xref="GI:1181976"
+                     /db_xref="UniProtKB/TrEMBL:Q38011"
+                     /translation="MIAQFQIILEGVTPLKIQCIDKFPDDKLETEKEVYRNRGYKEVH
+                     ENYFKNERLNTLIIFEEVKNLKYSKYSHYCLKSAFERYVQGRDGY"
+     regulatory      18529..18534
+                     /regulatory_class="minus_35_signal"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /citation=[3]
+     regulatory      18553..18558
+                     /regulatory_class="minus_10_signal"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /citation=[3]
+     regulatory      complement(18696..18702)
+                     /regulatory_class="ribosome_binding_site"
+                     /citation=[3]
+     gene            complement(18781..19087)
+                     /gene="orfa"
+     CDS             complement(18781..18969)
+                     /gene="orfa"
+                     /citation=[3]
+                     /codon_start=1
+                     /transl_table=11
+                     /protein_id="CAA87747.1"
+                     /db_xref="GI:1181977"
+                     /db_xref="UniProtKB/TrEMBL:Q38012"
+                     /translation="MIINNQYVMTMQAGMNMKDKLVKLAKSQGFTDRNTCIFVGKANL
+                     EEKGLYSYVEGTKEALER"
+     regulatory      complement(18979..18985)
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="orfa"
+                     /citation=[3]
+     5'UTR           complement(18993)
+                     /gene="orfa"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="transcription start point"
+                     /citation=[3]
+     regulatory      complement(19000..19005)
+                     /regulatory_class="minus_10_signal"
+                     /gene="orfa"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /citation=[3]
+     regulatory      complement(19023..19028)
+                     /regulatory_class="minus_35_signal"
+                     /gene="orfa"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /citation=[3]
+     5'UTR           complement(19087)
+                     /gene="orfa"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="transcription start point"
+                     /citation=[3]
+     regulatory      complement(19094..19099)
+                     /regulatory_class="minus_10_signal"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /citation=[3]
+     regulatory      complement(19117..19122)
+                     /regulatory_class="minus_35_signal"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /citation=[3]
+     regulatory      19166..19171
+                     /regulatory_class="minus_35_signal"
+                     /citation=[3]
+     regulatory      19188..19193
+                     /regulatory_class="minus_10_signal"
+                     /citation=[3]
+ORIGIN      
+        1 aaagcatgta ctcccccacc cctttttcaa aaattccccc aatggaaatt tgaaaatgaa
+       61 atgaaagaga aaatccattt ccaacactag ccattctaaa aatcaatcat ctatcatctt
+      121 ctaaaatcct ttcatctgtt tctattatca ttatatcaca atttagaaaa atgtcaagaa
+      181 ataaaatcac taaataaata aaaaataatt tcaaaaatct cttgacaatc attttagtaa
+      241 atgctataat ggttatagtt agaaatgaga taaaaatatt tctaaaaata aattaaaaat
+      301 aatttcaaaa aacacttgac aagcattttg agaaatgcta taatagtatc agttaaaaca
+      361 aaggagaaag aaaacatgaa aatgaaagcc ttatatgtaa atcacaacga tgaaactttt
+      421 gcagaactta cacacgggca agcgctagat gttatcttta atgctgataa cgctgaaatg
+      481 tatggcgacc atgtaaacca gattgtagac ctaggaaatg agattaaact tgaattgtat
+      541 agaaataatg aatacattcc atttgctggt tactatgaac gagtgaaaac actatctgaa
+      601 ctatacacaa atatttcaga ctggtttgaa gaagttgagt aaaggagata ataaaaatgg
+      661 aattaagaca attatcagta aacaacattg aaaatcttac taaaaagatt attgacctta
+      721 aaacgctaac gtttaagcca gatgaattta tagaaagctc tatggtatgt agcgaggaac
+      781 ttataaccag cacacttaaa gttatgtatg agtttagtgt taagtgggat ttaaaagata
+      841 aattttacat agattttttc tataaaattt taaataatag aaacgatgaa ttacacatta
+      901 aacgattaaa atttatttgc tattgttggt taaatacaga aaaataattt actttcttat
+      961 taagtttatc acttgctttc tatttgaaaa tgtggtaaac ttaaataaga aaataaataa
+     1021 tatttatttt cttaaatgta aaaagcaaat tttaaagaaa ggagtaaaag cacttgacag
+     1081 atttacctat caaatgtagc tttaacgcta cgcaggtaac tttcaatctt tacaaaaatg
+     1141 aagatgggaa tgtgactatc actactgaac aagtgacgat aaaccaacgt cgccagcttc
+     1201 cttacattga acgttatctg aaagagcgtt tcaagggtta tctcactatt gaggtagtag
+     1261 attatgaata taaaagttat tcggcttcta tccctttcgc taccgcctta gaatacgcag
+     1321 aggaacaaca agcggaaggg gtgtaattaa atggctttaa caccaaaaca aaggaaggta
+     1381 agacgggact atttaaccag aaagaaaaga acactacaac agcagggcgc ctctaatgct
+     1441 gaaataaaag cttttatggg cggtcggtgg aattttgcag gaatgagtga taaggcgcta
+     1501 gaacgtgcct atgatgagat taaaagcaaa ggtcgtactc aagtatttgg caatcatgtt
+     1561 tacactagtg actatgtaaa aaaagctaag gcatggtacg gggataagtt ttctgtagaa
+     1621 aagctgactc aaggttttcg ctcttctcaa cgctcagagt tgaaccgctt tcattcagtt
+     1681 aaggaagtca aagaataccg ctcagaacgt gacagagaag ccaaagaacg ctatatacaa
+     1741 gcgctggaag aaatgcacta taatacaaga gacgcaggca acaaggcgca agaaaaagcc
+     1801 tttaagtcta tgatttcacg cataaggcga atgagtgcca gcaactttgg ggcatttcta
+     1861 acaggcggac ggtctgacaa ggtttcattt gataatgtca tggtttttgt agacacggac
+     1921 ggtaaggaaa cggcttttga atttcaggac agtctagccc gtgaaatcct tgataatgta
+     1981 gataagtttt ccaagcaatt tgtttctgat atgagaagac gaaagaagcg agggaagaag
+     2041 tgacttgcta ctatgcaggc gactttgaaa caactacaaa cgaggaagaa acagaggtat
+     2101 ggctatcttg ctttgctaaa gttattgact atgacaagtt agacacattc aaggtaaaca
+     2161 ctagcctaga ggattttcta aaatcgctct atcttgacct agacaagact tatacggaga
+     2221 cgggagaaga tgaatttatc atattctttc ataatctcaa gtttgacggc tctttcttgt
+     2281 tatctttctt tctgaataat gatatagaat gtacttactt tattaacgat atgggggtat
+     2341 ggtattctat tacgctagaa tttccagact ttacgctaac ttttagagat tctttaaaaa
+     2401 tccttaattt ctcaatcgct acgatggctg gactgtttaa aatgccaatt gctaaaggga
+     2461 ctacaccttt gctaaaacat aagccagaag tgattaagcc agaatggatt gactacattc
+     2521 atgtagacgt tgcaatccta gcccgtggta tctttgcaat gtactatgaa gaaaatttta
+     2581 caaagtacac atcagcaagt gaagcgctga ccgagtttaa acggattttc aggaagtcta
+     2641 aacgaaaatt cagagacttt ttcccaatct tagatgaaaa ggtggacgac ttttgccgta
+     2701 agcatatcgt gggggctgga cgtttgccaa ccctaaaaca cagggggcga accttgaacc
+     2761 agttgataga tatttatgac attaacagta tgtaccctgc tactatgcta cagaacgctt
+     2821 tgccaatcgg aataccgaaa cgatacaaag gcaagcccaa agagataaag gaagaccact
+     2881 attatatcta ccacattaaa gccgattttg acttaaaacg tggctacctc ccaactatcc
+     2941 agattaagaa aaaactggac gctttaagaa tcggagtccg cactagcgac tatgtgacta
+     3001 catcgaagaa cgaggttata gatttatatt tgactaattt tgaccttgat ttattcttaa
+     3061 agcactatga cgcaactatc atgtatgttg aaacacttga atttcagaca gaatcggact
+     3121 tgtttgatga ttatatcaca acttacagat acaagaaaga aaacgcacaa agcccagcag
+     3181 aaaaacaaaa ggctaagatt atgctaaata gcttatacgg gaagtttggc gctaaaatca
+     3241 tatctgttaa gaaactagcc tatctggacg ataaaggtat attacgcttt aaaaatgacg
+     3301 atgaagaaga agtacagccc gtttatgcac ccgttgcgct atttgtaaca tctattgccc
+     3361 gtcactttat catctcaaac gcacaagaaa actatgataa tttcttatat gctgatacag
+     3421 acagcttgca cttgttccat tctgacagcc ttgtccttga cattgacccg tcagagttcg
+     3481 gcaagtgggc gcatgagggg agagccgtta aggcaaaata tttacgctct aaactgtata
+     3541 tagaggaact gatacaagaa gacgggacaa cgcacctaga cgttaagggc gcaggtatga
+     3601 ccccagaaat caaggaaaaa atcacttttg aaaactttgt tatcggggca acctttgagg
+     3661 gtaagcgtgc aagtaagcag attaaagggg gtacgctgat ttatgaaaca acctttaaaa
+     3721 tcagagaaac agactatctt gtttgatggc tttatactct cggtttaccg ctcctttttt
+     3781 aaaaatttat tacataaaca acaggttaaa aataaaaaag ggtactacta ccagaaatca
+     3841 aacaacgcac ctaaaaatac tatttttcta aagtcctatc taaaagcaca ttatgcctat
+     3901 gaagattttg actatatcat ggaattatac aaatttgttt cacaagaatt tgataaaatt
+     3961 tcaatcaatg ctttttacaa tctttgcaac tatttagaag aaaataaaat ctattctctt
+     4021 tcttctaacg ctctttacga ttgttacgag aaatccaaaa atcgtcaaaa cgatttagaa
+     4081 aatctcaata caatcatcac accattaaaa tttttaaaat caacaaacgg agataaacaa
+     4141 aatggctaaa caagcaccaa aacatgaaaa ctttgataca gttgtggctc aggctacaat
+     4201 cacagcaacg tctaacaaat cagacggcaa gtataagcaa aagaaagcga ctaaagccgt
+     4261 ttaccttgtc ccagcgacag aagaagacac taaaaagctc gtagactttg gcttgacttt
+     4321 atacacacca gacacggaga aagacccaga cgcaaaacct tactttattg ttaaggcaac
+     4381 cgaaaatgtg aaaattttca caagtgaaac ggactttgaa gaggtcaact ttggggtatc
+     4441 ttatgaagac gtaaacccag agacaggaga aatcacagtc aagaagaccc cgaactacaa
+     4501 aacagaagaa cccgtacacg ttgcgattat gtttgttgag ggtggcgaca atggaaacga
+     4561 ctttttccgt cttaatgctc ttatgatggc tgacacgttg acccttgaag aagtgcaacc
+     4621 cgtgaacccg ttcgctggat tgtttggaaa ataaaaaaga gccttcccaa tcgggaaagc
+     4681 tccaattata aagcgttttt catggcttga aaagtcagtt ggttagaatg actcgcacca
+     4741 gcaagcaccc cttgaggtgt aaccatcttg ccagcactag acaagccttg aaaagcctta
+     4801 caggtttatc atatcatact tgctttattt tgtcaagtat gatatacttt tgttaaaaat
+     4861 tgaaaggaga gggctatgac ctcacaggaa tgcctcgcag tgctagacgc tgcaatggca
+     4921 aaagtcggaa acgatgaaga aattgagagc ctaacggctg acttgattga cattaaggct
+     4981 tttgtcggag aaattgacac agttgtctca gtcttgaatg aagacgttga gcgcccaaat
+     5041 cttaaaaacg gtaacttacg ttcggctaat aacgaacttt accgccgttt agggcaacaa
+     5101 gatgaaatca tgaaacaagc acaagaagac atgagcgtag tatcagcaat caatgctgtt
+     5161 atttaaagaa aggaagaaaa gaagatgaaa ccattttcaa aaagcattaa ctggtatcct
+     5221 aacaacgcac tagacgcact caaggacgaa ccagaaacag tcgcagaagt tactccgcca
+     5281 gcagttatgc ctgctgacac accagcgcag gaagtgccaa actacccagc gcaagcccag
+     5341 ccagcgaagt tgagggcgta gaaatgaaca tcgaccacga aaacattgta gaagagggag
+     5401 aagaatagaa tggctaataa aattaccact ttcttatcag gacaaactgg taaacaaatt
+     5461 tcaaacattg acctattgaa ctctatccgc acccgtgcaa gtgctgacta tcaggcagat
+     5521 attccagttc ttgagggcgc acgcattaac cacgcaacag ttccatatca ggattttcaa
+     5581 aagcacgcta atgagttttt cacagccttg gtcaatcgta tcgggtcaac cgttatcaag
+     5641 gcgcttactt atgaaaatcc gcttgctatt ttcaagtctg aaacctttga gtttggggac
+     5701 acattgcaag aaatctatgt acacccagcg gaaaagaaaa cctatgacgc taagtcagac
+     5761 gtaagcccgt ttaaattcgc tgatacagac atcgaagcct tttatcacac tttgaacaat
+     5821 gaaaactact atgagcgtac ctttgaacgt gcttggattc agaaagcctt tgtttctgac
+     5881 atggcttttg acgagtttgt ggacaaaatg tttacatcat tgctatcatc tgacacgctg
+     5941 gacgagtacc aagcagttag ggtgtacttg agaaatcact tgcggaagtc tcttatacag
+     6001 accttgaaag gtaacgataa gaaaattacc gtggcaggta cgaagattga cgaaacaaaa
+     6061 caggactttg tcgtagactt taaccagtct ctaattaact tgtctaaacg tttcacaatt
+     6121 ccaagccgta caacgtttaa caaccctgta ggcgtgccaa acatgacggc gattgaagac
+     6181 caatatctgg ttatctcagc agaattttct acacatcttg acatgttact tgctaacgcc
+     6241 tttaacatgg ataaagcaag cgtactcgct cgcacaatcg tagtagatga ttttgaaaaa
+     6301 ttcacgggag agggcgcaaa caatggacgc aagccagttg ctttccttat ttctgctaag
+     6361 tctatcatta acaaagataa actggtacac atggaagcaa tccgcaaccc tcgcaacatg
+     6421 acctacaact atttctacca tcaccactac atgaccagcc tttcactttt tgaaaacatt
+     6481 catttctggt atgttgagga agcctaaagg ctgaccaagg gcgggcaata gcccgcctat
+     6541 tttattaagt gaaaggggac taaatgagtt acaagaatta caagcgacat cttggtaaga
+     6601 ttgagctaaa caaagaaacc gtagagcgta accgtctagc cttttttgag ttttatttca
+     6661 attatttcta taatatcgtg gtaaactatt tcacttggga gggtttgcct aatgacattg
+     6721 acgagttgtt tatagaaaag aagctgatag aaaatgggca tgtagctttt tttcatgatg
+     6781 acacttttgg ctatatcgca caaggtggaa cacgagggga acgcttaaac cattatgacc
+     6841 agcctttgac ctatcaaccc gttaacgcta gcagtatgaa ctattttaaa caaatggaaa
+     6901 tcgcttatac tgaaaatgat tttagagtta ttgaagaatt acacaaggat aatccagaca
+     6961 agattaaaag accttgtatt gtgattccta acaataattt ctatgagccg tatataggct
+     7021 atttagagtt attttgcgaa aagttggcag atattgagct tacgattcaa ttaaatagaa
+     7081 atgcacaaat tacaccgtat ttcatctttg cggataatac aaacgtgcta tctatgaaaa
+     7141 acatctttaa taagattgcc aattttgaac ccgttgtgta tctcaacaag cagaaagacc
+     7201 aagacggaca agacagcttt aaacagttgt cagactatat ccaagtattc cgaacggacg
+     7261 caccgttttt acttgacaag ttgcacgatg agaaattacg agtgatgaac cagttgctga
+     7321 ctttcattgg gataaataac aacccatcag ataaaaaaga gcgtctggta gtctccgaag
+     7381 ctatttctaa taatggggtt atctcagcga atattgaggt aggctggaag tccagaagaa
+     7441 aattcgttga gcttatcaat aaatgttacg ggctagaaat cagcgtaaaa ccagcggaaa
+     7501 cgattcagca gtttaacctt gacaaagtgg cgctagactt ggcagaaaag gaggggacaa
+     7561 tcattgaccc agaataacac aacagcaacg attgcaacct ttttaaaatc cagatataga
+     7621 aatcccgtga cgggacggct ggacggcttg gcagtagatg aaaacggcga gtttctgcat
+     7681 tacaacacga ttatagacca gacctataac gagttattta aggacatgga gctagtcaat
+     7741 ggagtttcag acaatttcaa gaaagagttt tgcaaacact tttacaacag ggagatagga
+     7801 cttgagactt tcgcacgttt ccagatagcc cttgaggaag ttctaaacaa cgagtgtttc
+     7861 aatctgttta aatatcttgc tgaaatcaga aacaaggcta tcaaggactt aaatcagtct
+     7921 atgaatattg acacggttgg aaaccagaaa gcagacgggc aagccttgca aatcgcaaac
+     7981 accacacccc aagagcggaa agaaatcgtc tttactgagc gctacggcgt gatagagtac
+     8041 gctgacaact tggtagaaaa ccaccagaaa aacaacgctg acacaaaaag caacgtctca
+     8101 gggtggagcg gttcaagcct tgccgaacgc ttacaacgta acgcagaatt aaaggatata
+     8161 cagtttcaga tatttaatat atgtgataag ctgtttttac aagtctttta gaaaggtgta
+     8221 tagatgaaag atttatcaag cgctaaaata ctaaaatatg atagtatgtt agaagaaatc
+     8281 acgcttttca gctttcaaga ctttgcttat agtgatgatg gattgtatta tatccagtca
+     8341 aatagcagac ggttaggcga cttgtctaaa ttgtggataa aattaaagcc tatcttttat
+     8401 cattatgaaa gcattgaaaa tgaaactttc tggactatcc gcaaaagcta ccagccgtta
+     8461 caatccatta aggcgttgtt attcattcgc tttaagattg tgggagcgta ctatagcttt
+     8521 gaaaaactga ccagcaaaag caagctgaaa ggctttggca gagtgataga cgataacaac
+     8581 tatttttcac gcatacccct tgtaaatgag gtggtacatt gggataacgg ggttatcgta
+     8641 acacctaact atcaaatgaa catcacagga ctaaaagaaa cccgtgtaga ggttgacggt
+     8701 cagcaactct ttgaagattg gtcaaccttt aaaatcaatg taaccaacga tagaaaggga
+     8761 gtacctcgca cagttatgac agcagaaaga ggacatgaaa acctatgata attatcaact
+     8821 tgtccgagac aacggacacg ctacaaatcg aagtcacggg acacggagac gatacagacc
+     8881 agtcttgcgc ccgtgtatca accgtttgcg attgtattta cttattctta aaatctaaca
+     8941 tagatgatta tgttaaaaaa gatggttata cattgctacg gatttttaaa aaacgtacta
+     9001 cggtacaaac tttaaaagct attttaagtt acatcgtaac gcttgagcaa ctttataaaa
+     9061 attcaattaa ggttataaat aaagaaaaag aggtagaaac aaatggcaaa gacaactaaa
+     9121 cttgtacgag gtattcactc atggattaag ttccaaaaac accaaggagt ggagagcctt
+     9181 tctattgagg gtaagcaggc gcttgctgac ttgtcacagg ataaaaacgg ggacacaacc
+     9241 cttattttaa atgcagacgt tgataaatta aatactattc attcagctat accttttatt
+     9301 tctgtttcag aagaattttc aggagttgac cctaatcaaa tgaaaacagc aaccatcagc
+     9361 caagatttaa caaaattccc tctaaataat ggggaactgg ttaaatttaa caaagaaaaa
+     9421 gatggtattt ctgtaaatga tgaagaattg aaagcagata tttctcaact tattgaagct
+     9481 aaattgacag ggtttccagt tgtattaaat tatgaacata ttttacttga taatttttca
+     9541 aaaattgaaa catctatcaa tatttccact tatcaaccgt ttaatgattt tgtggaagta
+     9601 actttgacca atccagctac aaatgaacaa gacactgtta ttatttcaac aaatgagtta
+     9661 tacaatggaa aaatgatttt taatagattt gtttgcagtg ttttagttga aaaaaatgat
+     9721 aaacatatta ttgatataac tgtaaattct cataaagaag ctgacagaat ccatgttacc
+     9781 ataaaatggt ttacacaata cagaggacaa aaaatccttg acgtaaatga aattggtcaa
+     9841 gacgcacact ttgagggata tgaaaaccct aacgtagaat tgacttatag tcctattcca
+     9901 ccagctgtaa gcacaccaac cgaaacacca agcccaaccc ctgaaacaac tggaaacaca
+     9961 ccgcaaccaa ttgcagaaga atctcactaa aataagaaag gattttaaaa catgaatcca
+    10021 gaagaattta aagatgaatt tttcagggct taccgtggac gctattcgtc ttactgggta
+    10081 gaacgttggg ggcttatccc ctcaatccct accagctttg ataacgccaa ttctatctac
+    10141 gagcttttgg cgtggctaca gcgtgccttt aagcagttgc ttgacgactt tgtggcgttg
+    10201 gaaagcgaac tggaagacta taagaacgct ttaactgaac tcctagagca acttatccct
+    10261 ttgcttatcc gtagatacat ggagagcaag gaagcggacg actggtttaa taaaaaagcg
+    10321 gccatctact ataacaagat tatcaagcct tatattgacg cagaaatagc taaagtcaat
+    10381 aagaaaatcg ctgaccttga aaagaaagta gatgatgaag ttaagcgact agatggacgg
+    10441 attgacgctt taaacgataa gctagaaaaa gaaatcaaga aacttgacga cagaatcaca
+    10501 caggaagtcg ctaagttaaa cgagcgtata acagcagaaa acaacgcact caaggagaga
+    10561 atcgaagcgc tagaaaatct aacgcaggct tgcaaaatgc tttgcgtaaa atcattgaaa
+    10621 accttgaggg gtcaggcgct tggactggtg ggcttactgg tagctttaac caagggcgca
+    10681 acatcgcaac aggtaatatt aacttgtttg gtggtacacc agacggttca agctttatcc
+    10741 gaaccaacag cggaagcaca gaaaacgacc tcgcaggagg tatctaatgc ctttagaaac
+    10801 acgcttttca acctctacta cagccaacgt agaaaacttt ggtacaggtg tagccccttg
+    10861 gacggaagcc tatgctaatg cttggcagtt ctcaggggac acagactacg gctacatgac
+    10921 caacgggaac acgacctata tacagtacgg gcaaaatgac ccgtctgtat gggcgtccat
+    10981 gcgtttctgg ggcgaatccg ttgaaatcct agaagagaca aaaaacgatg ataattctat
+    11041 cacggctaaa atcagagtta aagccctctt ttggtggtca aaacgggtca gctcaaacgc
+    11101 tgggtatcgg gtagaatatg atattaaaat caatgggcgc accgtttgga cgtttagcgg
+    11161 atatacaacc gatgaagtca ttaaaaatga tgaagttgcc caagacttta ccgtaaccat
+    11221 accagccgaa gaaagttcat cagccagtgc cttaaatata aatgtatctt atccagacgg
+    11281 gcaatattca gacaattctt tctatgttgg tgtgtaccta tataatacca acaagaaaaa
+    11341 gcctaaaacg ttaaagccgt gggcaatccg taagagcgga atctttaaga ccttaaaccg
+    11401 tccctctgga atcttccaac agcgcaaaag cagttggcaa gacatcagcg aacagccagc
+    11461 aaacgcagtc gggcaagcag tcacagcacc ccacagcgtg agaaagtcgg gtcaatggat
+    11521 aggacaagga cagataggac aagaataagg gagggtttca gccctcctat ttttaaagga
+    11581 gaagacatgc aagaatcaac caagatatgg ctttatgcca aaagcccttt taaaaacgat
+    11641 tatgccaatg tgattaactt tgagacaagg gaaagtatgg aagacttttt cacaaagaag
+    11701 aatccgcata tagaaattgt gtacgagtat gacaagtttc aatataccca aagaaacggc
+    11761 tcaatcgtag tttctggacg ggtagagaag tatgaaaatg tgacttatat gcgctttatc
+    11821 aacaacggaa gaacctacta tgcctttgtt tttgacgttc tctatatcaa tgaagatgct
+    11881 acacgcatta tttacgaggt ggacgtttgg aacacctacc agcacgaact aaaggcgctt
+    11941 aatgtgattg gtcaagtgga acagcaaacc ttacctaatg agttgtgggc gctgaaagac
+    12001 agtcagcaag gtttttcagt tgggactaaa tacgctacac gggctggaga ggttggaatc
+    12061 gatacggagt ggcttgtagt agtcgcaaaa cctacgatta aaatgaccac caaggcaaac
+    12121 cgccccgtca atatgagtta ttcaggtatg caaaaaacct ttaaatactt ttttattcct
+    12181 gtaaatttga aaagcggagc gtccagccgt ttatttttca gggcaaaaag tatgatagct
+    12241 tttaccttga aaacctgtat aagcaccttt tcggattgaa tcaagacggc agtagcaccg
+    12301 taaaccagat tgtgaacatg tatttaagcc gtgacatcgg ggtaaaatac aaagagacaa
+    12361 ccgagggcga caagacctat atagaaatct tgtctaatat cacgggaagc gttgcagaga
+    12421 ttggcagaaa gaacagccga aactatcgga catctggaag ttcatcaggc ggaggaagtg
+    12481 gaagcaccaa cgaaagcgga gacatttcaa ccgaggaaag ccgtgttaga ctggttacta
+    12541 gaatcattaa aaagctagta ccagacgcaa cagcggaggg tatcgctgga attatcggga
+    12601 acttttcagc agaaagcaac gtcacagcca agaaatacga ggcagactat gctactgggt
+    12661 acgagtacga gaaaatggaa tcagagccaa cagccgagaa ccttatggga agctggggcg
+    12721 cttttgccag tctctactct atcagcttaa atgaagctgg atatagaggg tcagacggca
+    12781 atcactggat aggtattggg ataggacagt ggacgggacc aagggcggag gagcttttga
+    12841 actttgcaag aagtcaaggg aaatcattgt gggattttaa cctacaattt caatttatga
+    12901 accaagagag ccgagccgat acgtttagac gggtagccag ttccacagca agcgccagca
+    12961 ccaatgcaag cgactttatg aacaactggg agggggtagc ctataaagaa gcggaacgca
+    13021 tagagcacta acgcctggtt atctacgata caagacgaac tacagaaagg gtaaacaatg
+    13081 gcagaagcaa cagaaacgct aaaagcacta aatgaaatca agtcacgggt aggaacaacc
+    13141 gtgggaagtg ggcaatgtta cggctagtcg ccttgtattc tcaactcttg ggcggttgcg
+    13201 acatcggggg aggtatcaac acccccaacc ccaacggcaa cggcagacaa gccagtggaa
+    13261 gcgatacaca acggggtatg agtgccagca acattggggg cgactatgac tgggaagcgc
+    13321 tgggctggaa agtccgattt gacccgtctt gggctgattt acgggtaggg tgcattgtct
+    13381 gctatatccc aagcggaagc aatatctggg ggcatacgtc tgttatttca gcggtcaacg
+    13441 gctcaagcta tgacgttata gaacaaaatt atgcttggaa tggctacacc acagaacgca
+    13501 cgggtataga tacgattgcc aatattgaaa gtattatcta ccctcccgaa gttgtcgcag
+    13561 gtggcgatat tggagagata acaggtaaca caggagatag acagttagga aacggggact
+    13621 actcaaaaac cgcctttgac gttgaagcct tactaattga ggtggacgta ttttttgact
+    13681 atcgccctaa tgtatatgaa atcccgaacc tcctaaagat agcttatgac cagatacaag
+    13741 aggggctacg ctcatacatg ggtaaagacg acctagaaat agaagtacaa ctattaaata
+    13801 gtgagtttac ggagatagag ctttatgata tttacggtaa cagttatgtg tatcaaccgc
+    13861 agtatttacc gagaaccata gacgaagcac acaagtataa agttattgta agcggaagcc
+    13921 ttggggatag caatcaggtt catatcaatt ttcttgagta taacaacgct aacaatgtaa
+    13981 gctatgctga taagaatatt ctggatagct tggaaagtgg cgactgggcg gaacacaatc
+    14041 cagagcattt taaatacggt ttgaatgacg tgacagggaa aagcgtggct attttgaatg
+    14101 acgcagaagc cagctatatc cagagccata agaatcaaat ggaacataca cagcttacgt
+    14161 ttaaagagaa tcgggacatg ctgaaacaga gcgtagacct atctaataaa caagtcgcta
+    14221 cagcaaactc acaagccagc tataacgcac aatttgccgt agatagcgcc aatatcaacc
+    14281 aatggacgga gggcgctagt ggtatcttaa acgtagctgg aaatctctta acagggaact
+    14341 ttgggggcgc acttggtggg cttgcgtctg gtggtatgaa agtctttaac gctaaccgtg
+    14401 attataatga taaagtggtg caacaaggtt tcacaagcga aaacaacgct ttgaaatctc
+    14461 agtcaaacgc acttgcaaac atgaaatcta agatagcact tgaccagtct atcagagctt
+    14521 acaacgcaac gatggcagac ctacagaacc agcctatcag cgtgcaacaa atcgggaatg
+    14581 accttgcttt ccagagtggg aacagactga cagacgttta ttggaaagtc tccctagctc
+    14641 aaaaagaaat catgggacgg gcaaacgagt acataaaatg ctatggggtg cttgtcaact
+    14701 ggttcactaa tgacgctcta agtgtaatga ggtcaagaaa acgctttaat tatatcaaga
+    14761 tgattaacgt taaccttgga acactaagag ccaaccagtc gcacatgaac gctattcagg
+    14821 ctatttttca gtcaggtgtc agaatatgga attattcagc caataaagaa gacggcattt
+    14881 tgtttgatat tcagaaaaac aacccgaatt tttaaaagta tgatataatg aaatagaaag
+    14941 gagtgatttt ctatggaagc aactgaaaaa tggtacaatc cgcagaaaat gctatcttat
+    15001 aaccagtatt taaactttgt tatcggtggt cgtggaattg gtaagacctt tgcactcaag
+    15061 aaatatctgt ttaaaaggtt cattgagaaa ggggaacaat tcatctacct aaggcggaac
+    15121 aagtcagagc ttgaccgtat cgacaaggac aagtttttta ctaccgagtt attaaagcaa
+    15181 gttttcacta actttgaagt gattgacagc gacgccagca aaatccatac taagattatt
+    15241 ttcagagcgg acaacatgga ggaagaggaa aatatacttg ttttatcttc tactaaaatt
+    15301 attcttaacg ggaaaatcgt ttgctatctc aagagccttt ctacatgggt agacttgaaa
+    15361 gggtcagagt atgatgaggt aatgagtatt ctatacgatg aagtattgat agacgttacc
+    15421 agtaaaaaga ggtatctcga taacgaggtg gaagcgttac taaatttcat cttctcagta
+    15481 ttcagaagac gggacgggtg tcatgcttat ctactatcaa atgcaagtaa tttcaacaac
+    15541 ccttattttg cctttctcaa gttctatgac gacaacggca agcgctttta caatctgaaa
+    15601 caatacgcaa ccttgataga gttcccccct cattcagcct ttcaaacaga ggaagaaaaa
+    15661 gagagcggat tctttaagct attgagtaag tcaagtattt atgaaagcgt tgctaataat
+    15721 gaatttcaga ttaagaacga caagaatata gcaaaaatta aaggcttgaa gtctaggcta
+    15781 tatagtttct attgtgacgg tactttctta acggggtact atatcgacaa tatggtatat
+    15841 attgctaaag gctttgacaa aaatttgacc gcttattgtt tagaagtgga acaggtggaa
+    15901 gacgggtttg tgtacttgaa taaagccagc gcactaggta aaactttacg gagtttgtac
+    15961 ttaaaaaata tgtttattta tgaagattta gaaactaaaa acaaatttat agaggttatc
+    16021 aatcatgtta tataatatta tgctagaagt tgctaaaggc gactatatca caattctttt
+    16081 tgctttgatt ctgtttgact ttatcacagg ctttttaaag gcttggaagt ggaaagtgac
+    16141 cgatagctgg acagggttaa aaggagttat caaacatacc ctaacattta ttttttacta
+    16201 ttttgtagcg gtattcttaa catatattca cgctatggca gtcggtcaga ttttgcttgt
+    16261 tatcattaac ttgtactatg cactttcaat tatggaaaat cttgctgtta tgggtgtctt
+    16321 tatccctaaa tttatgacgg ctagagtaca ggaagaattg cagaaataca ccgcacaact
+    16381 agacgcagga aaagacctgc tagaagaatt taaaggagaa aagaaataat ggttaaaaag
+    16441 aatgatttat ttgtagatgt ttcaagtcac aacggttacg atataacagg tatcttggag
+    16501 caaatgggaa caactaacac catcattaaa atttctgaaa gtacgaccta tttaaaccct
+    16561 tgcttgtctg ctcaagtgga gcagtcaaac cctattggct tttatcactt cgcacgcttt
+    16621 ggcggagacg tagcagaagc cgaaagagaa gcgcagtttt tccttgacaa cgtgcctatg
+    16681 caagttaaat accttgtatt ggactacgag gacgacccaa gcggagacgc acaagcgaac
+    16741 actaacgcat gcttacgctt tatgcagatg attgctgacg ctggatataa acctatttat
+    16801 tatagttata aaccgtttac acatgataat gtggactatc agcaaatcct tgcacagttc
+    16861 cctaattctc tatggattgc aggctatggc ttaaacgatg gtacagctaa ctttgaatac
+    16921 ttcccaagca tggacgggat aagatggtgg cagtattcta gtaacccgtt tgacaagaat
+    16981 attgtactgt tagacgatga agaagacgac aagccaaaga ccgctggaac gtggaaacaa
+    17041 gacagcaagg ggtggtggtt cagacgaaac aatggcagtt tcccttataa taaatgggaa
+    17101 aaaatcggtg gtgtgtggta ctacttcgat agtaaaggat attgcttaac gagcgaatgg
+    17161 ctcaaagata atgaaaaatg gtactacctc aaggacaacg gcgcaatggc gactggttgg
+    17221 gtgctagtcg ggtcagagtg gtattatatg gacgattcag gcgctatggt tactggttgg
+    17281 gtcaagtata agaataactg gtactatatg acaaatgaac gtggtaacat ggtttctaat
+    17341 gaatttatta agtctggaaa aggttggtat ttcatgaaca caaacggaga gcttgcagac
+    17401 aatccaagtt tcacgaaaga accagacggg cttataaccg tagcataaaa aagaaaagct
+    17461 agtaggattt tcctactagc tgtttttata gtctgctata attttataag catcttcgtc
+    17521 tggattatcc agagcgatgg aacagattgc agacaggacg ctgttcatct gattgtattt
+    17581 ctgtaagtag tgattttcta gctgtttgta attgctgata tgcttttcat atccagccag
+    17641 agaaaaggag tggtgtaggt ttatgagttg ctgggtcagt cttgccttgt ctagcccgtc
+    17701 aggtatgctt tcatcatttc tgaaagcgtt tctaaatagc ttgtaaatga atgtataacc
+    17761 agttcatcaa gcgttaccat tccccgaacg ctggaagcgt taggcttgca atcttttgac
+    17821 cgtgtaacct taaactgttt tcaaattgta aggctatttc ttgctgttct aagcgtgttt
+    17881 tgtcttccat agtattaacc ccctacgttt tcaagataag cgactagacg caaaatagaa
+    17941 gccgtgttac tatcgttttc tcgctttaac ttcgtgatgg tgctttgttg ttgctcaagt
+    18001 tgtttttgtt gcttgaaaat ggtataggtc aagagtgaca taatcactag aaaaaccaag
+    18061 atggcaaggt tacaagaagc gaaccaccaa aaccagaaac gacctttttt gtttaatttg
+    18121 ttatatgaat ttttcatttt cttaatacct caatttgaat aattctcttt ctactgataa
+    18181 ataagtaacc tctaatatac ctttgtaagc tgtagacccc gtctggttgg taatgttgtt
+    18241 ctacatcata taagttataa gtagtggctc aaatgccctc tatatcgtcc attataggct
+    18301 ttatacgact aatagcataa tctaaggaaa tgataggaaa gccatcaaaa taatattgct
+    18361 tgacgacctt tctaacccgt tctatttcag ttggaaaaat cttgtttaaa tcgttcatct
+    18421 agtaaccgtc ccttccttgt acatagcgct caaacgctga ttttaaacaa taatgtgaat
+    18481 attttgagta tttcaagttt ttcacttcct caaagataat aagcgtgttt aagcgctcat
+    18541 ttttaaaata gttctcatgg acttctttat atccacgatt tctatatacc tctttttctg
+    18601 tttccagttt atcgtctgga aacttatcaa tacattgtat tttaagagga gttaccccct
+    18661 caagaataat ctgaaattgt gctatcatgt ttaccctcct atttgtacaa atacacgttt
+    18721 tcgtttccac aatatccaac atattctgaa ccaaaataag ataggaaact ttcaaaattt
+    18781 tcaacgctcc aaggcttctt ttgtaccctc tacataagag tataaccctt tttcttctag
+    18841 gtttgctttc cctacaaaaa tacaggtgtt tctatctgta aaaccttgac ttttagcaag
+    18901 tttcactaat ttatctttca tgttcatgcc tgcttgcata gtcatcacat actggttatt
+    18961 gataatcatt ttgttatacc tctttatctt tctgatacca ttatagcatt tctcaaaatg
+    19021 cttgtcaagt gttttttgaa attattttta atttattttt agaaatgttt ttatctcatt
+    19081 tctaactata tacattgtat cattttataa aatgattgtc aagagatttt tgaaattatt
+    19141 ttttatttat ttagtgattt tatttcttga catttttcta aattgtgata taatgataat
+    19201 agaaacagat gaaaggattt tagaagatga tagatgattg atttttagaa tggctagtgt
+    19261 tggaaatgga ttttctcttt catttcattt tcaaatttcc attgggggaa tttttgaaaa
+    19321 aggggtgggg gagtacatgc ttt
+//
+

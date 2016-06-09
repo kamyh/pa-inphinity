@@ -1,0 +1,407 @@
+LOCUS       JX913857                5386 bp    DNA     circular SYN 10-NOV-2012
+DEFINITION  Synthetic Enterobacteria phage phiX174.1f, complete genome.
+ACCESSION   JX913857
+VERSION     JX913857.1  GI:410809623
+KEYWORDS    .
+SOURCE      synthetic Enterobacteria phage phiX174.1f
+  ORGANISM  synthetic Enterobacteria phage phiX174.1f
+            other sequences; artificial sequences.
+REFERENCE   1  (bases 1 to 5386)
+  AUTHORS   Jaschke,P.R., Lieberman,E.K., Rodriguez,J., Sierra,A. and Endy,D.
+  TITLE     A fully decompressed synthetic bacteriophage phiX174 genome
+            assembled and archived in yeast
+  JOURNAL   Virology (2012) In press
+REFERENCE   2  (bases 1 to 5386)
+  AUTHORS   Jaschke,P.R., Lieberman,E.K., Rodriguez,J., Sierra,A. and Endy,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-OCT-2012) Bioengineering, Stanford University, 473
+            Via Ortega, Stanford, CA 94305, USA
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..5386
+                     /organism="synthetic Enterobacteria phage phiX174.1f"
+                     /mol_type="other DNA"
+                     /host="Escherichia coli C"
+                     /db_xref="taxon:1246486"
+     gene            64..1605
+                     /gene="A.1"
+     CDS             64..1605
+                     /gene="A.1"
+                     /function="viral strand synthesis"
+                     /note="RF replication"
+                     /codon_start=1
+                     /product="protein A"
+                     /protein_id="AFV81402.1"
+                     /db_xref="GI:410809624"
+                     /translation="MVRSYYPSECHADYFDFERIEALKPAIEACGISTLSQSPMLGFH
+                     KQMDNRIKLLEEILSFRMQGVEFDNGDMYVDGHKAASDVRDEFVSVTEKLMDELAQCY
+                     NVLPQLDINNTIDHRPEGDEKWFLENEKTVTQFCRKLAAERPLKDIRDEYNYPKKKGI
+                     KDECSRLLEASTMKSRRGFAIQRLMNAMRQAHADGWFIVFDTLTLADDRLEAFYDNPN
+                     ALRDYFRDIGRMVLAAEGRKANDSHADCYQYFCVPEYGTANGRLHFHAVHFMRTLPTG
+                     SVDPNFGRRVRNRRQLNSLQNTWPYGYSMPIAVRYTQDAFSRSGWLWPVDAKGEPLKA
+                     TSYMAVGFYVAKYVNKKSDMDLAAKGLGAKEWNNSLKTKLSLLPKKLFRIRMSRNFGM
+                     KMLTMTNLSTECLIQLTKLGYDATPFNQILKQNAKREMRLRLGKVTVADVLAAQPVTT
+                     NLLKFMRASIKMIGVSNLQSFIASMTQKLTLSDISDESKNYLDKAGITTACLRIKSKW
+                     TAGGK"
+     rep_origin      382..411
+                     /note="origin of viral strand replication"
+     gene            751..1605
+                     /gene="A*"
+     CDS             751..1605
+                     /gene="A*"
+                     /function="shut off host DNA synthesis"
+                     /note="synthesized from the larger A gene by internal
+                     translation initiation in the same frame as protein A; may
+                     be involved in host DNA replication shut off"
+                     /codon_start=1
+                     /product="protein A*"
+                     /protein_id="AFV81403.1"
+                     /db_xref="GI:410809625"
+                     /translation="MVLAAEGRKANDSHADCYQYFCVPEYGTANGRLHFHAVHFMRTL
+                     PTGSVDPNFGRRVRNRRQLNSLQNTWPYGYSMPIAVRYTQDAFSRSGWLWPVDAKGEP
+                     LKATSYMAVGFYVAKYVNKKSDMDLAAKGLGAKEWNNSLKTKLSLLPKKLFRIRMSRN
+                     FGMKMLTMTNLSTECLIQLTKLGYDATPFNQILKQNAKREMRLRLGKVTVADVLAAQP
+                     VTTNLLKFMRASIKMIGVSNLQSFIASMTQKLTLSDISDESKNYLDKAGITTACLRIK
+                     SKWTAGGK"
+     misc_difference 823
+                     /gene="A*"
+                     /note="results in aspartic acid to asparagine
+                     substitution"
+                     /replace="a"
+     misc_difference 903
+                     /gene="A*"
+                     /note="silent substitution"
+                     /replace="c"
+     misc_difference 1149
+                     /gene="A*"
+                     /note="results in weakened gene B remanant RBS"
+                     /replace="a"
+     misc_difference 1152
+                     /gene="A*"
+                     /note="results in weakened gene B remanant RBS"
+                     /replace="t"
+     misc_difference 1158
+                     /gene="A*"
+                     /note="gene B start codon remnant changed ATG->GTG"
+                     /replace="a"
+     misc_difference 1509
+                     /gene="A*"
+                     /note="results in weakened gene K remanant RBS"
+                     /replace="g"
+     misc_difference 1512
+                     /gene="A*"
+                     /note="results in weakened gene K remanant RBS"
+                     /replace="t"
+     misc_difference 1521
+                     /gene="A*"
+                     /note="gene K start codon remnant changed ATG->ACG"
+                     /replace="t"
+     misc_difference 1590
+                     /gene="A*"
+                     /note="results in weakened gene C remanant RBS"
+                     /replace="t"
+     misc_difference 1593
+                     /gene="A*"
+                     /note="results in weakened gene C remanant RBS"
+                     /replace="t"
+     misc_difference 1602
+                     /gene="A*"
+                     /note="gene C start codon remnant changed ATG->GTG"
+                     /replace="a"
+     regulatory      1606..1620
+                     /regulatory_class="ribosome_binding_site"
+                     /note="B.1 RBS"
+     gene            1621..1983
+                     /gene="B.1"
+     CDS             1621..1983
+                     /gene="B.1"
+                     /function="capsid morphogenesis"
+                     /note="required for the assembly of the basic building
+                     block of the Microvirus capsid and is incorporated into
+                     the procapsid; displaced by the protein J/ssDNA complex
+                     during assembly and is therefore not part of the mature
+                     virion"
+                     /codon_start=1
+                     /product="protein B"
+                     /protein_id="AFV81404.1"
+                     /db_xref="GI:410809626"
+                     /translation="MEQLTKNQAVATSQEAVQNQNEPQLRDENAHNDKSVHGVLNPTY
+                     QAGLRRDAVQPDIEAERKKRDEIEAGKSYCSRRFGGATCDDKSAQIYARFDKNDWRIQ
+                     PAEFYRFHDAEVNTFGYF"
+     misc_difference 1974
+                     /gene="B.1"
+                     /note="results in weakened gene K remanant RBS"
+                     /replace="a"
+     regulatory      1984..1997
+                     /regulatory_class="ribosome_binding_site"
+                     /note="K.1 RBS"
+     misc_difference 1985
+                     /note="gene K start codon remnant changed ATG->ATT"
+                     /replace="g"
+     gene            1998..2168
+                     /gene="K.1"
+     CDS             1998..2168
+                     /gene="K.1"
+                     /function="burst size modulation"
+                     /note="non-essential protein; in the absence of protein K
+                     burst size is reduced 3 to 6-fold"
+                     /codon_start=1
+                     /product="protein K"
+                     /protein_id="AFV81405.1"
+                     /db_xref="GI:410809627"
+                     /translation="MSRKIILIKQELLLLVYELNRSGLLAENEKIRPILAQLEKLLLC
+                     DLSPSTNDSVKN"
+     misc_difference 2069
+                     /gene="K.1"
+                     /note="results in weakened gene C remanant RBS"
+                     /replace="g"
+     misc_difference 2072
+                     /gene="K.1"
+                     /note="results in weakened gene C remanant RBS"
+                     /replace="g"
+     misc_difference 2081
+                     /gene="K.1"
+                     /note="gene C start codon remnant changed ATG->ACT"
+     regulatory      2169..2182
+                     /regulatory_class="ribosome_binding_site"
+                     /note="C.1 RBS"
+     gene            2183..2443
+                     /gene="C.1"
+     CDS             2183..2443
+                     /gene="C.1"
+                     /function="DNA replication"
+                     /note="thought to facilitate switch from stage II to stage
+                     III DNA replication"
+                     /codon_start=1
+                     /product="protein C"
+                     /protein_id="AFV81406.1"
+                     /db_xref="GI:410809628"
+                     /translation="MRKFDLSLRSSRSSYFATFRHQLTILSKTDALDEEKWLNMLGTF
+                     VKDWFRYESHFVHGRDSLVDILKERGLLSESDAVQPLIGKKS"
+     misc_difference 2428
+                     /gene="C.1"
+                     /note="results in weakened gene D remanant RBS"
+                     /replace="a"
+     misc_difference 2431
+                     /gene="C.1"
+                     /note="results in weakened gene D remanant RBS"
+                     /replace="t"
+     misc_difference 2440
+                     /gene="C.1"
+                     /note="gene D start codon remnant changed ATG->TTG"
+     regulatory      2444..2458
+                     /regulatory_class="ribosome_binding_site"
+                     /note="D.1 RBS"
+     gene            2459..2917
+                     /gene="D.1"
+     CDS             2459..2917
+                     /gene="D.1"
+                     /function="capsid morphogenesis"
+                     /note="240 molecules of protein D form an external
+                     scaffold required for the formation of Microvirus
+                     procapsid; not present in mature particles"
+                     /codon_start=1
+                     /product="protein D"
+                     /protein_id="AFV81407.1"
+                     /db_xref="GI:410809629"
+                     /translation="MSQVTEQSVRFQTALASIKLIQASAVLDLTEDDFDFLTSNKVWI
+                     ATDRSRARRCVEACVYGTLDFVGYPRFPAPVEFIAAVIAYYVHPVNIQTACLIMEGAE
+                     FTENIINGVERPVKAAELFAFTLRVRAGNTDVLTDAEENVRQKLRAEGVM"
+     misc_difference 2626
+                     /gene="D.1"
+                     /note="results in weakened gene E remanant RBS"
+                     /replace="g"
+     misc_difference 2638
+                     /gene="D.1"
+                     /note="results in weakened gene E remanant RBS"
+                     /replace="t"
+     misc_difference 2905
+                     /gene="D.1"
+                     /note="results in weakened gene J remanant RBS"
+                     /replace="a"
+     misc_difference 2908
+                     /gene="D.1"
+                     /note="results in weakened gene J remanant RBS"
+                     /replace="a"
+     regulatory      2918..2932
+                     /regulatory_class="ribosome_binding_site"
+                     /note="E.1 RBS"
+     misc_difference 2919
+                     /note="gene J start codon remnant changed ATG->ATT"
+     gene            2933..3208
+                     /gene="E.1"
+     CDS             2933..3208
+                     /gene="E.1"
+                     /function="cell lysis"
+                     /note="Microvirus cell lysis protein; membrane protein
+                     that inhibits MraY, an enzyme required for murein
+                     synthesis, and promotes cell lysis in a manner analogous
+                     to cell wall synthesis inhibitors like penicillin; a host
+                     factor (slyD) is required for stability of protein E"
+                     /codon_start=1
+                     /product="protein E"
+                     /protein_id="AFV81408.1"
+                     /db_xref="GI:410809630"
+                     /translation="MVRWTLWDTLAFLLLLSLLLPSLLIMFIPSTFKRPVSSWKALNL
+                     RKTLLMASSVRLKPLNCSRLPCVYAQETLTFLLTQKKTCVKNYVRKE"
+     regulatory      3209..3224
+                     /regulatory_class="ribosome_binding_site"
+                     /note="J RBS"
+     gene            3225..3341
+                     /gene="J"
+     CDS             3225..3341
+                     /gene="J"
+                     /function="DNA packaging"
+                     /function="DNA binding"
+                     /note="core protein; binds to ssDNA Microvirus genomes and
+                     is packaged with the DNA into procapsids; during packaging
+                     it displaces the internal scaffold protein"
+                     /codon_start=1
+                     /product="protein J"
+                     /protein_id="AFV81409.1"
+                     /db_xref="GI:410809631"
+                     /translation="MSKGKKRSGARPGRPQPLRGTKGKRKGARLWYVGGQQF"
+     misc_feature    3342..3377
+                     /note="J/F intergenic region"
+     regulatory      3368..3373
+                     /regulatory_class="ribosome_binding_site"
+                     /note="F RBS"
+     misc_feature    3378..3385
+                     /note="AsiSI restriction enzyme cut site"
+     gene            3386..3753
+                     /gene="F fragment"
+     misc_feature    3754..3863
+                     /note="F/G intergenic region"
+     gene            3864..4391
+                     /gene="G"
+     CDS             3864..4391
+                     /gene="G"
+                     /note="60 copies of protein G are present at the 12
+                     vertices with 5-fold symmetry of Microvirus capsids"
+                     /codon_start=1
+                     /product="protein G"
+                     /protein_id="AFV81410.1"
+                     /db_xref="GI:410809632"
+                     /translation="MFQTFISRHNSNFFSDKLVLTSVTPASSAPVLQTPKATSSTLYF
+                     DSLTVNAGNGGFLHCIQMDTSVNAANQVVSVGADIAFDADPKFFACLVRFESSSVPTT
+                     LPTAYDVYPLDGRHDGGYYTVKDCVTIDVLPRTPGNNVYVGFMVWSNFTATKCRGLVS
+                     LNQVIKEIICLQPLK"
+     misc_feature    4392..4399
+                     /note="G/H intergenic region"
+     gene            4400..5386
+                     /gene="H"
+     CDS             4400..5386
+                     /gene="H"
+                     /function="adsorption"
+                     /note="one molecule of protein H is located at each of the
+                     12 vertices with 5-fold symmetry; binds to LPS and is
+                     involved in particle adsorption to host cells; several
+                     protein H molecules enter the host cytoplasm with the
+                     phage genome; other names: protein H, gpH, DNA pilot
+                     protein; function: phage minor structural protein,
+                     adsorption, DNA injection"
+                     /codon_start=1
+                     /product="protein H"
+                     /protein_id="AFV81411.1"
+                     /db_xref="GI:410809633"
+                     /translation="MFGAIAGGIASALAGGAMSKLFGGGQKAASGGIQGDVLATDNNT
+                     VGMGDAGIKSAIQGSNVPNPDEAAPSFVSGAMAKAGKGLLEGTLQAGTSAVSDKLLDL
+                     VGLGGKSAADKGKDTRDYLAAAFPELNAWERAGADASSAGMVDAGFENQKELTKMQLD
+                     NQKEIAEMQNETQKEIAGIQSATSRQNTKDQVYAQNEMLAYQQKESTARVASIMENTN
+                     LSKQQQVSEIMRQMLTQAQTAGQYFTNDQIKEMTRKVSAEVDLVHQQTQNQRYGSSHI
+                     GATAKDISNVVTDAASGVVDIFHGIDKAVADTWNNFWKDGKADGIGSNLSRK"
+ORIGIN      
+        1 ccgtcaggat tgacaccctc ccaattgtat gttttcatgc ctccaaatct tggaggcttt
+       61 tttatggttc gttcttatta cccttctgaa tgtcacgctg attattttga ctttgagcgt
+      121 atcgaggctc ttaaacctgc tattgaggct tgtggcattt ctactctttc tcaatcccca
+      181 atgcttggct tccataagca gatggataac cgcatcaagc tcttggaaga gattctgtct
+      241 tttcgtatgc agggcgttga gttcgataat ggtgatatgt atgttgacgg ccataaggct
+      301 gcttctgacg ttcgtgatga gtttgtatct gttactgaga agttaatgga tgaattggca
+      361 caatgctaca atgtgctccc ccaacttgat attaataaca ctatagacca ccgccccgaa
+      421 ggggacgaaa aatggttttt agagaacgag aagacggtta cgcagttttg ccgcaagctg
+      481 gctgctgaac gccctcttaa ggatattcgc gatgagtata attaccccaa aaagaaaggt
+      541 attaaggatg agtgttcaag attgctggag gcctccacta tgaaatcgcg tagaggcttt
+      601 gctattcagc gtttgatgaa tgcaatgcga caggctcatg ctgatggttg gtttatcgtt
+      661 tttgacactc tcacgttggc tgacgaccga ttagaggcgt tttatgataa tcccaatgct
+      721 ttgcgtgact attttcgtga tattggtcgt atggttcttg ctgccgaggg tcgcaaggct
+      781 aatgattcac acgccgactg ctatcagtat ttttgtgtgc ctgagtatgg tacagctaat
+      841 ggccgtcttc atttccatgc ggtgcacttt atgcggacac ttcctacagg tagcgttgac
+      901 cctaattttg gtcgtcgggt acgcaatcgc cgccagttaa atagcttgca aaatacgtgg
+      961 ccttatggtt acagtatgcc catcgcagtt cgctacacgc aggacgcttt ttcacgttct
+     1021 ggttggttgt ggcctgttga tgctaaaggt gagccgctta aagctaccag ttatatggct
+     1081 gttggtttct atgtggctaa atacgttaac aaaaagtcag atatggacct tgctgctaaa
+     1141 ggtctaggtg ccaaagagtg gaacaactca ctaaaaacca agctgtcgct acttcccaag
+     1201 aagctgttca gaatcagaat gagccgcaac ttcgggatga aaatgctcac aatgacaaat
+     1261 ctgtccacgg agtgcttaat ccaacttacc aagctgggtt acgacgcgac gccgttcaac
+     1321 cagatattga agcagaacgc aaaaagagag atgagattga ggctgggaaa agttactgta
+     1381 gccgacgttt tggcggcgca acctgtgacg acaaatctgc tcaaatttat gcgcgcttcg
+     1441 ataaaaatga ttggcgtatc caacctgcag agttttatcg cttccatgac gcagaagtta
+     1501 acactttctg acatttctga cgagtcgaaa aattatcttg ataaagcagg aattactact
+     1561 gcttgtttac gaattaaatc gaagtggacc gccggcggaa agtgatctag gagctaaaga
+     1621 atggaacaac tcactaaaaa ccaagctgtc gctacttccc aagaagctgt tcagaatcag
+     1681 aatgagccgc aacttcggga tgaaaatgct cacaatgaca aatctgtcca cggagtgctt
+     1741 aatccaactt accaagctgg gttacgacgc gacgccgttc aaccagatat tgaagcagaa
+     1801 cgcaaaaaga gagatgagat tgaggctggg aaaagttact gtagccgacg ttttggcggc
+     1861 gcaacctgtg acgacaaatc tgctcaaatt tatgcgcgct tcgataaaaa tgattggcgt
+     1921 atccaacctg cagagtttta tcgcttccat gacgcagaag ttaacacttt cggttatttc
+     1981 tgattcggat atttctgatg agtcgaaaaa ttatcttgat aaagcaggaa ttactactgc
+     2041 ttgtttacga attaaatcga agtggactcc tcgcggaaaa cgagaaaatt cgacctatcc
+     2101 ttgcgcagct cgagaagctc ttactttgcg acctttcgcc atcaactaac gattctgtca
+     2161 aaaactgaac tgctggcgga aaatgagaaa attcgaccta tccttgcgca gctcgagaag
+     2221 ctcttacttt gcgacctttc gccatcaact aacgattctg tcaaaaactg acgcgttgga
+     2281 tgaggagaag tggcttaata tgcttggcac gttcgtcaag gactggttta gatatgagtc
+     2341 acattttgtt catggtagag attctcttgt tgacatttta aaagagcgtg gattactatc
+     2401 tgagtccgat gctgttcaac cactaatcgg caagaaatct tgaaataggt aagaaatcat
+     2461 gagtcaagtt actgaacaat ccgtacgttt ccagaccgct ttggcctcta ttaagctcat
+     2521 tcaggcttct gccgttttgg atttaaccga agatgatttc gattttctga cgagtaacaa
+     2581 agtttggatt gctactgacc gctctcgtgc tcgtcgctgc gttgaagctt gcgtttacgg
+     2641 tacgctggac tttgtgggat accctcgctt tcctgctcct gttgagttta ttgctgccgt
+     2701 cattgcttat tatgttcatc ccgtcaacat tcaaacggcc tgtctcatca tggaaggcgc
+     2761 tgaatttacg gaaaacatta ttaatggcgt cgagcgtccg gttaaagccg ctgaattgtt
+     2821 cgcgtttacc ttgcgtgtac gcgcaggaaa cactgacgtt cttactgacg cagaagaaaa
+     2881 cgtgcgtcaa aaattacgtg cggagggtgt gatgtaattg aggcttgcgt ttatggtacg
+     2941 ctggactttg tgggataccc tcgctttcct gctcctgttg agtttattgc tgccgtcatt
+     3001 gcttattatg ttcatcccgt caacattcaa acggcctgtc tcatcatgga aggcgctgaa
+     3061 tttacggaaa acattattaa tggcgtcgag cgtccggtta aagccgctga attgttcgcg
+     3121 tttaccttgc gtgtacgcgc aggaaacact gacgttctta ctgacgcaga agaaaacgtg
+     3181 cgtcaaaaat tacgtgcgga aagaatgacg gaaggagtga tgtaatgtct aaaggtaaaa
+     3241 aacgttctgg cgctcgccct ggtcgtccgc agccgttgcg aggtactaaa ggcaagcgta
+     3301 aaggcgctcg tctttggtat gtaggtggtc aacaatttta attgcagggg cttcggcccc
+     3361 ttacttgagg ataaattgcg atcgcaaggt gctttgactt ataccgatat tgctggcgac
+     3421 cctgttttgt atggcaactt gccgccgcgt gaaatttcta tgaaggatgt tttccgttct
+     3481 ggtgattcgt ctaagaagtt taagattgct gagggtcagt ggtatcgtta tgcgccttcg
+     3541 tatgtttctc ctgcttatca ccttcttgaa ggcttcccat tcattcagga accgccttct
+     3601 ggtgatttgc aagaacgcgt acttattcgc caccatgatt atgaccagtg tttccagtcc
+     3661 gttcagttgt tgcagtggaa tagtcaggtt aaatttaatg tgaccgttta tcgcaatctg
+     3721 ccgaccactc gcgattcaat catgacttcg tgataaaaga ttgagtgtga ggttataacg
+     3781 ccgaagcggt aaaaatttta atttttgccg ctgaggggtt gaccaagcga agcgcggtag
+     3841 gttttctgct taggagttta atcatgtttc agacttttat ttctcgccat aattcaaact
+     3901 ttttttctga taagctggtt ctcacttctg ttactccagc ttcttcggca cctgttttac
+     3961 agacacctaa agctacatcg tcaacgttat attttgatag tttgacggtt aatgctggta
+     4021 atggtggttt tcttcattgc attcagatgg atacatctgt caacgccgct aatcaggttg
+     4081 tttctgttgg tgctgatatt gcttttgatg ccgaccctaa attttttgcc tgtttggttc
+     4141 gctttgagtc ttcttcggtt ccgactaccc tcccgactgc ctatgatgtt tatcctttgg
+     4201 atggtcgcca tgatggtggt tattataccg tcaaggactg tgtgactatt gacgtccttc
+     4261 cccgtacgcc gggcaataat gtttatgttg gtttcatggt ttggtctaac tttaccgcta
+     4321 ctaaatgccg cggattggtt tcgctgaatc aggttattaa agagattatt tgtctccagc
+     4381 cacttaagtg aggtgattta tgtttggtgc tattgctggc ggtattgctt ctgctcttgc
+     4441 tggtggcgcc atgtctaaat tgtttggagg cggtcaaaaa gccgcctccg gtggcattca
+     4501 aggtgatgtg cttgctaccg ataacaatac tgtaggcatg ggtgatgctg gtattaaatc
+     4561 tgccattcaa ggctctaatg ttcctaaccc tgatgaggcc gcccctagtt ttgtttctgg
+     4621 tgctatggct aaagctggta aaggacttct tgaaggtacg ttgcaggctg gcacttctgc
+     4681 cgtttctgat aagttgcttg atttggttgg acttggtggc aagtctgccg ctgataaagg
+     4741 aaaggatact cgtgattatc ttgctgctgc atttcctgag cttaatgctt gggagcgtgc
+     4801 tggtgctgat gcttcctctg ctggtatggt tgacgccgga tttgagaatc aaaaagagct
+     4861 tactaaaatg caactggaca atcagaaaga gattgccgag atgcaaaatg agactcaaaa
+     4921 agagattgct ggcattcagt cggcgacttc acgccagaat acgaaagacc aggtatatgc
+     4981 acaaaatgag atgcttgctt atcaacagaa ggagtctact gctcgcgttg cgtctattat
+     5041 ggaaaacacc aatctttcca agcaacagca ggtttccgag attatgcgcc aaatgcttac
+     5101 tcaagctcaa acggctggtc agtattttac caatgaccaa atcaaagaaa tgactcgcaa
+     5161 ggttagtgct gaggttgact tagttcatca gcaaacgcag aatcagcggt atggctcttc
+     5221 tcatattggc gctactgcaa aggatatttc taatgtcgtc actgatgctg cttctggtgt
+     5281 ggttgatatt tttcatggta ttgataaagc tgttgccgat acttggaaca atttctggaa
+     5341 agacggtaaa gctgatggta ttggctctaa tttgtctagg aaataa
+//
+

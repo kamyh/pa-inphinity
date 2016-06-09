@@ -1,0 +1,10 @@
+docker build -t "mlbd/jupyter" .
+docker run -v ~/jupyter_mlbd/src:/home/pa/work/ -i -t -d -p 8889:8888 mlbd/jupyter
+
+
+docker build -t "pa/inphinity" .
+docker run -v ~/pa-inphinity/jupyter_align_mysql/src:/home/pa/work/ -i -t -d -p 8888:8888 pa/inphinity
+
+
+docker build -t "pa/phamdb" .
+docker run -d --restart=always -p=81:80 -v ~/pa-inphinity/phamdb_own/phamdb:/dockerdata pa/phamdb

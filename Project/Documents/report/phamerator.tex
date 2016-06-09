@@ -1,0 +1,231 @@
+\documentclass[a4paper,11pt]{report}
+
+% General tools
+\usepackage{etoolbox}
+
+\usepackage[utf8]{inputenc}
+
+% Fonts
+\usepackage[T1]{fontenc}
+
+% LaTeX modern fonts
+\usepackage{lmodern}
+
+% Sans serif
+%\usepackage{tgheros}
+
+% Serif
+%\usepackage[bitstream-charter]{mathdesign}
+
+% Monospace
+%\usepackage{sourcecodepro}
+
+% Language
+\usepackage[english]{babel}
+\usepackage{blindtext}
+
+% Page style
+\usepackage{fullpage} % page margins to 1.5cm
+\usepackage{fancyhdr} % headers and footers
+
+% Colors & graphics
+\usepackage[table]{xcolor}    % colors
+\usepackage[pdftex]{graphicx} % graphics importing
+
+% Misc
+\usepackage{titlesec} % section titles formatting
+\usepackage{minted}   % code highlighting
+\usepackage{lscape}   % landscape
+\usepackage{tikz}     % charts in LaTeX
+\usepackage{amsmath}  % better math
+\usepackage{float}    % floats
+\usepackage[small,justification=centering]{caption}
+\usepackage{microtype} % typographic improvements
+
+% Paragraphs
+\usepackage{parskip}
+\usepackage[defaultlines=3,all]{nowidow}
+
+% Chapter titles
+% Remove space before title
+\titlespacing{\chapter}{0pt}{*-4}{*3}
+% Remove "Chapter N" and use a sans-serif font
+\titleformat{\chapter}[hang]{\bf\huge}{\thechapter}{1pc}{}
+% Change chapter page style
+\patchcmd{\chapter}{plain}{fancy}{}{}
+
+% Tables
+\usepackage{multirow}
+
+% Cross-references
+\usepackage{hyperref}
+
+
+% Metadata
+% --------
+\input{metadata}
+
+\newcommand{\Course}{Projet d'approfondissement}
+
+% Header and footer
+% -----------------
+\pagestyle{fancy}
+\lhead[]{\Course}
+\chead[]{}
+\rhead[]{\Place, \today}
+
+\setlength{\headheight}{14pt}
+\setlength{\headsep}{14pt}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+% Code styles for highlighting
+% ----------------------------
+
+% How to use (replace 'java' with language name):
+% - code blocks:
+%     \begin{javacode}
+%     CODE
+%     \end{javacode}
+% - files:
+%     full: \javafile{PATH}
+%     extract: \javafile[startline=x, endline=y]{PATH}
+% TODO: inline?
+
+% Java
+\newminted{java}{frame=single, framesep=6pt, breaklines=true, fontsize=\scriptsize}
+\newmintedfile{java}{frame=single, framesep=6pt, breaklines=true, fontsize=\scriptsize}
+
+% Scala
+\newminted{scala}{frame=single, framesep=6pt, breaklines=true, fontsize=\scriptsize}
+\newmintedfile{scala}{frame=single, framesep=6pt, breaklines=true, fontsize=\scriptsize}
+
+% Python
+\newminted{python}{frame=single, framesep=6pt, breaklines=true, fontsize=\scriptsize}
+\newmintedfile{python}{frame=single, framesep=6pt, breaklines=true, fontsize=\scriptsize}
+
+% Plain text
+\newminted{text}{frame=single, framesep=6pt, breaklines=true, breakanywhere, fontsize=\scriptsize}
+\newmintedfile{text}{frame=single, framesep=6pt, breaklines=true, breakanywhere, fontsize=\scriptsize}
+
+% Document
+% --------
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+
+        % only works if a paragraph has started.
+        \includegraphics[width=0.8\textwidth]{img/mse_logo}~\\[1.5cm]
+        \textsc{\Large \School}\\[0.25cm]
+        \textsc{\Large \Faculty}\\[1.5cm]
+
+        % Title
+        \HRule \\[0.4cm]
+        { \huge \bfseries \Course \\[0.4cm] }
+        \HRule \\[1.5cm]
+
+        % Author and supervisor
+        \begin{minipage}[t]{0.4\textwidth}
+            \begin{flushleft} \Large
+                \emph{Authors:}\\ \Authors
+            \end{flushleft}
+        \end{minipage}
+        \begin{minipage}[t]{0.4\textwidth}
+            \begin{flushright} \Large
+                \emph{Supervisors:}\\\Supervisors
+            \end{flushright}
+        \end{minipage}~\\[1.5cm]
+
+        \begin{center}
+            \includegraphics[scale=0.7]{img/logo_hes-so}
+        \end{center}
+
+        \vfill
+
+        % Bottom of the page
+        {\large \Place, \today}
+
+    \end{center}
+\end{titlepage}
+
+\tableofcontents
+
+
+\chapter{Setup Phamerator}
+\section{Before}
+
+This chapter details what has been made to use Phamerator on an "ubuntu-14.04.3-desktop-amd64" virtual machine.
+
+You'll see that biopython need to be downgrade to a version < 1.50 because of Clustalw. 
+
+
+\section{Procedure}
+
+\textcolor{red}{This procedure has been tested on 30.03.2016 !}
+
+\begin{verbatim}
+	sudo apt-get update
+	sudo apt-get upgrade
+	sudo apt-get install pyro clustalw python-biopython mysql-server python-mysqldb python-pygoocanvas curl
+	sudo wget http://phamerator.csm.jmu.edu/files/phamerator-1.1.tar.gz
+	tar -xvf phamerator-1.1.tar.gz
+	sudo apt-get remove python-biopython
+	wget http://biopython.org/DIST/biopython-1.50.tar.gz
+	tar -xzvf biopython-1.50.tar.gz 
+	cd biopython-1.50/
+	sudo apt-get install gcc
+	sudo apt-get install python-dev 
+	sudo python setup.py install
+	sudo apt-get install python-glade2 
+	sudo apt-get install easy_install
+	sudo apt-get install python-setuptools
+	sudo easy_install weblogo
+	--> HAVE TO ???? Tools/gtk/install-dependencies
+	sudo apt-get install python-webkit
+	sudo apt-get install python-webkit-dev
+	cd ../phamerator-1.1/phamerator 
+	sudo ./Phamerator 
+   
+\end{verbatim}
+
+You will be prompt to authorized Phamerator to download BLAST. In addition you will be ask to give your sql password to update the database.
+
+\section{PhamDB}
+https://github.com/jglamine/phamdb/wiki/Using-PhamDB
+
+Software to build db usefable with phamerator.
+
+\subsection{Pre-requis}
+You need Docker to install this software. Follow the installation from this link: https://docs.docker.com/engine/installation/linux/ubuntulinux/ 
+
+\subsection{Utilisation}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
+

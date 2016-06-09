@@ -1,0 +1,2139 @@
+LOCUS       KF771237               46847 bp    DNA     linear   PHG 12-JUL-2014
+DEFINITION  Escherichia phage bV_EcoS_AHP42, complete genome.
+ACCESSION   KF771237
+VERSION     KF771237.1  GI:583927248
+KEYWORDS    .
+SOURCE      Escherichia phage bV_EcoS_AHP42
+  ORGANISM  Escherichia phage bV_EcoS_AHP42
+            Viruses; dsDNA viruses, no RNA stage; Caudovirales; Siphoviridae.
+REFERENCE   1  (bases 1 to 46847)
+  AUTHORS   Niu,Y.D., McAllister,T.A., Nash,J.H., Kropinski,A.M. and
+            Stanford,K.
+  TITLE     Four Escherichia coli O157:H7 Phages: A New Bacteriophage Genus and
+            Taxonomic Classification of T1-Like Phages
+  JOURNAL   PLoS ONE 9 (6), E100426 (2014)
+   PUBMED   24963920
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 46847)
+  AUTHORS   Niu,Y.D., McAllister,T.A., Kropinski,A.M. and Stanford,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-OCT-2013) Alberta Agriculture and Rural Development,
+            100-5401-1st Ave. S., Lethbridge, Alberta T1J 4V6, Canada
+  REMARK    Sequence of coliphage related to vB_EcoS_Rogue1
+FEATURES             Location/Qualifiers
+     source          1..46847
+                     /organism="Escherichia phage bV_EcoS_AHP42"
+                     /mol_type="genomic DNA"
+                     /isolation_source="Alberta beef cattle feedlot"
+                     /db_xref="taxon:1416028"
+                     /lab_host="E. coli O157:H7 R508 (phage type 14)"
+                     /country="Canada"
+                     /collection_date="2007"
+                     /collected_by="Jenilee Peter"
+                     /identified_by="Dongyan Niu"
+     gene            1..516
+                     /locus_tag="AHP42_01"
+     CDS             1..516
+                     /locus_tag="AHP42_01"
+                     /note="similar to YP_277480.1 packaging protein gp3
+                     [Enterobacteria phage JK06]and AFM76567.1 terminase small
+                     subunit [Enterobacteria phage vB_EcoS_Rogue1]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="terminase small subunit"
+                     /protein_id="AHI60547.1"
+                     /db_xref="GI:583927249"
+                     /translation="MSEEKKIHQKIGNFKELYNKKYGDIANLKINHRYTPEQVFDMAV
+                     RYFSWAEEQAIKAIETASFQGVVTENLVHKPRIFTITGFQLFCGVGHNAISKWRSSPG
+                     FDEVMEFVDSVIFEQKYQLGVNNIVNPGLIGKDLGIDKPQEVNINNASNAVVNDEEAM
+                     KAALESIVDKL"
+     regulatory      503..530
+                     /regulatory_class="promoter"
+                     /note="similar to TTGACA(N15-18)TATAAT with 1bp mismatch"
+     regulatory      532..561
+                     /regulatory_class="terminator"
+                     /note="rho-independent terminator; discovered using
+                     TransTermHP v2.09"
+     gene            562..1077
+                     /locus_tag="AHP42_02"
+     CDS             562..1077
+                     /locus_tag="AHP42_02"
+                     /note="similar to NP_858964.1 endonuclease of the HNH
+                     family [Xanthomonas phage Xp10] and YP_003858386.1 homing
+                     endonuclease RB16 4 [Enterobacteria phage RB16] and
+                     YP_002922896.1 HNH endonuclease [Escherichia phage wV8]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="HNH endonuclease"
+                     /protein_id="AHI60548.1"
+                     /db_xref="GI:583927250"
+                     /translation="MLDRAKPMPPLDFLRGILSYNPETGKLTWTSKVSSKTIIGSEAG
+                     TLHKASGRYQVQIQGKIYKSSRIAFYLYYGFEPVGAVDHINRDPSDDRISNLRDASLS
+                     QNGMNKSMMSNNTSGYKGVSYSKRRNEYIAYVKINGKMMFGGWFKKKEEAAKVAASMR
+                     ESIHGEFCNHE"
+     gene            1334..2641
+                     /locus_tag="AHP42_03"
+     CDS             1334..2641
+                     /locus_tag="AHP42_03"
+                     /note="similar to AFM76568.1 terminase large subunit
+                     [Enterobacteria phage vB_EcoS_Rogue1]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="terminase large subunit"
+                     /protein_id="AHI60549.1"
+                     /db_xref="GI:583927251"
+                     /translation="MLKLKKVRNLSLSFSDSLVKRNSKRVRDLIKSTEFQELWPCKFG
+                     TCKDDEIQVLDDSGKVKFESISKAIGGQITGARGGYITDNYSGCLMLDDVDKADDMFS
+                     KVRREAVHTLLKNTIRSRRASSVKGKATPILSIQQRLHTQDSTWFMTSGGMGIDFDVV
+                     KIPALVTEEYVNELPDWIREQFEKDVLSSEYVERDGVKYYSYFPQKESVHDLMAMWDS
+                     DPYTFLSQYQQSPVALGGNLINVDWFARLDENNRPPVKYDYRFITADTAMTTKSYSDY
+                     SVFQLWGRKDNRLYLLDMVRGKWEAPELEQTLLDFEGKHRAASKTDGILRKVIIEKKA
+                     SGIGLIQSAGRVMRTPIEPFVPDTDKLTRVMSALPQIKAGNVVLPDSAPWLTSLLTEF
+                     SAFTADDSHPHDDIVDTTTMAINCELNLSDDPRARLMRLAGVK"
+     regulatory      2654..2679
+                     /regulatory_class="terminator"
+                     /note="rho-independent terminator; discovered using
+                     WebGeSTer and TransTermHP v2.09"
+     gene            2691..3965
+                     /locus_tag="AHP42_04"
+     CDS             2691..3965
+                     /locus_tag="AHP42_04"
+                     /note="similar to AFM76569.1 putative portalprotein
+                     [Enterobacteria phage vB_EcoS_Rogue1]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="portal protein"
+                     /protein_id="AHI60550.1"
+                     /db_xref="GI:583927252"
+                     /translation="MVKADSYANIFLSGSDGSEVYGKFGSLGLTAPAQLEQLYVSSAL
+                     VRRIIDIVPEVALGAGFSIEGIDDEGAFWSRWDDLGLSDNVIDALAWARLYGGAAVVA
+                     IVKDGRALTSPVREGAELETVRVYDRQQIKVQTREENPRNARFGKPLTYRITPNGSAT
+                     FYDVHYTRCHIIDGERVPNNLRRNNDGWGASVLTGDLIDAIDDYQNCERLATQLLRRK
+                     QQAVWKAKGLADLCDDSDGFGAARLRLAQVDNNSGVGQAIGIDADSEEYNVLNSDIGG
+                     IDTFLSQKFDRIVALSGIHEIILKGKNVGGVSASQNTALETFYGYVDRKRKAELLPLL
+                     EFLLPFIVTEQEWSVEFNPLSQVSDKDKSEILEKNVNSVAALIAAGIIDADEARDTLR
+                     AISTEVKIGEGSIQTEVVINESEDPLDVSANN"
+     gene            3946..4689
+                     /locus_tag="AHP42_05"
+     CDS             3946..4689
+                     /locus_tag="AHP42_05"
+                     /note="similar to AFM76570.1 head morphogenesis protein
+                     [Enterobacteria phage vB_EcoS_Rogue1] and YP_277472.1 head
+                     morphogenesis protein [Enterobacteria phage JK06]; Motifs:
+                     1 transmembrane domains shown by Phobius and SPLIT v4.0"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="head morphogenesis protein"
+                     /protein_id="AHI60551.1"
+                     /db_xref="GI:583927253"
+                     /translation="MYPQIIESQINRSLLVAVSELIEQMKLSAKRLKIDTAQEIEEED
+                     SDLSDVISALLSGFVSTLPALALAIYRYNSAQFLKVANNSGGKNNPVVLALGLYGINA
+                     DEPWWLDTRNSWIVGTQLSASKLLNNIKDDFINNAITAQAGNTVDLDDRYRIYRKRTA
+                     NIAAGITGSLNSNLMRRRLEDAGVSQYVWRGRLDDKERPSHVLREGVSFKSDGSDAGK
+                     LDGLAIFPGQQYGCRCWAVPKWENLINEE"
+     gene            4691..5800
+                     /locus_tag="AHP42_06"
+     CDS             4691..5800
+                     /locus_tag="AHP42_06"
+                     /note="similar to YP_277469.1 hypothetical protein JK_31
+                     [Enterobacteria phage JK06]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="prohead protease"
+                     /protein_id="AHI60552.1"
+                     /db_xref="GI:583927254"
+                     /translation="MRYDSAKVKARFDENGFLVDTPVVARVGVQTYYMPDGSERREFR
+                     PASEVFKADSLQSYQGKPLTLGHVVVNSENAKEVVVGSVSGSAMRQDSAVIVPLTVYD
+                     KEAIEKAKSGVAGELSVGYNTVDIESPGWGSNETGEYKLDGEYASQDEIPADWVRFDA
+                     LQTNIVVNHIALVYKGRAGIAKLNLDAEQENPYTDTVQSNKEDKLMIKIKLDGEQEFE
+                     IAPEVANHIEAVKADAEQAKAKADTLEAERDALKAKVDGIPAEIEAAVAKAKADADEL
+                     ATLVAVAAEAGVKCDGLDAKAIKVAYVKEVSGLDVSEKSDAYIDAAFDIAKESDKMAE
+                     VRKATVASDKSDSKEELTLIDPRARIAKAKSNKEK"
+     gene            5803..6297
+                     /locus_tag="AHP42_07"
+     CDS             5803..6297
+                     /locus_tag="AHP42_07"
+                     /note="similar to YP_398970.1 hypothetical protein rtp26
+                     [Enterobacteria phage RTP]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60553.1"
+                     /db_xref="GI:583927255"
+                     /translation="MAFRQAALAGMVSDTSLYNIDGACVLGGTDQVQVGQAVGVSEVE
+                     VTGTSSSGAGHKTVVGSGITTANVYGVAVRSHYEAVDGFYRPQEAINVMTAGRIWMKT
+                     TLSAAPAFGTAITLDATGIVVSSGAVEPAGWTFAGGFIAGTAVQGQPEPYDGALIEVQ
+                     VKQK"
+     regulatory      6314..6338
+                     /regulatory_class="terminator"
+                     /note="rho-independent terminator; discovered using
+                     WebGeSTer and TransTermHP v2.09"
+     gene            6392..6865
+                     /locus_tag="AHP42_08"
+     CDS             6392..6865
+                     /locus_tag="AHP42_08"
+                     /note="similar to YP_277466.1 JK_26P [Enterobacteria phage
+                     JK06]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60554.1"
+                     /db_xref="GI:583927256"
+                     /translation="MALEFMEVVAKTYGDLERLVKAKMLEGWMPFDSLINNRFTIAIV
+                     MVKGSDAQLTDFRILGDSTRVKLISKANKLIADDPEWEVFGHPQIFGADDYIVSLSKG
+                     FKGTTGRDGMAGPQGPQGPRGEVGPQGPQGEKGDTGPQGLKGDKGDKGDPGALVT"
+     gene            6902..7276
+                     /locus_tag="AHP42_09"
+     CDS             6902..7276
+                     /locus_tag="AHP42_09"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60555.1"
+                     /db_xref="GI:583927257"
+                     /translation="MDTQFPGIANTWFRVQVTSSSRFTFFALKEGSGTTSIDGDVKYN
+                     DEDDTYRRVKYSGVFTSASNYTFINTGFGVTSARCVEFYTYLNDGSSGYFYRVEVFIA
+                     GRPAFTTITQPDFTVRITRLDA"
+     regulatory      7280..7320
+                     /regulatory_class="promoter"
+                     /note="similar to TTGACA(N29)TATAAT with 2bp mismatch"
+     gene            7357..8301
+                     /locus_tag="AHP42_10"
+     CDS             7357..8301
+                     /locus_tag="AHP42_10"
+                     /note="similar to YP_006987838.1 hypothetical protein
+                     ACG-M12_0020 [Enterobacteria phage vB_EcoS_ACG-M12] and
+                     YP_398971.1 hypothetical protein rtp27 [Enterobacteria
+                     phage RTP] and AFM76574.1 major capsid protein
+                     [Enterobacteria phage vB_EcoS_Rogue1] and YP_277465.1
+                     hypothetical protein JK_25 [Enterobacteria phage JK06]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="major capsid protein"
+                     /protein_id="AHI60556.1"
+                     /db_xref="GI:583927258"
+                     /translation="MTIKLDAFEQNKITEHLRNMGVEKADAAGIWTIKQLTQTLNRNY
+                     DREYAETSVVNLFPVTNEIGAYAKYFEYGEMDGVGLAQIVADYSDDLPTVDALMQEKQ
+                     GKVFRFGNAFLVSIDEIAAGAATGQSLSSRKQALAFEAHDNLLDKLVWKGSAPHGIKS
+                     VFDYDNVNQVVPSGAWTTAQTAYADVNSLLDIIETATQGIHRANRLLLPASARRVMQT
+                     LVPNTGISYFEFFARNNNGVQVEFLQLLDNYDGANGKAAIAYEYDPLNMSIEIPEATH
+                     VLPAQPKDLHFKFPVTSKSTGLVIYRPLTVAVMKGITF"
+     regulatory      8307..8329
+                     /regulatory_class="terminator"
+                     /note="rho-independent terminator; discovered using
+                     WebGeSTer and TransTermHP v2.09"
+     gene            8392..8640
+                     /locus_tag="AHP42_11"
+     CDS             8392..8640
+                     /locus_tag="AHP42_11"
+                     /note="similar to YP_277464.1 hypothetical protein JK_24
+                     [Enterobacteria phage JK06]and AFM76576.1 and hypothetical
+                     protein Rogue1_0024 [Enterobacteria phage vB_EcoS_Rogue1]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60557.1"
+                     /db_xref="GI:583927259"
+                     /translation="MIKLEHVGACLIRFAGNDYLPGQVIEVEELNDGFKRLIAEGRLE
+                     VMEDRKATKKVIEEIESKKVKKKEPKTVDEAENGGEYK"
+     regulatory      8648..8671
+                     /regulatory_class="terminator"
+                     /note="rho-independent terminator; discovered using
+                     WebGeSTer and TransTermHP v2.09"
+     gene            8687..9088
+                     /locus_tag="AHP42_12"
+     CDS             8687..9088
+                     /locus_tag="AHP42_12"
+                     /note="similar to AFM76577.1 hypothetical protein
+                     Rogue1_0025 [Enterobacteria phage vB_EcoS_Rogue1] and
+                     YP_277463.1 hypothetical protein JK_23 [Enterobacteria
+                     phage JK06]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60558.1"
+                     /db_xref="GI:583927260"
+                     /translation="MNEEVIAYIRQLYPPLNNQPDDVLNAWIEVAKLFICLDKFGDKQ
+                     VQALAFYTLHLLSQDIALKTENDSSQTSSDRVKSYSLSGEYTISYDTSTAAASSSNLE
+                     ASSWGKLYIDLMRRKVGRWGLITSGGSRCCR"
+     gene            9085..9453
+                     /locus_tag="AHP42_13"
+     CDS             9085..9453
+                     /locus_tag="AHP42_13"
+                     /note="similar to AFM76578.1 hypothetical protein
+                     Rogue1_0026 [Enterobacteria phage vB_EcoS_Rogue1] and
+                     YP_277461.1 hypothetical protein JK_22 [Enterobacteria
+                     phage JK06]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60559.1"
+                     /db_xref="GI:583927261"
+                     /translation="MNHAFLQQQIKAGINLLSDGDGVFEATTQPTISIVNGYEVRTPG
+                     TSYTVRGVIREFKARDIDGDIIKFGDRRGIFTTDSVVSEGDRIYIDQEAYTVIDPRPV
+                     KPTGTVIAYRPVLRRAATYG"
+     gene            9446..9874
+                     /locus_tag="AHP42_14"
+     CDS             9446..9874
+                     /locus_tag="AHP42_14"
+                     /note="similar to AFM76579.1 hypothetical protein
+                     Rogue1_0027 [Enterobacteria phage vB_EcoS_Rogue1] and
+                     YP_277459.1 phage-related hypothetical protein
+                     [Enterobacteria phage JK06]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60560.1"
+                     /db_xref="GI:583927262"
+                     /translation="MANDNLLFKLKINDWADSVMEAIPEIIDDALDNAARDIVKLSPV
+                     DTGRFRGNWQATGNRPSLIGLNNYDKDGADTIKSLRRQIHALARDKATHTIYITNALT
+                     YALPLEFGYSGQAPNGVLGIVTKRLGFYFNDAIRKKSNAL"
+     gene            9864..10262
+                     /locus_tag="AHP42_15"
+     CDS             9864..10262
+                     /locus_tag="AHP42_15"
+                     /note="similar to AFM76580.1 hypothetical protein
+                     Rogue1_0028 [Enterobacteria phage vB_EcoS_Rogue1] and
+                     YP_277458.1 hypothetical protein JK_18 [Enterobacteria
+                     phage JK06]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60561.1"
+                     /db_xref="GI:583927263"
+                     /translation="MHYEMMVSARKLVSDAAVDIAGGVPVAYENCGFTPPKNGSLWLK
+                     FDYTEVDSVTWGLQRTCRYYVGMVQVSIFFSPGEGTDRPRQLAGRLSEAFADGTMLDS
+                     GYIYEGGSVFPPVKSQSGWFIPVRFYVRMD"
+     gene            10277..10927
+                     /locus_tag="AHP42_16"
+     CDS             10277..10927
+                     /locus_tag="AHP42_16"
+                     /note="similar to YP_277457.1 hypothetical protein JK_17
+                     [Enterobacteria phage JK06] and AFM76581.1 major tail
+                     protein [Enterobacteria phage vB_EcoS_Rogue1]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="major tail protein"
+                     /protein_id="AHI60562.1"
+                     /db_xref="GI:583927264"
+                     /translation="MAHLSNGTQIFLQGSKSESVAVTAITNAAQPVMTVDDASTFAAG
+                     DFIVVESSSWSKLSEKQLRVVTSTATTITVEGIDTTDPLQFPAGGTASIYKVLTWYEM
+                     PCVQDVSTDGGEQQFVTYQCLADDREQQIPTYKSAVNTTYTFAHEFTNPIYPVLRNYD
+                     ESGALIAIRAYVPKAGEVRLWTGTIAFNETPNVSVNEIETVSVAITVRGRYSFLAA"
+     regulatory      10933..10958
+                     /regulatory_class="terminator"
+                     /note="rho-independent terminator; discovered using
+                     WebGeSTer and TransTermHP v2.09"
+     regulatory      10940..10968
+                     /regulatory_class="promoter"
+                     /note="similar to TTGACA(N15-18)TATAAT with 1bp mismatch"
+     gene            11002..11316
+                     /locus_tag="AHP42_17"
+     CDS             11002..11316
+                     /locus_tag="AHP42_17"
+                     /note="similar to YP_277456.1 hypothetical protein JK_16
+                     [Enterobacteria phage JK06]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60563.1"
+                     /db_xref="GI:583927265"
+                     /translation="MAKFKLKLGALPDFKLPVKFQMINGEEAEVIFNAKHRKAKEIQE
+                     VFQTEGLKDFDFVKEICSGWNLEEEFNDENIEELVSLFPASVLALTNAYMQALAGQRA
+                     KV"
+     gene            11379..11633
+                     /locus_tag="AHP42_18"
+     CDS             11379..11633
+                     /locus_tag="AHP42_18"
+                     /note="similar to YP_277454.1 hypothetical protein
+                     [Enterobacteria phage JK06] and AFM76583.1 hypothetical
+                     protein Rogue1_0031 [Enterobacteria phage vB_EcoS_Rogue1]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60564.1"
+                     /db_xref="GI:583927266"
+                     /translation="MRRSDYEDEEPEELHFDDDMMLAWTVYQAASTQWRVGMNGATGI
+                     DYSVLPFLFDVYNVKDKEMTLNDLRILECKALEMMQVRQK"
+     regulatory      11637..11657
+                     /regulatory_class="terminator"
+                     /note="rho-independent terminator; discovered using
+                     TransTermHP v2.09"
+     gene            11669..14722
+                     /locus_tag="AHP42_19"
+     CDS             11669..14722
+                     /locus_tag="AHP42_19"
+                     /note="similar to AFM76584.1 tail tape measure protein
+                     [Enterobacteria phage vB_EcoS_Rogue1] at N-terminus and
+                     YP_277449.1 tail length tape measure protein precursor
+                     [Enterobacteria phage JK06]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="tail tape measure protein"
+                     /protein_id="AHI60565.1"
+                     /db_xref="GI:583927267"
+                     /translation="MAEFAGITLGVDVRQVDQGIKSLQEFKRANEQAAAGVSEFVNAE
+                     LVAKNQARDTARYLSEQRSAFQSLQSAIDPTASKLRKLQDAASSLDKAFSAGVVPEAE
+                     FYRLGEALETQTNRLIRSRSALTEEGRAAIEAAKNKESAERQAQSFIRSLQAQADAAT
+                     LSRDEFLKLRAAQLGVSDQAAPIIDRITQASSNNTNAIANQSRAFQAAGISAGQYNQA
+                     LRFLPVQINDITSSIANGMPLFMVLTQQIPQITDSFGGFSNTLSAAQGAVIDYVSSIG
+                     ELRSSFADVRTLGNDAILRFGRAATIFGGAIVASLAVLGKAAYDSFIEVRQLNNAIIE
+                     TGRSSTLSVAAIKDYADQLNETSRATKGSIGDIYQSLVSNGRLTVSQINLIAKSVANL
+                     SAVSSRSAESIISDFDKIAKDPVKGLIELDKQFNFLSEGQLTLVNNLKETEGQTAAVT
+                     AALEIFAARNESVTKQIEGSLTPLELAWGDFRKFVSDTWDAIGDRTIGALNLFTDVIA
+                     ATIEQIRLIIGTGDKLINDFVIRGIEALQKIPGASGVGNGIAEQLRKDNDAIEKENIR
+                     LAKSIADRDARVRRGETGYLSVGEGSESQTGTSDRDSESRRKALADEIKAIEERSKKT
+                     KSGAKEERDLTISYESGVLALQAQLKVLQEHRQISDVISNERKQLFAEEAKFAILNER
+                     LADGTITKQQRSLLLQQDKILGLAREKAEIGDQIVLQERANKLLDDNIKKTRQINAEA
+                     ASISVGAGLSQREAERRRELAALEAQQISKGGSVDDTDFQALLQARQNFYNQEDALRG
+                     NWLAGVKSAFAETADELAKFNQIGSELAMSAFNGLTDQITNLVTTGEASFREFTASIL
+                     KQIARIATQLLLIKAIESTISSFGGSGGAIGSIGSAFGFASGGYTGNGGKYEPAGTVH
+                     KGEFVFTKEATSRIGVDNLYKLMRGYANGGVVGAGPGYATGGLVGGSNVNVGGVNVTV
+                     QTGLGGGGGNDAKQLESGIRVIIAEEITQSFQQGGTAYQFLRGYS"
+     gene            14754..15104
+                     /locus_tag="AHP42_20"
+     CDS             14754..15104
+                     /locus_tag="AHP42_20"
+                     /note="similar to YP_277448.1 putative minortail protein
+                     [Enterobacteria phage JK06]and AFM76585.1 minor tail
+                     protein [Enterobacteria phagevB_EcoS_Rogue1]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="minor tail protein"
+                     /protein_id="AHI60566.1"
+                     /db_xref="GI:583927268"
+                     /translation="MALDTFTWCTQIQGGSANFTNANNVRVVSFGNGYEQRGTGGYRT
+                     NKRTYNMTYTNTSWKEVLDFCFAHIITPFAWTTPQGELKLFVVAQDSISVTPNTREVQ
+                     TVSMQFVEVFTSMQ"
+     regulatory      15109..15132
+                     /regulatory_class="terminator"
+                     /note="rho-independent terminator; discovered using
+                     WebGeSTer and TransTermHP v2.09"
+     gene            15144..15911
+                     /locus_tag="AHP42_21"
+     CDS             15144..15911
+                     /locus_tag="AHP42_21"
+                     /note="similar to AFM76587.1 minor tail protein
+                     [Enterobacteria phage vB_EcoS_Rogue1] and YP_277447.1
+                     hypothetical protein JK_7 [Enterobacteria phage JK06])"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="minor tail protein"
+                     /protein_id="AHI60567.1"
+                     /db_xref="GI:583927269"
+                     /translation="MATPLSTKFENQLQSLFPGEVVTLIEVDGGKFGAPVYRFHGENI
+                     SYTPEEIMMAQSTGQLLPAKTITFRGEEYGARPFGIQGINMTSDGKANKVTLVVSNAD
+                     QNISALIRTYNGLVQAKVTIWITLRENINEDGTIADGDYRKLVYFIERPKQVDYNTAS
+                     FELTSPMDMDGIYIPARLVQSVCYWAQRNQYRSGNGCNYMGTRYFDKDNAPVTDPSQD
+                     FCAGTVRACKLRFGENNQLDFGGCAAASLQAKANQQT"
+     regulatory      15922..15957
+                     /regulatory_class="promoter"
+                     /note="similar to TTGACA(N24)TATAAT with 2bp mismatch"
+     gene            15979..16467
+                     /locus_tag="AHP42_22"
+     CDS             15979..16467
+                     /locus_tag="AHP42_22"
+                     /note="similar to YP_006987880.1 HNH endonuclease
+                     [Enterobacteria phage vB_EcoS_ACG-M12] and YP_398984.1 HNH
+                     endonuclease [Enterobacteria phage RTP]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="HNH endonuclease"
+                     /protein_id="AHI60568.1"
+                     /db_xref="GI:583927270"
+                     /translation="MNWNEIFEYRDGKLYWKVKLSRKVKVGSEAGCSSYANKGYCIIK
+                     VQGKVKLRHRIIWEMHNGPIPEKMEIDHIKGVDFGDFIENLRCVTKIDNQRNTKRPRT
+                     NNSGVIGVCFCSSSCKWKASIGDGSGKSGKVVYFGDSFDEAVRARRIAEIEFGYHKNH
+                     GR"
+     gene            16469..17215
+                     /locus_tag="AHP42_23"
+     CDS             16469..17215
+                     /locus_tag="AHP42_23"
+                     /note="similar to AFM76588.1 minor tail protein
+                     [Enterobacteria phage vB_EcoS_Rogue1] and hypothetical
+                     GP19 [Enterobacteria phage JK06]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="minor tail protein"
+                     /protein_id="AHI60569.1"
+                     /db_xref="GI:583927271"
+                     /translation="MLTPKVKLEIFRHANEVYPQESCGVVTQKGMAQKYHGITNVSKT
+                     PEQSFILDPMEFMEISDNESVVYVVHSHTGDGATTRPSAADICSCNECELPYVIVSIP
+                     EGDLRIIQPEKMPLAGRPWGLGSFDCWGLVMEFHKLHGVKLNDYRVDYQWWTNEYPDN
+                     IYDDNWELEGFELVRSNDIPIGSMVMMQIQSEKTNHAAIYIGDNKILHHLYGKMSKVD
+                     LYGDYYRERTVRIVRHKDLPEDAGYDPERD"
+     gene            17196..17762
+                     /locus_tag="AHP42_24"
+     CDS             17196..17762
+                     /locus_tag="AHP42_24"
+                     /note="similar to YP_277515.1 hypothetical tail fiber
+                     [Enterobacteria phage JK06] and AFM76598.1 tail fiber
+                     [Enterobacteria phage vB_EcoS_Rogue1]; Motifs: 1
+                     transmembrane domains shown by Phobius and TMHMM v2.0"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="tail assembly protein"
+                     /protein_id="AHI60570.1"
+                     /db_xref="GI:583927272"
+                     /translation="MTQNVIDVKLGLGLGRKFGKLHKLCVKTVPEAMRALSVNIPEFK
+                     EFMRSHVGQNTRFAVFVDGKNVNEHKINDLETVREIRIMPIPQGRKSGGLFQTILGGV
+                     LLVASYFFPVLLPVAVGLLAGGVAQLLAPQATGLNDQASKTSNRASYAFGSAVNTIAA
+                     GNPVCLPYGYRTVGGAVFSAGSYSEDIS"
+     regulatory      17769..17795
+                     /regulatory_class="terminator"
+                     /note="rho-independent terminator; discovered using
+                     WebGeSTer and TransTermHP v2.09"
+     gene            17843..21229
+                     /locus_tag="AHP42_25"
+     CDS             17843..21229
+                     /locus_tag="AHP42_25"
+                     /note="similar to YP_277442.1 tail fiber [Enterobacteria
+                     phage JK06]and AFM76590.1 tail fiber [Enterobacteria phage
+                     vB_EcoS_Rogue1]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="tail fiber protein"
+                     /protein_id="AHI60571.1"
+                     /db_xref="GI:583927273"
+                     /translation="MADLPKIYGSKGGSKKPHTPVEQEDNLISLNKIKVLLAVADGEV
+                     DSSFSLKDVYLADVPVQNQDNSFNYEGVTAEFRAGTQSQDYIAGLDGAASEIQVSREI
+                     NNDTPYIIAVNNSQLSAIRVKLFWPRLVKQEENGDLNGTTCEYAIDLSVNGAAYTEYT
+                     RGVANGKTTTGYDRSIRVNLPAEFSSALVRIRKLTPDSTSSTLVNGMQITTYQEVIDA
+                     KFRYPLTALVYVEFSSDLFPNGIPTIAIKKKWKLIRVPTNYNPETRTYSGTWDGTFKM
+                     AWSDNPAWVLYDLVVSQRYGLDQRELGVEIDKWGLYEAAQFCDQMVPDGKGGMEPRYT
+                     CNVVIQQKVEAYQLIRDICSIFRGLTFYDGEQIGIVVDRPRQPSYVFTNDNVVNGLFN
+                     RTFSSDKSLYTTANVQFDDVENNYQQDVEPVFDLEATRRFGYNPVDLTAIGCVRRSEA
+                     NRRGRWLLKTNLRSETVTFTTGLEGMIPMIGDVIAVNDQAWSSNYTLNLSGRIVEATG
+                     LQVFVPFAIDADPGDRILINKPDGSPEYRTIASVSADKLTLELNTAFSFTPQPDTVFA
+                     IDKQNLALQQYVVTGIQKANTDGEDSFQYSITAVQYDPNKYDEIDYGVNIDDRPTSIV
+                     DPDRILPPENITVTSYSKVVQGLSVETMVIGYDKVQYAKTYNVQWRKNNGNWINVPET
+                     ANTEVDIEGIYAGIYDVRVRAVTDQKSVSAWSDITTVSLTGKIGEPSAPPVITASDDE
+                     VFGIRVKWGFPTDSADTAYTELQHVPDNGDGTYNPESASLLTLVPYPQYEYWHTTLPA
+                     GNVRWYRARIIDRIGNVSPWTDFVRGMASDDVSAIIGDIKVDIENSDGYKYLLQNAID
+                     ANTDIQNQAEAIIENALANDTDVRVMKRENGARKAEYRQAVSLIADETQARVDALTQL
+                     KAQIDDEIVGQITTIETALATETEARATADTQLSARLGDNEAALNQKLDSYATVEGVG
+                     VQYGVKLGLKYNGVEYGAGMSMELTGSGGNVCSQFIFDANRFAISNGISSGSGQWSLP
+                     FVVENNQVFIQSAVIQDGSITNAKIGNRIQSNNYVQGSQGWAIDKAGSAELNNATVRG
+                     SLYASNGNFAFNGTNNTVVINNNGITVNLPNGGRVVVGVW"
+     regulatory      complement(21228..21254)
+                     /regulatory_class="terminator"
+                     /note="rho-independent terminator; discovered using
+                     WebGeSTer"
+     regulatory      21236..21262
+                     /regulatory_class="terminator"
+                     /note="rho-independent terminator; discovered using
+                     WebGeSTer and TransTermHP v2.09"
+     gene            complement(21261..22223)
+                     /locus_tag="AHP42_26"
+     CDS             complement(21261..22223)
+                     /locus_tag="AHP42_26"
+                     /note="similar to AFM76591.1 hypothetical protein
+                     Rogue1_0039 [Enterobacteria phage vB_EcoS_Rogue1] and
+                     YP_277441.1 hypothetical protein JK_1 [Enterobacteria
+                     phage JK06]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60572.1"
+                     /db_xref="GI:583927274"
+                     /translation="MPQGILIDLNDGRPAMEITAGLRVPAVTGSINTSGLSSPASSWD
+                     FGLTMTPGSTAFCLPTQAVYVDAYDVIPEVYYMNGFSKVNDGVGRITLSNFNGANGRI
+                     LQFGGQCFEILPASSQSSPGVLVENSTDFTAISSNSRLMTAAWVGGIQVNGSASLPVG
+                     GIPFGKWDNPNVSLESDGSTIWCRDITYNGIDDVAASTYVQLVIFNNTPPVAGPGLTI
+                     SNSAGQIVFSSVRRPFVLSGFMQINNGYQSVNGGFFPILRCGATTRVTGGYNNLRYKG
+                     ICMSGGSVRAVPGTVIGNYSTQTGAQFPFDTNISMALPFIPSFY"
+     gene            complement(22223..22468)
+                     /locus_tag="AHP42_27"
+     CDS             complement(22223..22468)
+                     /locus_tag="AHP42_27"
+                     /note="similar to AFM76592.1 hypothetical protein
+                     Rogue1_0040 [Enterobacteria phage vB_EcoS_Rogue1] and
+                     YP_006987857.1 phage lipoprotein [Enterobacteria phage
+                     vB_EcoS_ACG-M12]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative lipoprotein"
+                     /protein_id="AHI60573.1"
+                     /db_xref="GI:583927275"
+                     /translation="MTNFIKSAIIAAAVIMTVGCSSGPRPDGWCATQAGDVCVAKWKG
+                     GVIVAAGEVDIRYAGIESKVGGGYGGSVADHGSKEWK"
+     regulatory      22641..22666
+                     /regulatory_class="promoter"
+                     /note="similar to TTGACA(N14)TATAAT with 1bp mismatch"
+     gene            22786..22932
+                     /locus_tag="AHP42_28"
+     CDS             22786..22932
+                     /locus_tag="AHP42_28"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60574.1"
+                     /db_xref="GI:583927276"
+                     /translation="MHIDIDRVQKWWIHWLQELHSVSMRRTESQDVFRCVLRRYTDST
+                     NNQN"
+     regulatory      22964..22983
+                     /regulatory_class="terminator"
+                     /note="rho-independent terminator; discovered using
+                     TransTermHP v2.09"
+     gene            23056..23766
+                     /locus_tag="AHP42_29"
+     CDS             23056..23766
+                     /locus_tag="AHP42_29"
+                     /note="similar to AFM76593.1 hypothetical protein
+                     Rogue1_0041 [Enterobacteria phage vB_EcoS_Rogue1] and
+                     YP_277522.1 hypothetical protein JK_82 [Enterobacteria
+                     phage JK06]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="regulatory protein"
+                     /protein_id="AHI60575.1"
+                     /db_xref="GI:583927277"
+                     /translation="MNLINIDENVTMSSLEIAELTGKRHDNVVRDTREMLNDNEICSG
+                     FSQSHSSNLRSEIQNESRGSNVDRQIKHPFESEYKNSRGQTQPCFNLPYRETMILMVG
+                     YNRKVAAKIVDRWLHLELENKLLKEHMKKMVSLDEVKVYKVETASAKAAQHRAEDNYY
+                     AIEKFMFKNMDKCENPAELDEQYFDVKFESNRYHDSQELVYKYQAQLEVACEKLKAKD
+                     DLIANLVHKGEPLKLGKK"
+     gene            23919..24113
+                     /locus_tag="AHP42_30"
+     CDS             23919..24113
+                     /locus_tag="AHP42_30"
+                     /note="similar to AFM76594.1 hypothetical protein
+                     Rogue1_0042 [Enterobacteria phage vB_EcoS_Rogue1]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60576.1"
+                     /db_xref="GI:583927278"
+                     /translation="MAYFIIQERNNPIFGTCYYCVDGSGYTSNKSEAARFETKQEAIE
+                     YAHVTDEELGSVMKIIKVKE"
+     gene            24117..25085
+                     /locus_tag="AHP42_31"
+     CDS             24117..25085
+                     /locus_tag="AHP42_31"
+                     /note="similar to AFM76595.1 putative exodeoxyribonuclease
+                     VIII [Enterobacteria phage vB_EcoS_Rogue1]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="exodeoxyribonuclease VIII"
+                     /protein_id="AHI60577.1"
+                     /db_xref="GI:583927279"
+                     /translation="MSFKVYTSDELTNEAYHKESDHVSGSGLAHIFSTCPAAYKFAEH
+                     DDSNKALKFGTLAHTVILENYVFDATYYRQPAQEEFEDLITSKTALATRLKSMGIAGT
+                     SGKDYPELMEILALSGESLNVWWDIQRSSEVKANGREIVSAKDFDTVHAMREVLCGIP
+                     AYNAIVNSKTAQRELSIFGEINECGVKVRLDHVDVVDDVVYIRDYKTTSDASPSGFGR
+                     LAFKHGYLLKMALQHDLFVRAFNEKRRVVVQLLCQEKKSPFLPMCYTITKEHLKVGRL
+                     QYMSALSTYKQCKKLDIWPGYGFGETEMELQVPEYEMKKYEDSTNS"
+     gene            25142..25789
+                     /locus_tag="AHP42_32"
+     CDS             25142..25789
+                     /locus_tag="AHP42_32"
+                     /note="similar to AFM76596.1 putative recombination
+                     protein [Enterobacteria phage vB_EcoS_Rogue1] and
+                     YP_277518.1 hypothetical protein JK_79 [Enterobacteria
+                     phage JK06]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="recombination protein"
+                     /protein_id="AHI60578.1"
+                     /db_xref="GI:583927280"
+                     /translation="MKTSESNKTVLQALFKARTGFAKAARDKQNSHLKNRYATLDSML
+                     EAVIPALDDNDLMIMQSMLETSTADNLNVETTLYHVSGEWVSFFMIMPIVKKDPQGVG
+                     SAFTYARRYSLAAALGISQSDDDAQMAVKSVKDWKRDIEKAETREELIEIYKSCKSQA
+                     DTATWGIVEKAIIDKQAEIKMASASGFNPAKPKEVAKKVANATNEVVESQSIEQF"
+     gene            25837..26259
+                     /locus_tag="AHP42_33"
+     CDS             25837..26259
+                     /locus_tag="AHP42_33"
+                     /note="similar to YP_277517.1 hypothetical protein JK_77
+                     [Enterobacteria phage JK06]and AFM76597.1 single-stranded
+                     DNA binding protein Ssb [Enterobacteria phage
+                     vB_EcoS_Rogue1]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="single-stranded DNA binding protein Ssb"
+                     /protein_id="AHI60579.1"
+                     /db_xref="GI:583927281"
+                     /translation="MHTLTGVIRKAPFTKDGQNAKGNWKMYAIEMSESYKTRDGERKY
+                     SNYRATFFASEAQISWYDEAFQEGKVISVSGDSLAVNEREHNGKTYITLELQNPRLMF
+                     SQRGGESEQQQQRQQAQQQQRQQPQQQSRFSDEDDIPF"
+     regulatory      complement(26263..26286)
+                     /regulatory_class="terminator"
+                     /note="rho-independent terminator; discovered using
+                     TransTermHP v2.09"
+     regulatory      26273..26295
+                     /regulatory_class="terminator"
+                     /note="rho-independent terminator; discovered using
+                     TransTermHP v2.09"
+     gene            complement(26291..29008)
+                     /locus_tag="AHP42_34"
+     CDS             complement(26291..29008)
+                     /locus_tag="AHP42_34"
+                     /note="similar to YP_277515.1 hypothetical tail fiber
+                     [Enterobacteria phage JK06] and AFM76598.1 tail fiber
+                     [Enterobacteria phage vB_EcoS_Rogue1]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="tail fiber"
+                     /protein_id="AHI60580.1"
+                     /db_xref="GI:583927282"
+                     /translation="MAIYDAGTASLAADGTVTGVGTTWRQPLTLIRVGATMIFNTTPT
+                     SIVTIAEILSDTEIRVFNDKGFTAPAGTQYSILAHDGITVQGLAQDVAETLRYYQSRE
+                     TEVAAAVDAFNQFDSDSFQQSVNNVNMQSQQVAVDAAQVSSDKDQVSSDRQLAESSAN
+                     SASSSATIASSAAASVSSALVVDFSNGGEINSRTQPAIYFNDNHVSVYYWSGSVPKSI
+                     PQNSSPQSTGGIGVGFWIQQDYTRRFESVSAMTNSARIYDLEVVYCDSYIGGLGYGGG
+                     FFVCKPESSLSYGLSSGLVFESSTGYYWERICSGELSPCELGAIKSSTSDSTKQIQQI
+                     LDSGLALKLDSDYMASNLVMRNKSCSIIGFGKHKSRITQLSSSIGSLIEVSDSCSLIH
+                     IEGIALYGTGAQQDTAFTDGTAGIYIPTPTGLSTNYPFNTGADPRRDLTIRNTHIAGF
+                     DVYGIFVAAGNYSPVLDDVLIQHIKKDGLINETTDFTWNNIQVNTCGRNCLILRNAGN
+                     CRIVGGKFIWSGWSAYNELDDAYGILIDNCQNITMSAIEAQDCGGDGVRIVNSRNVVF
+                     NGLNSNRNSINSNYRDYNVSFSNSSVRIYGFVGLNYVSNNGDGRPTSAGNFRFLDSRS
+                     DVVIDGVVESGYFGPNFSGDTNYVAEYSGNLKINGLIDKRKTRIKPANDTSAFDGVSN
+                     TPVFAAAASSVGQQYWLRLSQANKDKIICTGFDPSLGFTATCNISPTITVAEDFNLMA
+                     IGTGFGVNSNALYLQYNVMASGEHSVSLLISASGETRVLSGVLPVSSRMVNGGTYNIA
+                     LGFDVSGKVWWSILNLNTGFRVRRSFDSQYIDIDVRPILTTAGNYVTMYSGQGAGDVA
+                     CSGYGFGVYVGSYSDESDYCASRYYSLKGGVDLTKQSVFLSLNGDVTSQ"
+     gene            complement(29087..30010)
+                     /locus_tag="AHP42_35"
+     CDS             complement(29087..30010)
+                     /locus_tag="AHP42_35"
+                     /note="similar to YP_277514.1 hypothetical alpha
+                     replication protein [Enterobacteria phage JK06] and
+                     AFM76599.1 DNA primase [Enterobacteria phage
+                     vB_EcoS_Rogue1]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA primase"
+                     /protein_id="AHI60581.1"
+                     /db_xref="GI:583927283"
+                     /translation="MNYDKNEVIPKMAGLWKSFYAKELGWNDRHLSKKHGPCPYCFGT
+                     DRFRFTDEIGSEKGNGAAVCSKCGSDSGIGWVMKCSGLRFAEAINLLGDWLNLTPVEI
+                     IVKANKAASRVQRYNFGAQASIESIEKVISRTKSVEMTQLTRFEAIITEREYKIGIKG
+                     SGEEIIAEQCFMVYEDGLSDEPCNVKFIDEEGNESYLAKDYTRGSVVPVSKCSDGAIY
+                     LTVGWINALHVSACTKRTTYDCLTHHNLEMVAYELRNKECRIACLADEKESLYVADDR
+                     GLKVVIPKGGNFKMGLERRLYNPQDLIDKHS"
+     regulatory      complement(30024..30057)
+                     /regulatory_class="terminator"
+                     /note="rho-independent terminator; discovered using
+                     WebGeSTer and TransTermHP v2.09"
+     gene            complement(30063..30536)
+                     /locus_tag="AHP42_36"
+     CDS             complement(30063..30536)
+                     /locus_tag="AHP42_36"
+                     /note="similar to AFM76600.1 putative transcriptional
+                     regulator [Enterobacteria phage vB_EcoS_Rogue1] and
+                     YP_277513.1 hypothetical transcriptional regulator
+                     [Enterobacteria phage JK06]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="transcriptional regulator"
+                     /protein_id="AHI60582.1"
+                     /db_xref="GI:583927284"
+                     /translation="MDSIDKRTLNGNNGTIRTEDKKPRKRPSGYYVLKDEVRAGLRAR
+                     LEIVLDFYGSKANLAKQLKVTRQAVEEWCKRGMISARGAQLAHNRYKRTGEGFRATFC
+                     RPDLQFDGNGKPLTLRCKKRQMLRVVTEAELATKPQRKSWRKVKKEREEARKAKE"
+     regulatory      complement(30587..30614)
+                     /regulatory_class="promoter"
+                     /note="similar to TTGACA(N15-18)TATAAT with 3bp mismatch"
+     gene            30629..32572
+                     /locus_tag="AHP42_37"
+     CDS             30629..32572
+                     /locus_tag="AHP42_37"
+                     /note="similar to AFM76601.1 putative ATP-dependent
+                     helicase [Enterobacteria phage vB_EcoS_Rogue1] and
+                     YP_277511.1 hypothetical protein yejH [Enterobacteria
+                     phage JK06]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ATP-dependent helicase"
+                     /protein_id="AHI60583.1"
+                     /db_xref="GI:583927285"
+                     /translation="MENRLKTIQKQIEELGEDKIKEIQTKFTSSNGMVPYSYQCVMYN
+                     EIAKRISRYEHPFIAMASVSAGKTLVFGMVAKRCSELGLPMLVLARQAELVSQNASEI
+                     SDYGVPNSIYCSGLGIKSSYFPVVVGSEGTVVGGLKKSLGDFCPAVVAIDECHHIDDQ
+                     DIAEAIDNNETAQQASDKGRSQYTVIILTLMERCRAKYGKNLRIFGLTGSPFRGTTPI
+                     VVENKKELGFWRETVTNIDTNYLVEFGSVVPTNFGATDGVGYDLSEFDASSEDGVQDY
+                     TKAQLEAMDKKIQASGTMTAEIMKKVWLAAKNRNGVLVTCAGERHCHEAASYLPEGEK
+                     FCIITGKTGEKQRKELLDKCFSGEIKYCFQVQALTTGVNVPTWDTSVILRKIGSLTLL
+                     VQLLGRGMRKLKKLHEDKGMVKNDHLVLDFAGTMDSMASLYFNPILEQAQYQLRKSNG
+                     KETKQCPVCGTENSFFARRCMHIDENNNRCEYFWVSRTCEDQKDPRTGKVIVKGCGVQ
+                     NDVAAKICRGCDCTLLDPNLNLSGKHYRKNDWFDVVDFKVGLTKNQSGIIYNYILDDG
+                     MGGTFKAHEVFFVESDHRVCKTLWLNNGIKGHVVDMNAKRYMAAYRNARKIMEYAQYI
+                     HAPKRVTHRKTAKGGDNIANKEF"
+     gene            32572..32961
+                     /locus_tag="AHP42_38"
+     CDS             32572..32961
+                     /locus_tag="AHP42_38"
+                     /note="similar to AFM76602.1 hypothetical protein
+                     Rogue1_0050 [Enterobacteria phage vB_EcoS_Rogue1] and
+                     YP_277509.1 hypothetical protein JK_69 [Enterobacteria
+                     phage JK06]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60584.1"
+                     /db_xref="GI:583927286"
+                     /translation="MVKVFHDKTSTDKAKEVVHQINSIAWVRHNHPEIFAFHVKNEGL
+                     KSIGTAMKDKQEGVIKGVSDILLIGPNGFAAIELKRAIKSDSKVSKEQKEFLEKVSET
+                     GGYAAICYGFEMFKLAITDYLSNGTNC"
+     gene            33020..33214
+                     /locus_tag="AHP42_39"
+     CDS             33020..33214
+                     /locus_tag="AHP42_39"
+                     /note="similar to YP_277508.1 hypothetical protein JK_68
+                     [Enterobacteria phage JK06] and AFM76603.1 hypothetical
+                     protein Rogue1_0051 [Enterobacteria phage vB_EcoS_Rogue1]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60585.1"
+                     /db_xref="GI:583927287"
+                     /translation="MTTTYTEKLYKSRKTGYEYELAITPEGYILDDGDGYSFEVSPTY
+                     KDDLETVKNAFGEKFDEVSE"
+     gene            33214..33432
+                     /locus_tag="AHP42_40"
+     CDS             33214..33432
+                     /locus_tag="AHP42_40"
+                     /note="similar to AFM76604.1 hypothetical protein
+                     Rogue1_0052 [Enterobacteria phage vB_EcoS_Rogue1]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60586.1"
+                     /db_xref="GI:583927288"
+                     /translation="MKLTFDKQWELFQAMVAQELSKAGYKNDVWDLAWCLDYSFEEDY
+                     LNTDIETWRDRMIADIEEMKKDCPEDFS"
+     gene            33429..33629
+                     /locus_tag="AHP42_41"
+     CDS             33429..33629
+                     /locus_tag="AHP42_41"
+                     /note="similar to AFM76605.1 hypothetical protein
+                     Rogue1_0053 [Enterobacteria phage vB_EcoS_Rogue1]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60587.1"
+                     /db_xref="GI:583927289"
+                     /translation="MITATCVMTNGSFTLLNEYEFKLDPINDQVEIVSDDGFAWKLHN
+                     EFDGYYGCNDAKGKHVSFLVYE"
+     gene            33704..33829
+                     /locus_tag="AHP42_42"
+     CDS             33704..33829
+                     /locus_tag="AHP42_42"
+                     /note="similar to AFM76606.1 hypothetical protein
+                     Rogue1_0054 [Enterobacteria phage vB_EcoS_Rogue1] and
+                     YP_006987876.1 hypothetical protein ACG-M12_0057
+                     [Enterobacteria phage vB_EcoS_ACG-M12]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60588.1"
+                     /db_xref="GI:583927290"
+                     /translation="MKIVDKEMFEIAQSFANDAVKTGSEYCWMCAREYLKMAYGL"
+     gene            33826..34065
+                     /locus_tag="AHP42_43"
+     CDS             33826..34065
+                     /locus_tag="AHP42_43"
+                     /note="similar to AFM76607.1 hypothetical protein
+                     Rogue1_0055 [Enterobacteria phage vB_EcoS_Rogue1] and
+                     YP_277505.1 hypothetical protein JK_65 [Enterobacteria
+                     phage JK06])"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60589.1"
+                     /db_xref="GI:583927291"
+                     /translation="MIVESGRAAVWAHCGEAGLQDDIKMIGKYFDIDDISVVFNGKFS
+                     YMNQRPRKYVRVPATPSLAMYREEGKKIFKKGAKK"
+     gene            34062..34319
+                     /locus_tag="AHP42_44"
+     CDS             34062..34319
+                     /locus_tag="AHP42_44"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60590.1"
+                     /db_xref="GI:583927292"
+                     /translation="MNLPGLDFAESKYQVVFFGEKPYRKIPFSEWIPPDYLDVLVQIE
+                     IGKAELMYYSPGCNMMMPSEYSPAISALETEFLDYWLKEVK"
+     regulatory      34396..34433
+                     /regulatory_class="promoter"
+                     /note="similar to TTGACA(N26)TATAAT with 3bp mismatch"
+     gene            34470..35606
+                     /locus_tag="AHP42_45"
+     CDS             34470..35606
+                     /locus_tag="AHP42_45"
+                     /note="similar to AFM76609.1 hypothetical protein
+                     Rogue1_0057 [Enterobacteria phage vB_EcoS_Rogue1] and
+                     YP_399005.1 hypothetical protein rtp61 [Enterobacteria
+                     phage RTP] and YP_006987879.1 hypothetical protein
+                     ACG-M12_0060 [Enterobacteria phage vB_EcoS_ACG-M12]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60591.1"
+                     /db_xref="GI:583927293"
+                     /translation="MAIAKITNEELKQELANGMTNKAIAEKYGMNIRNVELRRSKLAK
+                     AGDGHGRDVSNLIPQGYMVKGVSSLVDNDGNVKLQWVKSSIDAEKLEEMMNQAREAFS
+                     SELPKEKAVKSEGLNFDEDTLAMYPVFDLHIGAMAHKHECGENYDTATAEKVMNDYFD
+                     YAVQKSPNSKNAVLVLGGDLLHYDSLEAKTPASGHILDSDSRYAKIVYVCIRAVRRAI
+                     RNMLSKHENVEVKVISGNHDESGMVWLRAALAAFYEEEPRVSIDVSPAAMMVTKFGST
+                     MLGFTHGHQMRKADTRLSVMATDWRRDFGLSDYVYTHSGHWHSQKITETNLGIDEVHG
+                     QLGSPDAYSANGGWRSQRQAAVIIYHKEFGEVGRFICRPEMFNK"
+     regulatory      35626..35651
+                     /regulatory_class="terminator"
+                     /note="rho-independent terminator; discovered using
+                     WebGeSTer and TransTermHP v2.09"
+     gene            35672..36163
+                     /locus_tag="AHP42_46"
+     CDS             35672..36163
+                     /locus_tag="AHP42_46"
+                     /note="similar to YP_006987880.1 HNH endonuclease
+                     [Enterobacteria phage vB_EcoS_ACG-M12] and AFM76575.1 HNH
+                     endonuclease [Enterobacteria phage vB_EcoS_Rogue1]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="HNH endonuclease"
+                     /protein_id="AHI60592.1"
+                     /db_xref="GI:583927294"
+                     /translation="MNWNDFLEYRDGKLYWTDPHSTKFKPGDEAGCRHHRGYHYIRRY
+                     NTAMSRHRIVLTMFNGEIPEGMEIDHIDHDVDNDRIENLRMVTRRQNNQNKKLDERNT
+                     SGHVGVSWNKKTNKWRAMIGIKDNDGKRKTVYVYYGDSFDDAVLARKKAEAEYSFHEN
+                     HGK"
+     gene            36237..36422
+                     /locus_tag="AHP42_47"
+     CDS             36237..36422
+                     /locus_tag="AHP42_47"
+                     /note="similar to AFM76611.1 hypothetical protein
+                     Rogue1_0059 [Enterobacteria phage vB_EcoS_Rogue1]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60593.1"
+                     /db_xref="GI:583927295"
+                     /translation="MPKFTQSDAQIEVKDVGFGKTFRIAQAYGSSEEDVKVDTINLTA
+                     KNAREIAYAILAALGER"
+     gene            36422..36610
+                     /locus_tag="AHP42_48"
+     CDS             36422..36610
+                     /locus_tag="AHP42_48"
+                     /note="similar to AFM76612.1 hypothetical protein
+                     Rogue1_0060 [Enterobacteria phage vB_EcoS_Rogue1]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60594.1"
+                     /db_xref="GI:583927296"
+                     /translation="MLQTIKADMVKVGDEVLFLNCPPQVVKATSLEYYPGCTFVMIKT
+                     MGGNCFPINVNTLICVNR"
+     gene            36623..36796
+                     /locus_tag="AHP42_49"
+     CDS             36623..36796
+                     /locus_tag="AHP42_49"
+                     /note="similar to AFM76613.1 hypothetical protein
+                     Rogue1_0061 [Enterobacteria phage vB_EcoS_Rogue1] and
+                     hypothetical protein ACG-M12_0064 [Enterobacteria phage
+                     vB_EcoS_ACG-M12] and YP_399006.1 hypothetical protein
+                     rtp62 [Enterobacteria phage RTP]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60595.1"
+                     /db_xref="GI:583927297"
+                     /translation="MTKLFCVSNKSKSLPFTVNNPYSGEYQGDGNYKIYGDDMTWIFA
+                     PIDGELVEFIIAD"
+     regulatory      36823..36849
+                     /regulatory_class="terminator"
+                     /note="rho-independent terminator; discovered using
+                     WebGeSTer and TransTermHP v2.09"
+     gene            36912..37127
+                     /locus_tag="AHP42_50"
+     CDS             36912..37127
+                     /locus_tag="AHP42_50"
+                     /note="similar to AFM76614.1 holin [Enterobacteria phage
+                     vB_EcoS_Rogue1]; Motifs: 1 transmembrane domains shown by
+                     Phobius and TMHMM v2.0"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="holin"
+                     /protein_id="AHI60596.1"
+                     /db_xref="GI:583927298"
+                     /translation="MKHFYDAAALSGSGVAMGGGLSDNTIIGIIGLIVAVCFGIFGAW
+                     LRWRDSKALHKALEDGDIREAMRIRSK"
+     gene            37127..37609
+                     /locus_tag="AHP42_51"
+     CDS             37127..37609
+                     /locus_tag="AHP42_51"
+                     /note="similar to AFM76615.1 putative endolysin
+                     [Enterobacteria phage vB_EcoS_Rogue1] and YP_277498.1
+                     hypothetical phage-related lysozyme [Enterobacteria phage
+                     JK06]; Motifs: 1 transmembrane domains shown by Phobius
+                     and SPLIT v4.0"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="endolysin"
+                     /protein_id="AHI60597.1"
+                     /db_xref="GI:583927299"
+                     /translation="MSIKNKVIGGVLGSAIAIAVPFLNKHEGVEYSPYKDVAGVWTIC
+                     AGITGPDVIRGKVYTQRDCDALLMKHLSIHRSAVDKALKVDVPVSTRAALYSFSFNVG
+                     TNAMRNSTVIRLMNRGDIRGGCEALSMWNKISVGGKKVVSKGLVNRRNAEIRLCVSEL
+                     "
+     gene            37591..37995
+                     /locus_tag="AHP42_52"
+     CDS             37591..37995
+                     /locus_tag="AHP42_52"
+                     /note="similar to AFM76616.1 Rz1 protein [Enterobacteria
+                     phage vB_EcoS_Rogue1] and YP_277497.1 hypothetical protein
+                     JK_57 [Enterobacteria phage JK06]; Motifs: 1 transmembrane
+                     domains shown by Phobius and TMHMM v2.0"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Rz1 protein"
+                     /protein_id="AHI60598.1"
+                     /db_xref="GI:583927300"
+                     /translation="MRVGIIIIAITLLTGCSVMSAISDLLPSKDGIEATAQVGESNQK
+                     TGVGLSNQTDKSSSTESDMRNSTNRDVDSSSQKKTAATGLSANTITAEKIEIHSTENS
+                     GVDSLVWGVLAGLVSGMITYFALRFARNKKGA"
+     regulatory      complement(37977..38005)
+                     /regulatory_class="terminator"
+                     /note="rho-independent terminator; discovered using
+                     WebGeSTer and TransTermHP v2.09"
+     regulatory      37987..38010
+                     /regulatory_class="terminator"
+                     /note="rho-independent terminator; discovered using
+                     WebGeSTer and TransTermHP v2.09"
+     gene            complement(38009..38344)
+                     /locus_tag="AHP42_53"
+     CDS             complement(38009..38344)
+                     /locus_tag="AHP42_53"
+                     /note="similar to AFM76617.1 hypothetical protein
+                     Rogue1_0065 [Enterobacteria phage vB_EcoS_Rogue1] and
+                     YP_277496.1 YdbL [Enterobacteria phage JK06]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60599.1"
+                     /db_xref="GI:583927301"
+                     /translation="MFILDVFKFCESYEKFNRQHLAVFIYRHKECERMAKAAGVNARY
+                     FASSASKEFLARCMTEGYIDGVNGSYWSKGSTKRPFEFSFRCLGGESDKYTNEMMTIK
+                     EMTDDQLFA"
+     gene            complement(38349..39932)
+                     /locus_tag="AHP42_54"
+     CDS             complement(38349..39932)
+                     /locus_tag="AHP42_54"
+                     /note="similar to YP_277492.1 hypothetical protein JK_52
+                     [Enterobacteria phage JK06] and AFM76618.1 hypothetical
+                     protein Rogue1_0066 [Enterobacteria phage vB_EcoS_Rogue1]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60600.1"
+                     /db_xref="GI:583927302"
+                     /translation="MFDFNDDKLTVEQVMAVAAQDGLPPLRVAINANGYRQSASFWKA
+                     PVEIDSTGDKYPVISLGNDYDVVGKLSSNIARSVQFPESSAYMHFLGCISAAMLGRFT
+                     VEYHGTQQPTSLYVVTSQPPSTGKSAINSLSLAPMIAETERLNELRKRDRKKIMAKLS
+                     ALAKEMKQEKSPSEMAGLFEEKEELEDKLEKLCDIVFPVSDTTPEGLARINHRQGSFA
+                     VISDEATSVNSLLGMTYGDGTKKTNSELVLKAWDAGNVSIARANAENNMSFIAMGCIS
+                     VIAQDETIVAIMNAGARGIGVSERFLLVREKSFLGERVFVDDNGESTYEPIDGALKAD
+                     YFRLVHEIMSEQDVKLTISNSAMKHLNRARQEMEPHLADGGKYSHTMLRGALGKMDKQ
+                     VIRIAAVLHTIRNWFNPNGGSPQKSREIELETMQEALLMFGELSKTYLSSANAAGHAG
+                     DNAEMNKLIDILIKQGKNSKGVVGLRSLYEAARKVRPFESQAGVMAKIKDHLLPMLDD
+                     KNYTCLIGDKVYINPRLLG"
+     gene            complement(39973..40152)
+                     /locus_tag="AHP42_55"
+     CDS             complement(39973..40152)
+                     /locus_tag="AHP42_55"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60601.1"
+                     /db_xref="GI:583927303"
+                     /translation="MDIMTTIENIKPGMMVKMGPLFRKVLHVDLKENIITVMIRGRAK
+                     LYLPHKGQMIEVRIK"
+     regulatory      complement(40234..40260)
+                     /regulatory_class="promoter"
+                     /note="similar to TTGACA(N15-18)TATAAT with 2bp mismatch"
+     gene            complement(40235..40351)
+                     /locus_tag="AHP42_56"
+     CDS             complement(40235..40351)
+                     /locus_tag="AHP42_56"
+                     /note="motifs: 1 transmembrane domains shown by Phobius
+                     and TMHMM v2.0"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60602.1"
+                     /db_xref="GI:583927304"
+                     /translation="MKNISKAVDAVMEQVIKFGFFGFMGAIAVVVGKCLVGL"
+     regulatory      40384..40410
+                     /regulatory_class="terminator"
+                     /note="rho-independent terminator; discovered using
+                     WebGeSTer and TransTermHP v2.09"
+     regulatory      complement(40389..40417)
+                     /regulatory_class="promoter"
+                     /note="similar to TTGACA(N15-18)TATAAT with 2bp mismatch"
+     gene            complement(40430..40639)
+                     /locus_tag="AHP42_57"
+     CDS             complement(40430..40639)
+                     /locus_tag="AHP42_57"
+                     /note="similar to AFM76620.1 hypothetical protein
+                     Rogue1_0068 [Enterobacteria phage vB_EcoS_Rogue1]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60603.1"
+                     /db_xref="GI:583927305"
+                     /translation="MIVSGYSIAVYCDCKKCSTESNDDGSYFMPHYTDAAGENFSDCA
+                     RQLKYAGWVLHKKDGKCYAPGHLKK"
+     gene            complement(40636..40989)
+                     /locus_tag="AHP42_58"
+     CDS             complement(40636..40989)
+                     /locus_tag="AHP42_58"
+                     /note="similar to AFM76621.1 hypothetical protein
+                     Rogue1_0069 [Enterobacteria phage vB_EcoS_Rogue1] and
+                     YP_277490.1 hypothetical protein JK_50 [Enterobacteria
+                     phage JK06]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60604.1"
+                     /db_xref="GI:583927306"
+                     /translation="MATTITKNWISSDNNMFKARVKDGIEQIKIHGKWQNLTGRGRYV
+                     KTKTLLCTFVNHKSPLKKSFSKGKRYQVSMTSSLGRNAGYIYDEDGEGWQLTRDEEVG
+                     FDVGYGMYKFEAAYK"
+     gene            complement(41015..41317)
+                     /locus_tag="AHP42_59"
+     CDS             complement(41015..41317)
+                     /locus_tag="AHP42_59"
+                     /note="similar to AFM76622.1 hypothetical protein
+                     Rogue1_0070 [Enterobacteria phage vB_EcoS_Rogue1]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60605.1"
+                     /db_xref="GI:583927307"
+                     /translation="MINMNLFTAEDHNNMNELANLFETAGMAEMFMTENEFKDGISNA
+                     IETNFGDARVTGSMFANIARKFFQTYRDSRHAKGTFGAAKSVGETIRDYIERHNAN"
+     regulatory      complement(41359..41379)
+                     /regulatory_class="terminator"
+                     /note="rho-independent terminator; discovered using
+                     TransTermHP v2.09"
+     gene            complement(41392..41544)
+                     /locus_tag="AHP42_60"
+     CDS             complement(41392..41544)
+                     /locus_tag="AHP42_60"
+                     /note="similar to AFM76623.1 hypothetical protein
+                     Rogue1_0071 [Enterobacteria phage vB_EcoS_Rogue1]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60606.1"
+                     /db_xref="GI:583927308"
+                     /translation="MLKPSDLNYYDLETIAKYSGKGWPVGDYFKEDLIESFNIVQKAI
+                     AKAAKK"
+     gene            complement(41545..41784)
+                     /locus_tag="AHP42_61"
+     CDS             complement(41545..41784)
+                     /locus_tag="AHP42_61"
+                     /note="similar to YP_399017.1 hypothetical protein rtp73
+                     [Enterobacteria phage RTP] and AFM76624.1 hypothetical
+                     protein Rogue1_0072 [Enterobacteria phage vB_EcoS_Rogue1]
+                     and YP_277489.1 hypothetical protein JK_49 [Enterobacteria
+                     phage JK06]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60607.1"
+                     /db_xref="GI:583927309"
+                     /translation="MKIRCTNVIQSTDKNVLTPFIKGSVYDAEPLIINGKTIPNEWVI
+                     NGSERPHKHDSGWIAISGWKVGMFIPGVATFDEVK"
+     gene            complement(41781..41999)
+                     /locus_tag="AHP42_62"
+     CDS             complement(41781..41999)
+                     /locus_tag="AHP42_62"
+                     /note="similar to YP_277488.1 hypothetical protein JK_48
+                     [Enterobacteria phage JK06]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60608.1"
+                     /db_xref="GI:583927310"
+                     /translation="MKAIIINNEIRYDEDSMSLAELGYQIGEEVEVYEIEGFYMMSLK
+                     DHVYVDGTLAIFQGEKFVVSNEEIEVVA"
+     regulatory      42309..42335
+                     /regulatory_class="promoter"
+                     /note="similar to TTGACA(N15-18)TATAAT with 1bp mismatch"
+     gene            42709..43251
+                     /locus_tag="AHP42_63"
+     CDS             42709..43251
+                     /locus_tag="AHP42_63"
+                     /note="similar to YP_277487.1 hypothetical protein JK_47
+                     [Enterobacteria phage JK06] and AFM76555.1 hypothetical
+                     protein Rogue1_003 [Enterobacteria phage vB_EcoS_Rogue1]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60609.1"
+                     /db_xref="GI:583927311"
+                     /translation="MSKTTLGEVIRFMAKKALQSEDKEFKVPVRDIYRQIRGHDYPEM
+                     ETDDKTGDIINLGERKLSELKNSYIHNTLSRMRELREAKYIARYQFIWIDADGEDTTP
+                     RQYDGDGADKYLLIHLTEGVKEPKAKQREKEEKERAVIEKFKSRLLKLSPNVLDFEGD
+                     ELTGAVKAIRMYQEMIKEFN"
+     gene            43251..43811
+                     /locus_tag="AHP42_64"
+     CDS             43251..43811
+                     /locus_tag="AHP42_64"
+                     /note="similar to YP_277486.1 hypothetical protein JK_46
+                     [Enterobacteria phage JK06]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60610.1"
+                     /db_xref="GI:583927312"
+                     /translation="MFDFDEDKLTDDQVMEVARQDNLPPLRVAINTNGYRQSFNFWPS
+                     AEEMLCVKLSYKYGVVVSRISRQGWNGVVGIRSLYEAIRKVQPFVGREGIMHDLTNNI
+                     IPELQEAGIVCLIGDKIYVHPALVGMDKDDVQNWCSQYRSDAPRSHYVPPQTTIHGYD
+                     ADEVEKAIQFYRKAKALLNGEYSTNC"
+     gene            43869..44099
+                     /locus_tag="AHP42_65"
+     CDS             43869..44099
+                     /locus_tag="AHP42_65"
+                     /note="similar to YP_277485.1 hypothetical protein JK_45
+                     [Enterobacteria phage JK06]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60611.1"
+                     /db_xref="GI:583927313"
+                     /translation="MKAVIIEDFAGARTEVSTSVHYEGIVSIDINFGNHGDGCALAHY
+                     TAYQARKLAAALIQAAEGIENGKGYTGRRRSE"
+     gene            44150..44383
+                     /locus_tag="AHP42_66"
+     CDS             44150..44383
+                     /locus_tag="AHP42_66"
+                     /note="similar to YP_277484.1 hypothetical protein JK_44
+                     [Enterobacteria phage JK06]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60612.1"
+                     /db_xref="GI:583927314"
+                     /translation="MITINLSEEHAAEIRAILMHCLSRKMFSASESLTEVVNQIRNQE
+                     FEDILPWEEDLAWLEYEQICTALSGCQLASQYK"
+     gene            44422..44517
+                     /locus_tag="AHP42_67"
+     CDS             44422..44517
+                     /locus_tag="AHP42_67"
+                     /note="similar to AFM76558.1 hypothetical protein
+                     Rogue1_006 [Enterobacteria phage vB_EcoS_Rogue1]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60613.1"
+                     /db_xref="GI:583927315"
+                     /translation="MLLHYVDEQYAMLMQRTHGGTITRIEICTTI"
+     gene            44502..44618
+                     /locus_tag="AHP42_68"
+     CDS             44502..44618
+                     /locus_tag="AHP42_68"
+                     /note="similar to AFM76559.1 hypothetical protein
+                     Rogue1_007 [Enterobacteria phage vB_EcoS_Rogue1]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60614.1"
+                     /db_xref="GI:583927316"
+                     /translation="MYYYMIPIEDLMLDYSHGYIAVCDADTMTAYVDFEFED"
+     gene            44622..44921
+                     /locus_tag="AHP42_69"
+     CDS             44622..44921
+                     /locus_tag="AHP42_69"
+                     /note="similar to YP_277483.1 hypothetical protein JK_43
+                     [Enterobacteria phage JK06])"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60615.1"
+                     /db_xref="GI:583927317"
+                     /translation="MSKYEKEIIGLDGTKTTVDVYRVIAAFGVTDPALQHAIKKVLCS
+                     GIRTRHKDYPTDINEAIVSLQKAIEFHDQRGAHVQELIDKYRNGPKHYLDSWSNK"
+     gene            44994..45122
+                     /locus_tag="AHP42_70"
+     CDS             44994..45122
+                     /locus_tag="AHP42_70"
+                     /note="similar to AFM76561.1 hypothetical protein
+                     Rogue1_009 [Enterobacteria phage vB_EcoS_Rogue1]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60616.1"
+                     /db_xref="GI:583927318"
+                     /translation="MCGYDELPSEWCKKMMDEAKDGDEVMAYFELMNMWHEREEKK"
+     gene            45119..45412
+                     /locus_tag="AHP42_71"
+     CDS             45119..45412
+                     /locus_tag="AHP42_71"
+                     /note="similar to YP_277482.1 hypothetical protein JK_42
+                     [Enterobacteria phage JK06] and AFM76562.1 hypothetical
+                     protein Rogue1_0010 [Enterobacteria phage vB_EcoS_Rogue1]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60617.1"
+                     /db_xref="GI:583927319"
+                     /translation="MKIYVFTGNLLAANDSEGGDGKRAIHMGSKKQTMRRISIDEAIK
+                     IGSFVCLWVCDGELQAEQVRNGYVYTGYDEYDDDRELFQPAFYLDAEFYIAGE"
+     gene            45416..45550
+                     /locus_tag="AHP42_72"
+     CDS             45416..45550
+                     /locus_tag="AHP42_72"
+                     /note="similar to AFM76563.1 fusion protein
+                     [Enterobacteria phage vB_EcoS_Rogue1] at N-terminus"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60618.1"
+                     /db_xref="GI:583927320"
+                     /translation="MIWIHTYYTGKFNSVMHKRMYDSYESAKAQQAVLGGDIQSYKKA
+                     "
+     gene            45553..45792
+                     /locus_tag="AHP42_73"
+     CDS             45553..45792
+                     /locus_tag="AHP42_73"
+                     /note="similar to AFM76563.1 fusion protein
+                     [Enterobacteria phage vB_EcoS_Rogue1] at C-terminus and
+                     AEI91263.1 gp63 [Escherichia phage phiEB49]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="fusion protein"
+                     /protein_id="AHI60619.1"
+                     /db_xref="GI:583927321"
+                     /translation="MFGLTQPQFNAVRAQAKKLNEAVDKLTSKQKQDNDIMKAIICEF
+                     HSPVSTIIEKMKFVWVAGYLAGRVGKREDGEQIYD"
+     gene            45785..45979
+                     /locus_tag="AHP42_74"
+     CDS             45785..45979
+                     /locus_tag="AHP42_74"
+                     /note="similar to AFM76564.1 hypothetical protein
+                     Rogue1_0012 [Enterobacteria phage vB_EcoS_Rogue1]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60620.1"
+                     /db_xref="GI:583927322"
+                     /translation="MTKSLGKVRCVGSYNDKKFKTGKSYSILSSPAYGWVKCESEDGC
+                     IEMVKDGNDIEFGYFEVFYD"
+     tRNA            46266..46341
+                     /product="tRNA-Arg"
+                     /note="Discovered using ARAGORN v 2.1"
+     gene            46355..46570
+                     /locus_tag="AHP42_75"
+     CDS             46355..46570
+                     /locus_tag="AHP42_75"
+                     /note="similar to AEI91262.1 gp62 [Escherichia phage
+                     phiEB49] and YP_398960.1 hypothetical protein rtp16
+                     [Enterobacteria phage RTP]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60621.1"
+                     /db_xref="GI:583927323"
+                     /translation="MCIEVNMKIVTIIVKDTNTGSIAKYNIKLKEGEKREHLGLMNGV
+                     YTCINLEHDKSLDKHVFDKMLESAMDE"
+     gene            46599..46748
+                     /locus_tag="AHP42_76"
+     CDS             46599..46748
+                     /locus_tag="AHP42_76"
+                     /note="similar to AFM76566.1 hypothetical protein
+                     Rogue1_0014 [Enterobacteria phage vB_EcoS_Rogue1] at
+                     C-Terminus"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AHI60622.1"
+                     /db_xref="GI:583927324"
+                     /translation="MGRQCKSCQQSYEGRFLANGPEEAVAAAKAAFKIDLTVHKVSVD
+                     KVSLV"
+ORIGIN      
+        1 atgtcagaag agaaaaagat tcaccagaag attggcaact tcaaggagct atacaataag
+       61 aagtatggcg acattgccaa tctaaagatt aaccacaggt acactcctga gcaggtattc
+      121 gacatggccg taaggtattt cagctgggct gaagagcaag cgattaaggc cattgaaacg
+      181 gcgagctttc agggtgttgt aacggaaaac cttgttcata agccacgaat atttacgata
+      241 actggattcc aacttttctg cggcgttggt cataatgcca tcagtaaatg gcgctcttcg
+      301 cctggatttg atgaggtgat ggagtttgtg gattcggtaa tctttgagca gaagtatcag
+      361 cttggcgtta acaacatcgt caaccctgga ctgattggca aggacttagg catcgataag
+      421 ccgcaagagg ttaacatcaa caatgcttcc aatgcagtag tgaacgatga ggaagctatg
+      481 aaggctgcgc ttgaatcaat agttgataaa ctttgatatg ttgatataat taccccattc
+      541 aataaacgag tggggttttt tatgttagat agagcgaagc ctatgccgcc tctggatttt
+      601 cttagaggaa ttctgagtta caatcctgaa acgggaaagc taacgtggac atcaaaagta
+      661 agtagcaaaa ccataatcgg atccgaggct gggactttgc acaaagctag cggtcgatat
+      721 caagtacaga tacaagggaa gatatacaag agctcaagga ttgcatttta tttgtattat
+      781 ggctttgagc cagttggcgc ggttgaccac ataaatcgtg acccatcaga cgataggatt
+      841 tctaatctta gggatgcatc gcttagccaa aacggaatga ataagtctat gatgagcaat
+      901 aatacatctg gctacaaagg tgttagctac tcaaagagaa ggaatgagta tattgcatat
+      961 gtgaaaataa atggaaaaat gatgtttgga ggttggttta agaaaaaaga agaagcagca
+     1021 aaggtggcgg catcaatgag ggagagtata catggggagt tctgcaatca tgagtgaaat
+     1081 aattgtatgg gaagacttaa catacccaga aaagctagct ataaaggcac tatcaactca
+     1141 tagcttcgag ggtttcttaa gggtgtggtt tcaaataagt caatctgagc gttatattcc
+     1201 taactggcac cataagtacc tctgtagaat catcgatgag gttattagcg gtcaacgcag
+     1261 agatacaatc attaacgtag ctcccggggc cggaaaaacc gagattacat ccattcactt
+     1321 cccagtatac tcaatgctta aactaaagaa ggttcgcaat cttagcctgt cattctcaga
+     1381 tagcctcgtg aagcgtaact ctaaacgggt tcgtgacctt atcaaatcga cagaattcca
+     1441 ggagttgtgg ccctgcaagt ttggcacatg taaggatgat gagattcagg ttcttgatga
+     1501 ttctggtaag gttaagtttg aatcaatatc aaaagcaatt ggcggtcaga ttacaggcgc
+     1561 tcgcggtgga tatattacag ataactatag cggctgtttg atgcttgatg atgtagacaa
+     1621 agcggatgat atgttcagca aagtcaggcg agaggccgtg cacactcttc tcaaaaacac
+     1681 cattcgctca cgtagggcga gtagcgttaa aggtaaagct acgccaattc tgtcaattca
+     1741 gcaaaggctt catactcagg attcaacgtg gttcatgact tctggtggta tgggtatcga
+     1801 ctttgatgta gtgaagatac cggcgctggt cactgaagaa tatgtgaatg aactccctga
+     1861 ctggattcgt gagcagttcg agaaggacgt gctttcatcc gagtacgtcg agcgagatgg
+     1921 tgttaagtat tacagctact tcccgcagaa ggaatctgtg catgacttga tggcaatgtg
+     1981 ggactcagat ccgtacacat tcctaagcca gtaccaacaa tctccagtag ctctgggtgg
+     2041 aaacctgatc aacgtagatt ggtttgctcg cctcgatgag aataacaggc cgccagtcaa
+     2101 gtatgactac cgtttcatta cggctgatac tgccatgacc actaagagtt atagcgacta
+     2161 ctcagtattc cagctatggg ggcgcaaaga taacaggctt tatcttctgg atatggtaag
+     2221 gggtaaatgg gaagcacctg aacttgagca aactcttctg gactttgagg gtaagcatag
+     2281 agcagctagt aagacagatg gtatattgcg caaggttatt atcgagaaga aagcgtctgg
+     2341 aataggactt atccagtcgg cgggtcgggt aatgcgaact cctatcgagc ctttcgttcc
+     2401 agatacagat aagttaacca gggtgatgag cgcactgcca cagattaaag ctggtaacgt
+     2461 agttctgcct gactctgcgc catggcttac ctcgctatta accgagttct cggcgttcac
+     2521 tgctgacgat tctcatcccc atgatgacat tgtggatacg acaacaatgg ccatcaactg
+     2581 tgaattgaac ttgagtgacg atccgagagc ccgcttaatg aggctagctg gcgttaagta
+     2641 atcatgataa actgcccctt actcaggggc ttttttattg gagaaattac atggtaaaag
+     2701 cagacagcta cgcaaacatc tttcttagcg ggagtgatgg tagtgaggtt tacggaaagt
+     2761 ttggcagcct tggcctaaca gcgccagcgc agcttgagca actttatgtc agcagcgctc
+     2821 tggttcgtcg aattattgat atcgttccag aggtcgcact tggcgcaggc tttagtattg
+     2881 aaggtatcga cgacgaaggt gctttctggt cgcgatggga tgatttaggc ctttcagata
+     2941 acgtaatcga cgcactagcc tgggcgagac tatacggtgg cgctgctgta gtggcaattg
+     3001 tgaaggatgg aagggcgcta accagcccgg ttcgtgaagg tgcggaactt gaaacagttc
+     3061 gcgtatacga ccgtcagcaa attaaggtcc agactcgcga ggagaatcca cgtaacgcgc
+     3121 gttttggtaa gccattaact taccgcatca cgccaaacgg gtcggcaacg ttctacgatg
+     3181 tgcactatac acgctgtcac atcattgatg gcgagcgagt acctaacaac ctacgtcgta
+     3241 ataacgatgg ctggggcgca agcgtactaa ctggtgactt aattgacgcg attgacgact
+     3301 atcagaactg tgagcgactg gctactcagt tacttcgtcg taaacagcag gcggtgtgga
+     3361 aagcaaaagg ccttgctgac ttatgtgatg attcagatgg atttggagca gctcgtttac
+     3421 gtctggctca ggtggataat aacagtggcg ttggtcaggc tatcgggatt gacgcggata
+     3481 gtgaagagta caacgttctc aactcagata ttggcggtat tgatacattt ctgagtcaga
+     3541 agttcgatcg aatcgttgct ctgagcggta ttcatgagat tatccttaag ggtaagaatg
+     3601 ttggtggtgt gtcagcaagc cagaacactg ctctagagac tttctacggt tatgttgacc
+     3661 gtaagcgcaa ggctgaatta ttgcctctgc ttgagttcct gctgccgttc atcgtaaccg
+     3721 agcaagagtg gtcagtagaa tttaaccctc tatcgcaggt tagtgacaag gataaatctg
+     3781 agattcttga gaagaacgtc aattcagttg ccgcattgat tgcagctgga atcattgacg
+     3841 cagacgaagc aagagatacg ttgcgcgcaa tttcaactga ggttaagatt ggcgaaggct
+     3901 caattcaaac ggaggttgta attaatgaat cagaagaccc gctggatgta tccgcaaata
+     3961 attgagagcc agattaaccg cagccttttg gttgcggtat ctgaacttat tgagcaaatg
+     4021 aagttatctg caaagaggct aaaaattgac acagcgcagg agattgaaga ggaagattca
+     4081 gacctttcag atgtaatctc agcgctgcta tctggttttg tttccactct gcctgcgctg
+     4141 gcactagcaa tatatcgtta taactcggcg caattcctta aggtggccaa caactccgga
+     4201 ggtaagaata atcctgtagt tcttgcgcta ggattgtatg gtattaacgc ggatgaacca
+     4261 tggtggctcg acaccaggaa ctcctggatt gttggcacgc agttaagtgc atcaaagctg
+     4321 ctaaacaaca tcaaggatga tttcataaac aacgccatta ctgcgcaggc tggtaacact
+     4381 gttgaccttg atgatagata ccgaatctac agaaagagaa cagcaaatat cgctgctgga
+     4441 attacagggt ctctaaactc aaaccttatg cggagaaggc ttgaagatgc cggtgtatct
+     4501 cagtatgttt ggcgtggtag acttgacgac aaagagcgac catctcacgt tctgcgtgag
+     4561 ggggttagct ttaaatcaga tggttcggac gctggaaaac ttgacggcct tgcgatattc
+     4621 cccggtcagc aatacgggtg tcgttgctgg gctgttccta aatgggagaa tttaattaat
+     4681 gaagagtaaa atgcgttatg atagcgccaa ggtaaaagcc cgtttcgatg agaacggttt
+     4741 tctcgtggac acaccagtgg ttgctcgcgt aggtgtacaa acctactata tgccagatgg
+     4801 ttcagagcgc cgagagttcc gtccggcttc agaggttttt aaagccgatt cgctgcaaag
+     4861 ttaccagggt aagccgctta ctcttggtca cgtggttgta aactctgaaa atgctaaaga
+     4921 ggtggttgtt ggttctgtat ctgggtcagc aatgcgtcag gactcggcag tgattgttcc
+     4981 tcttaccgtt tacgacaagg aagcaattga gaaggccaag tctggcgttg ctggtgagct
+     5041 ctctgttggc tacaacactg ttgacattga gtctcctggc tggggtagta atgaaacggg
+     5101 tgagtacaag cttgatggag agtacgcaag ccaggatgag attcctgctg attgggtacg
+     5161 ctttgatgcg ctacagacga atatcgttgt taatcatatc gcactcgtat ataaaggtcg
+     5221 cgcaggtatt gctaaactca atctggacgc ggaacaggaa aacccgtata ctgataccgt
+     5281 tcaatcaaat aaagaggata aattgatgat taagattaaa ctcgatggcg aacaggagtt
+     5341 cgaaatcgcc ccggaagttg ctaaccacat cgaagctgtt aaggcagatg cggagcaggc
+     5401 taaagccaaa gctgacactc tggaagctga gcgcgatgca ctgaaagcta aagttgatgg
+     5461 cattcctgcc gaaatcgaag ctgccgtagc caaagctaaa gctgacgctg atgagctggc
+     5521 aactctggtt gcagttgccg cagaagctgg cgttaaatgt gacggcctgg atgctaaagc
+     5581 aatcaaagtt gcttacgtta aagaagtctc tggcctggat gtttctgaga aatctgacgc
+     5641 gtatattgac gcagcgttcg acattgccaa agaatctgat aaaatggctg aagttcgtaa
+     5701 ggctaccgta gcctctgata aatctgacag caaagaagag ttgacgctta ttgatccgcg
+     5761 cgctcgaatt gctaaagcta aatccaataa ggagaaataa taatggcatt tcgtcaagca
+     5821 gcattagcgg gtatggtatc tgatacctct ctttacaata tcgatggcgc gtgcgttcta
+     5881 ggtggcaccg atcaggtgca ggttggtcag gcagttggtg ttagcgaagt tgaagttact
+     5941 ggaactagct catctggtgc aggtcataaa actgtagttg gttctggcat tacgaccgct
+     6001 aacgtttatg gtgttgctgt tcgctcgcat tatgaagctg ttgatggctt ctatcgaccg
+     6061 caagaggcaa ttaacgtaat gacggctggt agaatctgga tgaaaaccac actgtcagca
+     6121 gcgcctgcat tcggaactgc aatcactctt gatgcgactg gaattgttgt ttctagcggc
+     6181 gctgttgagc cagctggttg gactttcgca ggtggcttca ttgctggcac tgcggtgcag
+     6241 ggtcagccag aaccttatga tggcgcactg attgaagttc aggttaagca gaaataatta
+     6301 accgtgtaaa tataacccgc ttcggcgggt tttttattgc caaaattctg ttacaatcat
+     6361 taagactatt aaccgatatg gagtaaatga aatggcttta gagtttatgg aagttgtagc
+     6421 taagacttac ggcgacctgg agaggttagt aaaggcaaaa atgctggaag gatggatgcc
+     6481 atttgatagc ttaattaaca atagatttac tatcgcaatt gttatggtta agggtagtga
+     6541 tgcgcagctt accgacttta ggattctcgg tgatagcact agagttaaat taataagcaa
+     6601 ggctaacaaa ttaattgctg atgaccctga gtgggaggtt ttcggtcacc ctcaaatatt
+     6661 tggcgctgac gattacatag tttcattatc aaaaggcttt aagggaacta ctggtaggga
+     6721 tggcatggct ggcccacaag gaccgcaagg accgcgcggc gaagttggcc cacaaggtcc
+     6781 gcagggtgaa aaaggagata ctggacctca gggactaaaa ggtgataaag gtgataaggg
+     6841 tgatccagga gcgctcgtaa catgaaaaaa atttaaccta gttaacacag ttggttcagg
+     6901 ggtggacact caattccctg gtatagctaa cacttggttt agggtgcaag taacatcatc
+     6961 atcaagattt acattctttg ctctaaagga agggtctgga acaacaagca ttgatggcga
+     7021 cgttaagtac aacgatgagg atgatactta tcgcagggtt aagtattctg gagtgttcac
+     7081 atcggcatcg aactacacat ttattaacac aggattcggc gtgacctcag ctagatgtgt
+     7141 agagttttac acctatctaa atgatggctc tagtggttat ttttacaggg ttgaggtttt
+     7201 cattgctggc aggcctgcat ttaccacaat tacacaacca gacttcaccg ttagaataac
+     7261 aagacttgat gcctaaactt tatcacccgc cattgcgcgg tcttaaaact cgtgtataat
+     7321 gtcaacgtac acagttaacc aaaaggataa ataggaatga ctattaagct agatgctttc
+     7381 gagcagaaca aaatcaccga acacctgcgt aacatgggtg ttgaaaaagc tgatgcagct
+     7441 ggcatttgga ccatcaaaca gctgactcag acgcttaacc gtaactacga tcgcgaatat
+     7501 gctgaaacgt ctgtagttaa cctgttcccg gtcactaacg aaattggcgc ttacgctaaa
+     7561 tacttcgaat acggcgaaat ggatggtgtt ggcttagctc agattgtagc tgattattca
+     7621 gatgatttgc cgacggttga tgcactgatg caagagaagc aaggtaaggt gttccgtttt
+     7681 ggtaatgcat tcctggtttc catcgatgag attgcggctg gcgcagctac tggtcaatca
+     7741 ctgtcttctc gcaaacaggc tcttgcattc gaagctcatg acaacctgct tgataagctg
+     7801 gtttggaaag gctccgcacc tcacggcatt aagtctgtat tcgattacga caacgtaaac
+     7861 caggtagttc caagcggcgc atggactaca gcacagactg cttacgctga cgttaatagc
+     7921 ctgctggata ttatcgaaac agcaacccaa ggcatccatc gagctaacag gctgcttctt
+     7981 ccggcatccg ctcgtcgagt aatgcaaact ctggtcccga atactggtat tagctacttt
+     8041 gagttctttg cccgtaacaa caatggcgta caggtggagt tcctgcaact ccttgacaac
+     8101 tacgatggcg caaacggcaa ggctgcaatt gcttatgagt acgacccatt gaacatgagc
+     8161 attgagattc cagaagctac tcacgtcctt ccagctcaac cgaaggattt gcacttcaag
+     8221 tttcctgtaa cctccaagtc tactggcctg gttatctacc gacctctgac cgttgcagta
+     8281 atgaaaggta tcaccttcta ataaatagcc ctcttcggag ggctttttta cgtctgtact
+     8341 aaatgaatca taaagtatat aattcattta tagactaaac aggaggaaag aatgattaag
+     8401 ttagaacacg ttggtgcttg ccttattcga tttgctggaa atgattacct gccaggacaa
+     8461 gtcattgaag tagaagagtt gaatgacggt tttaagcgat tgattgctga gggtcgactt
+     8521 gaggtaatgg aagaccgcaa ggcaaccaag aaagtaattg aagaaattga aagcaagaag
+     8581 gttaaaaaga aagaaccaaa gactgtagac gaagctgaaa acggcggcga gtacaagtaa
+     8641 ccaacacgga cgctttagag cgtccttttt tgtatggaga tataaaatga atgaagaagt
+     8701 aatcgcatat ataaggcagc tgtacccccc acttaacaat cagcctgatg atgttcttaa
+     8761 tgcatggatt gaggtagcta agctgtttat ctgcctggat aagtttggtg acaagcaggt
+     8821 tcaggcatta gctttctaca ctcttcactt gcttagtcag gatattgcgc ttaagactga
+     8881 gaatgattca agccagacat cctctgaccg ggttaagtcc tactcacttt caggagagta
+     8941 cacgattagc tatgatacca gcactgctgc cgcgagctca tctaaccttg aagcatcctc
+     9001 atggggtaag ctttacattg atttgatgcg tcgcaaggtt ggccgctggg gtttgattac
+     9061 ttctggtggg tcgaggtgct gccgatgaat catgcatttt tgcagcagca aattaaggct
+     9121 ggtattaatc tcctgtcaga tggcgatggc gttttcgaag ccacgacaca gccaaccatc
+     9181 tctatcgtga atggctacga agtgcgcacg cctggcactt catatacagt gcgaggtgtt
+     9241 atacgtgaat tcaaggcgcg agacattgac ggtgacatca tcaaattcgg tgaccgtcgc
+     9301 ggaattttta ctactgattc agttgtatcg gaaggtgacc gcatttacat tgaccaggaa
+     9361 gcatacacag taatagaccc gcgaccagtg aagccaaccg gtacggtaat cgcctacagg
+     9421 ccagtgctac ggagggctgc aacttatggc taatgataac ctgctattta agctaaagat
+     9481 taatgattgg gccgattcag taatggaggc gattcctgag attattgatg atgcccttga
+     9541 taacgcagct agggatatcg ttaagttgtc tcctgttgat actggaaggt ttagaggtaa
+     9601 ctggcaagct acaggaaaca ggccatcact gattggtttg aacaactatg acaaggatgg
+     9661 ggctgataca attaagtcac taagaaggca aatccacgct ctagctagag ataaggctac
+     9721 gcatacaatc tatatcacca atgcgctaac gtatgcgtta ccattggagt tcggttattc
+     9781 tggtcaggca ccaaacgggg tacttggtat cgtcactaag aggcttggtt tttactttaa
+     9841 tgacgctata aggaaaaagt ccaatgcact atgaaatgat ggtttcagca agaaagctgg
+     9901 ttagcgatgc ggcagttgat attgccggcg gagttccagt ggcttatgag aactgcggat
+     9961 tcaccccacc caaaaacgga agtttatggt tgaagtttga ttacacggag gttgatagtg
+    10021 tgacatgggg attgcagcga acatgcaggt attacgtagg catggttcag gtctctatat
+    10081 tcttttcacc aggtgagggg actgatagac ctcgccaatt ggctgggcga ttgtcagaag
+    10141 ctttcgccga tggtacaatg cttgacagcg gatacattta tgaaggcgga tccgtatttc
+    10201 ctccagtgaa atcgcaatcc ggctggttca ttcctgtccg attctacgta cgtatggatt
+    10261 aattaaggag atttacatgg cccatctcag caatggcaca caaatttttt tgcaaggctc
+    10321 taaatccgaa tcggtagccg taacggctat cactaacgca gctcagccag ttatgacggt
+    10381 agatgacgct tcaactttcg cagctggtga cttcattgtt gttgagtcat cttcatggtc
+    10441 taaactttca gagaaacagt tgcgagtagt tacatcaacg gctacaacaa ttaccgttga
+    10501 aggcattgac actactgacc cgcttcagtt cccagctggc ggaacggcat cgatctacaa
+    10561 ggttcttacc tggtatgaaa tgccttgtgt tcaagacgtt tcaactgatg gcggagagca
+    10621 gcagttcgtt acttatcagt gcctggctga tgaccgtgag cagcagattc caacctataa
+    10681 gtcagcggta aacacgacct atacgtttgc tcacgagttc accaacccga tctacccggt
+    10741 actccgtaac tacgacgagt ctggcgcgct gattgcgatt cgtgcatacg ttcctaaagc
+    10801 tggcgaagtt cgactttgga ctggcactat cgcgtttaac gaaactccaa acgtttccgt
+    10861 taacgagatc gaaactgtat ccgtagcaat tacggtacgt ggacgctata gcttcctggc
+    10921 tgcataacaa tcaagcccct tcacaggggc ttttttttat gttataattt cgactcaaac
+    10981 aaacacgaga ggattattta aatggcgaaa ttcaaattaa aattaggcgc gctccctgat
+    11041 ttcaagcttc cggttaagtt ccagatgatc aacggcgagg aagctgaggt tatcttcaat
+    11101 gccaagcacc gtaaggctaa ggagattcag gaagtattcc agaccgaagg ccttaaggat
+    11161 tttgactttg ttaaagagat ttgcagcggc tggaaccttg aagaagaatt taacgacgag
+    11221 aacatcgaag agctggtatc tctgttcccc gcatccgttc tggcactgac taatgcttac
+    11281 atgcaagctc tggcgggcca gcgcgcaaag gtctaaagcg cgcagtatat ctacagtatc
+    11341 aaagagagcc aacggacgct gaacttgaag ccattggaat gcggcgttcc gattacgaag
+    11401 atgaggagcc agaggagtta cacttcgatg atgacatgat gctggcatgg actgtttatc
+    11461 aggcagcttc aactcaatgg cgtgtaggta tgaacggcgc taccggaata gattattcag
+    11521 tactcccttt cctctttgat gtgtataatg tcaaggacaa agagatgact ttaaatgact
+    11581 tgcgaatact ggagtgcaaa gcacttgaga tgatgcaagt aaggcaaaaa taacctccct
+    11641 ttgtggaggg tttttttatg gaggttacat ggcagaattt gcaggtatca ctcttggcgt
+    11701 tgacgttcgc caggttgacc agggcataaa gtccctgcaa gaatttaaac gtgccaatga
+    11761 acaggcggca gctggagtta gcgagttcgt taacgctgag ctggttgcga agaatcaggc
+    11821 tcgcgacact gcaaggtatc tttctgagca gagaagtgct tttcagtcgc ttcagtctgc
+    11881 aattgatcca acagcttcaa aattgcgaaa acttcaagat gcagcaagtt ctcttgataa
+    11941 ggccttctcc gcaggggttg ttccagaggc tgagttttac aggcttggtg aagcattaga
+    12001 aacgcaaaca aataggttaa taaggtctag gtcagcatta actgaggagg gtagggcggc
+    12061 tatagaagct gcaaaaaata aagagtccgc tgagaggcaa gcgcaatcat ttattaggtc
+    12121 gcttcaagcg caggctgatg cagcgacatt aagtagggat gagttcttaa agttaagggc
+    12181 ggcacagctt ggagttagcg atcaggcagc accaataata gatagaataa cacaggcatc
+    12241 aagtaacaat actaacgcta tagcaaatca aagtagggcg tttcaggcgg ctgggatatc
+    12301 tgcaggtcag tacaatcagg ctttaaggtt ccttcctgta cagatcaatg atatcaccag
+    12361 ctcaattgct aacggtatgc ctttatttat ggtgcttacc cagcaaatac cgcagattac
+    12421 agattcattt ggtgggtttt caaatacatt atcagctgcg caaggtgcag ttatagatta
+    12481 tgtatcatca ataggcgagc tgagaagttc atttgctgat gttagaactc ttggtaatga
+    12541 tgctatctta aggtttggtc gtgctgcaac tatatttggt ggcgcgatag ttgcttcatt
+    12601 agctgttctt ggtaaagccg cttacgactc atttattgag gttaggcaac ttaataacgc
+    12661 gataattgaa actggaaggt cgtcgacttt atcagttgcc gctatcaagg attacgctga
+    12721 tcagctaaat gaaacatcaa gggcaacaaa aggttctatt ggtgacattt accagtcgct
+    12781 agtatcaaac ggaaggctca ctgttagtca gattaactta atcgctaagt ctgttgctaa
+    12841 cctttcagct gttagttcaa ggtctgcgga atcaataata tctgactttg ataagatagc
+    12901 aaaagatcca gttaaggggc tgatagagtt agataagcaa tttaactttc ttagcgaagg
+    12961 gcagttgacc ctagttaaca acctaaaaga aacggaaggg caaacagcag cagtaacagc
+    13021 agctttagaa atatttgcag ctagaaatga gtcagttaca aagcagattg aaggctcgct
+    13081 tacacctctt gaattggctt ggggcgattt ccgtaagttc gtttcagaca catgggatgc
+    13141 tataggtgac aggactatag gagctctaaa cctatttact gacgttatag ctgcgactat
+    13201 tgagcaaata agactgataa ttggcactgg cgacaagcta ataaatgatt tcgtaatacg
+    13261 cggaatagag gctttacaaa agataccagg agcatctggc gttggtaatg gaatagccga
+    13321 acaactaagg aaggataatg acgcaataga aaaggaaaac ataaggctag ctaaatctat
+    13381 cgctgatagg gatgcaaggg ttcgcagggg cgagactggt tacttgagtg ttggagaggg
+    13441 ttcagaaagt caaactggaa cttctgatag agattcagaa tcaagaagaa aggctttggc
+    13501 cgatgagatt aaagcaattg aggagagaag taaaaagaca aaatctggag caaaagaaga
+    13561 gagggatttg actataagtt atgagtctgg cgttctagct ctgcaggctc agcttaaggt
+    13621 tcttcaggaa caccgccaga ttagtgatgt tatcagtaac gaacgcaagc agctttttgc
+    13681 ggaggaagct aagtttgcaa tccttaatga aaggcttgca gacggaacca tcacaaagca
+    13741 acagcgatca ttactgttgc agcaggataa aatcttagga ctcgctcgcg agaaggctga
+    13801 gattggcgac cagattgtgc tgcaagaaag ggccaataaa ctgcttgatg acaacatcaa
+    13861 gaagactcgc cagattaacg ctgaagcggc atcaattagt gttggagcag gattatctca
+    13921 gcgcgaagcg gaaaggcggc gtgagttggc ggcgctagaa gcccagcaaa tttctaaagg
+    13981 tggctccgta gatgacactg acttccaggc tttacttcag gctcgtcaga atttctacaa
+    14041 tcaggaagat gcattacgtg gtaactggct ggctggcgtt aaatctgcgt ttgctgagac
+    14101 ggctgatgaa ttggcaaaat tcaatcagat tggttccgag ctagccatga gtgcgtttaa
+    14161 cggattgact gaccagataa caaacctggt aactactgga gaagctagct tccgtgagtt
+    14221 taccgcatcg attctgaagc agattgcacg cattgcaacg cagctgcttt taattaaggc
+    14281 gattgaatca accatctcca gttttggcgg tagtggtggt gcaattggct ctattggtag
+    14341 cgcatttggt ttcgcttctg gcggttatac tggaaacggt ggtaagtacg agccagctgg
+    14401 cacggtgcat aaaggtgaat tcgtctttac aaaggaggca acctcaagga ttggcgttga
+    14461 taacctttat aagttaatgc gcggatacgc aaatggtgga gtggttggtg ctggtcctgg
+    14521 atatgcgact ggcgggcttg ttggtggaag taacgttaat gttggtggag tgaatgttac
+    14581 cgttcagaca ggccttggcg gtggtggcgg taatgacgct aaacagttag aatctggtat
+    14641 cagggttatc atcgcggaag agattacaca atccttccag cagggcggga ctgcttacca
+    14701 gttcttgcga ggttatagtt aataaatggg gcttcggccc ctaaggattt taaatggcat
+    14761 tagatacttt tacatggtgt acccaaattc aaggtggatc agcaaacttt actaacgcga
+    14821 ataacgttag ggttgttagc tttggcaatg gctacgagca gcgcggaacc ggaggttaca
+    14881 ggaccaataa gcgcacctac aacatgacct acaccaacac cagctggaag gaagtgttgg
+    14941 acttctgctt tgcgcatatc atcaccccat tcgcatggac tacaccgcaa ggtgagttaa
+    15001 agctatttgt tgtcgctcag gacagcatca gcgtcacacc aaatactaga gaagtgcaga
+    15061 ctgtatcaat gcagtttgta gaagttttta caagcatgca gtaaactaag accctacggg
+    15121 gtctttttta ttggagaaac attatggcaa cgccattaag cactaagttt gagaatcaat
+    15181 tgcaaagctt gttccctggt gaggtcgtta cactaattga agtggatgga ggaaagttcg
+    15241 gcgcaccagt ttaccgcttt catggggaga acataagcta cacacctgaa gaaattatga
+    15301 tggctcagtc aactggccag ctactgccag caaagacaat tacgttccgt ggcgaagagt
+    15361 acggagcaag gcctttcggt attcagggga tcaatatgac ctctgatggc aaggcaaata
+    15421 aggtgactct agtcgtatcc aacgcagacc agaatatatc tgcgcttatc cgcacttaca
+    15481 atggacttgt tcaggccaaa gttactatct ggatcaccct tcgagagaat attaacgaag
+    15541 atggcaccat tgctgatggg gattaccgca agctggttta cttcattgag cgacctaagc
+    15601 aggttgacta caatacggcc tcatttgaac taactagccc aatggatatg gatggtattt
+    15661 atattcctgc gcgacttgtt cagtctgttt gctattgggc tcagcgaaat cagtaccgct
+    15721 caggtaatgg atgtaactac atgggtactc gatatttcga taaggacaac gcgcctgtga
+    15781 ctgacccatc gcaagacttc tgtgccggaa cggttcgtgc gtgcaaacta aggttcggag
+    15841 aaaataatca gttagacttt ggtggttgcg ctgctgcaag cctgcaagct aaagctaacc
+    15901 agcagactta agcacttttt gttaatagga gggctcagaa atgcgctatc ctataatctc
+    15961 ttaaactgga gattaaaaat gaactggaat gaaatttttg aatacagaga tggcaagcta
+    16021 tactggaaag ttaaattaag tagaaaggta aaggttggct ctgaggctgg ttgctcatcc
+    16081 tatgccaata aaggttattg cataataaaa gtgcaaggaa aggttaagtt gaggcataga
+    16141 attatatggg agatgcataa cgggcctata cctgaaaaaa tggagataga ccacatcaaa
+    16201 ggcgttgact tcggagactt tatagagaat ttaagatgcg taacgaagat tgataatcaa
+    16261 agaaacacaa aaaggccaag gacaaacaat agtggtgtta ttggagtttg tttctgtagc
+    16321 tcatcgtgta agtggaaagc ctcaatagga gatgggtcag gaaaaagcgg aaaggttgtt
+    16381 tactttggtg attcatttga tgaagcggtt cgcgcgagaa ggattgctga aattgaattt
+    16441 ggttatcata aaaaccacgg gagataaaat gttaacacct aaagttaaac tcgaaatatt
+    16501 tcgccacgcc aacgaggttt acccgcaaga atcttgcggg gttgtaactc agaaggggat
+    16561 ggcgcagaag tatcacggga ttaccaacgt atccaaaaca ccagagcaat cattcattct
+    16621 cgacccaatg gaattcatgg agatttcgga caatgaaagc gttgtttatg ttgtacattc
+    16681 acatactggt gatggcgcta ctactaggcc aagcgcagct gatatttgca gctgcaatga
+    16741 gtgcgagctt ccttatgtta ttgtttctat acctgaaggg gacttacgga ttattcagcc
+    16801 agaaaagatg ccgcttgctg gtcgcccatg gggtcttggc agcttcgact gctggggttt
+    16861 ggttatggaa tttcacaagc tacacggtgt taagcttaac gattatcgcg tagattatca
+    16921 gtggtggacc aatgaatacc ctgacaatat ctacgatgat aattgggagt tagaagggtt
+    16981 cgaattagtc agaagcaatg atattccaat tggctcaatg gttatgatgc agattcagag
+    17041 cgagaagacc aaccacgccg ccatatacat tggtgacaat aaaatcctac accatttata
+    17101 tggtaagatg agtaaggttg atttgtacgg cgattactat cgtgagcgga ctgtacgaat
+    17161 cgtaaggcat aaagatttac cggaggatgc tggttatgac ccagaacgtg attgatgtta
+    17221 agctgggatt aggcttaggc aggaagtttg gaaagctaca taaactgtgc gttaagacag
+    17281 ttccagaggc aatgcgagct ctctctgtaa acatccctga atttaaggaa ttcatgcgta
+    17341 gccatgtggg ccagaacaca aggtttgctg tattcgttga cggtaagaat gttaacgagc
+    17401 acaagattaa tgaccttgag actgtacgtg aaattaggat tatgccaatc ccgcaaggtc
+    17461 gaaaatctgg cggcttattc cagaccatcc ttggaggtgt acttttggtg gcatcatact
+    17521 tctttcctgt tcttttgcca gtggctgtag gcctccttgc tggtggagtg gctcagttat
+    17581 tagcgccaca agctacagga ttgaatgacc aggcatcaaa aacaagcaac cgagcatcat
+    17641 acgcattcgg ctcagcagta aatacaattg cggcaggcaa ccccgtttgc ttaccttatg
+    17701 gttacaggac tgttggtgga gctgtatttt cggcaggctc atattccgag gacattagtt
+    17761 aaaatcacaa cccgcctagt gcgggttttt tatttagtgt agaatggcac aaatggttaa
+    17821 acaaacaacg aggttatatg atatggccga tttgccaaag atttatggaa gcaagggtgg
+    17881 tagcaagaag ccgcacacgc ctgtagagca agaagataac ctgatttcac ttaacaagat
+    17941 taaggtgcta ctggctgtag ctgatggcga agttgattct agcttctcac ttaaggatgt
+    18001 ttaccttgct gacgttccag tacagaacca ggataactca ttcaactatg aaggtgtgac
+    18061 agctgagttt cgcgccggca ctcaatccca agattacatc gcaggactag atggcgcggc
+    18121 atcagagatt caggttagtc gtgaaattaa caacgacaca ccttacatca tcgcagttaa
+    18181 caacagtcag ctatcagcaa tccgcgttaa actgttctgg cctcggctcg ttaagcaaga
+    18241 agagaatgga gatttaaatg gaacaacatg tgaatatgca atcgatttat cagttaatgg
+    18301 cgcagcgtac acggaatata ccagaggcgt ggctaacggt aaaactacaa caggttacga
+    18361 ccgcagcatc agggttaacc taccagccga gtttagcagc gctcttgttc gtattaggaa
+    18421 gttaacgcca gactcaacaa gtagcactct ggttaacgga atgcagatta caacctatca
+    18481 ggaagtaatc gacgctaagt tccgctaccc tcttacggca cttgtttatg tggagttcag
+    18541 ttctgacctg ttccctaatg gcatcccaac gatagccatt aagaaaaagt ggaagcttat
+    18601 ccgtgtgccg acaaactaca atccagagac aaggacttat agcggcacat gggatggcac
+    18661 ctttaagatg gcatggtctg acaatcctgc ctgggtttta tatgacctgg tggttagtca
+    18721 gcgttatggt ttagatcagc gtgaacttgg tgtagagatt gataagtggg gtctgtatga
+    18781 agctgcgcaa ttctgtgacc aaatggtgcc agatgggaag ggtggaatgg agccgcgtta
+    18841 cacttgcaac gttgttatac agcagaaggt tgaggcgtac caactgatac gtgatatatg
+    18901 ctctatcttt cgcggattga ctttctatga cggcgagcaa atcgggattg tagtggacag
+    18961 gccacgccaa cctagctacg tattcactaa tgataacgtt gttaatggat tgtttaacag
+    19021 gacattctct agtgacaaga gcctgtacac gacagcaaac gttcagtttg atgacgtaga
+    19081 gaacaactat cagcaagatg ttgagccagt atttgacctt gaggcaactc ggcgatttgg
+    19141 ttacaacccg gtagacctta ctgcaattgg ttgcgtaagg cgaagcgagg ctaaccgccg
+    19201 tggtcgttgg ttgctgaaaa caaaccttcg aagtgaaacg gtaacattca caactggcct
+    19261 tgaggggatg attccgatga ttggtgatgt aattgccgtt aatgaccagg cttggtcaag
+    19321 caactacaca ttaaaccttt cgggtcgaat tgttgaagct acaggtttgc aggtgttcgt
+    19381 gccattcgct attgatgctg accctggcga caggatttta atcaacaagc cagatgggag
+    19441 cccagagtac aggactatag cttcagtatc tgccgataag ttgacgcttg aactgaatac
+    19501 agcattcagc ttcacacctc agccggatac ggtatttgca atcgacaagc agaatctggc
+    19561 gttgcagcaa tacgttgtga caggaattca aaaagcaaac acggacggcg aggattcatt
+    19621 ccagtacagc atcactgcgg tgcagtatga cccgaacaag tatgacgaga ttgactatgg
+    19681 tgtgaatatt gacgacaggc caacaagtat cgttgaccct gacaggattt taccacctga
+    19741 aaatatcacc gttactagtt acagcaaggt agttcagggt ttaagcgttg agacgatggt
+    19801 tattggttac gacaaggtgc agtatgcgaa aacatacaac gtacaatggc gtaagaacaa
+    19861 tggtaactgg attaacgtac cagagacggc taacaccgag gttgatattg aaggaattta
+    19921 cgctggcatc tacgacgtaa gggttcgtgc cgtaactgac cagaaatcag tatctgcctg
+    19981 gtctgatata acgacagtta gcctgaccgg caagattggg gaaccttcgg caccgcctgt
+    20041 aattaccgca tctgatgatg aggttttcgg gattagggtt aagtggggtt ttcctactga
+    20101 ttcagctgac actgcgtaca ctgagcttca gcatgttcct gataatggtg acggtacata
+    20161 caatccagag agcgcatcgc tgcttacact ggttccgtat cctcagtacg aatactggca
+    20221 caccacttta ccagcaggta acgtgaggtg gtacagagcg aggattattg acaggatagg
+    20281 taacgtatcg ccatggactg attttgtaag gggcatggca tctgacgacg taagtgcaat
+    20341 aattggtgat atcaaggttg atatcgaaaa ctctgatggt tacaagtacc tacttcagaa
+    20401 cgccattgat gcaaacacgg atatccagaa tcaggctgag gcaattatag agaacgccct
+    20461 ggcaaacgat actgacgttc gcgttatgaa gcgcgagaat ggcgcaagga aggctgaata
+    20521 tcgtcaggct gtaagtttga ttgctgatga aactcaggca cgtgtggacg ctctcacgca
+    20581 gcttaaagcg cagattgatg atgagattgt tggtcagatt acgacaattg aaaccgcgct
+    20641 tgctacggag accgaagcca gggctacagc tgatactcaa ttaagcgcaa ggcttggtga
+    20701 taacgaggcg gctttgaatc agaagcttga ctcttacgct acggttgaag gggttggtgt
+    20761 tcagtacggc gttaagcttg gcctgaagta caatggagtt gagtacggcg ctggaatgag
+    20821 catggagtta actggtagtg gtggaaatgt ttgtagtcag tttatttttg atgctaacag
+    20881 gttcgcaatc agtaacggca ttagttctgg ttccggtcag tggtcgttac ctttcgttgt
+    20941 cgagaataac caagtattca tccaaagcgc ggtgattcag gacggttcaa tcactaacgc
+    21001 gaagattgga aaccgcattc aatcaaacaa ctatgttcag ggtagtcaag gttgggctat
+    21061 tgataaggca gggagcgcag aactaaacaa cgcgacagta agggggagct tgtacgcaag
+    21121 taacggtaac ttcgccttta acggaaccaa caatactgtc gttataaaca acaacggaat
+    21181 cacggttaac ttgccaaatg gaggtagggt agtggttgga gtatggtaaa tgatcaagcc
+    21241 cctttcgggg gctttttctt ttagtagaag ctaggaataa atgggagtgc cattgatatg
+    21301 tttgtatcaa atgggaattg tgcgccagtt tgagttgaat agttacctat aacagtacca
+    21361 ggaacagctc taactgaacc gccagacatg caaataccct tgtatcgtaa gttattatat
+    21421 ccaccagtga ctctagttgt cgctccacat ctaagtattg ggaagaaccc accattcact
+    21481 gactggtaac cattattaat ctgcataaat ccacttagaa caaatggcct cctgacgcta
+    21541 gagaaaacta tctgcccagc gctgtttgat atcgttaaac ccggaccagc tactggaggt
+    21601 gtattattga aaataactaa ctgaacgtaa gtacttgcag caacatcatc aatcccattg
+    21661 tatgttatat ccctacacca tatcgtacta ccatcacttt caagggatac gtttgggtta
+    21721 tcccatttac caaaaggaat gccgccaact ggcaatgatg cagagccatt aacctggatg
+    21781 ccaccaaccc aagcagcagt cattaatctg gaattgcttg atatcgctgt aaagtcagtc
+    21841 gagttctcaa caaggacacc ggggcttgat tgtgatgatg ctggtaaaat ctcaaagcac
+    21901 tgaccgccaa actgcaatat gcgaccatta gcgccgttaa agttacttaa tgtaatcctt
+    21961 ccaaccccat cattaacctt cgagaaccca ttcatgtaat aaacttctgg tataacatca
+    22021 tatgcatcaa cataaacagc ctgagttggc aggcagaatg ctgttgagcc aggagtcata
+    22081 gtcagaccga aatcccatga tgatgctggt gagcttaacc cgctagtgtt tattgaacca
+    22141 gtcacggctg gaactctcaa gccagctgtg atttccattg ctggccttcc gtcattcaaa
+    22201 tctatcaaga taccttgagg cattatttcc actcctttga gccgtgatct gcaactgagc
+    22261 cgccgtagcc tccgccaacc tttgactcaa tgccagcata acgaatatca acctctccag
+    22321 ctgcaacaat aacaccacct ttccacttag ctacgcaaac atcacccgcc tgagtcgcac
+    22381 accatccgtc agggcgcgga ccagaagaac aacctaccgt catgattact gctgctgcga
+    22441 tgattgctga tttgatgaag ttagtcattt tgtattcctt agtaagtatg tttcgtttcg
+    22501 atggagtaac tatagcaaag gcttctgctg gagtctttag caaatcgtgc tatttgatat
+    22561 acgcgtaacc gatgtaactc gatgtataca atctcatacg cggaaaattg tatacgcttt
+    22621 ttacgcgaag atacgcatta tttacactat agaatcctta tataataagg gtttagagta
+    22681 attattatta ttactatatt tgtttgtata tagtgtaact actctctata gctatgttgg
+    22741 tgtgtttttc taaaagacta tgtttgattt cctgttaagg aggaaatgca tatagatata
+    22801 gatagggtgc aaaagtggtg gatacattgg ttacaagagt tacactcagt atccatgcgg
+    22861 cgtacagagt cgcaagacgt attcaggtgc gttttacgta gatatacaga tagcacgaat
+    22921 aatcaaaact gatgcttcct gattggttat agtgcactca ccggcagcag tggtgctgct
+    22981 tttgatgcaa aaaaaactgc accacaaaat ccgggagtga aaataattca accccaaaaa
+    23041 ctagagatga tagatatgaa tctgattaat attgatgaaa acgtaaccat gagcagcctt
+    23101 gagattgctg aattgaccgg gaagcgtcac gataacgtag taagggatac tagagaaatg
+    23161 ctgaatgata atgagatatg ctcaggattt agccaatctc actcctcaaa tttgaggagt
+    23221 gaaattcaaa atgaatctcg cggctcaaat gtggaccgcc agattaaaca cccatttgaa
+    23281 tctgagtaca aaaactcaag aggccaaact cagccatgct tcaacttacc atatcgtgaa
+    23341 accatgattt tgatggttgg ttacaacaga aaggtagccg caaagattgt tgaccgctgg
+    23401 ctacaccttg agctggaaaa caagctcctt aaagagcaca tgaagaagat ggtttcactt
+    23461 gatgaggtta aggtttacaa agttgagacg gcatcagcaa aggctgcaca gcacagagct
+    23521 gaggataact attacgcaat tgagaagttc atgtttaaga acatggataa gtgcgaaaat
+    23581 cctgcagaac ttgatgagca atacttcgat gttaaattcg agtcaaatcg ttaccatgac
+    23641 tctcaagagt tggtttacaa gtaccaggct cagcttgagg ttgcttgcga gaagttaaag
+    23701 gctaaagatg atctgattgc caatctggtg cataaaggcg aaccgcttaa gcttggtaaa
+    23761 aagtaatcag taaacaaaaa cgcttccagt acaggaaaca aaaatgttga ctgtacggtc
+    23821 aataaaaatg ttgaccgtta actaataggc aaaaccaatt ggataaactt agctacggat
+    23881 gtcatagtta aaccacataa acagagagag atagaaaaat ggcatacttc attattcaag
+    23941 agcgaaataa ccctattttc ggaacatgtt actactgtgt agatggctca ggttacacaa
+    24001 gcaataaatc agaggcagca agatttgaga caaagcagga agctattgaa tacgcccacg
+    24061 tgacagatga ggagcttggt tcagtaatga agattattaa ggtgaaggaa taaatcatga
+    24121 gcttcaaggt ttacactagc gacgagttaa ccaacgaagc ctaccacaag gagtcagacc
+    24181 atgtgtctgg ctctggtctg gctcacatct tctcaacttg ccccgctgct tataagtttg
+    24241 cagagcatga tgatagcaat aaggcgttaa agttcggtac attagcccac acggttattc
+    24301 ttgaaaacta tgtattcgat gcgacttact atcgccagcc agcgcaagaa gagtttgagg
+    24361 atctgattac tagcaagact gctttggcaa ctcggttgaa gtcgatgggt attgctggaa
+    24421 catctggtaa ggattatcca gaattaatgg agattctggc gctgagcggt gaatcactta
+    24481 acgtatggtg ggatattcag cgctctagcg aggttaaagc gaacggtcgc gagattgtat
+    24541 cagctaaaga ctttgacaca gtacatgcga tgcgagaggt gctgtgcggc attcctgcat
+    24601 acaatgcgat agtgaacagt aaaaccgctc agcgagagtt atcaatcttc ggtgagatta
+    24661 acgagtgcgg cgttaaggtt cgtcttgacc atgtcgatgt cgttgatgat gtagtttata
+    24721 tccgtgacta caagacgact agcgacgcat ctccatctgg atttgggaga ttggccttca
+    24781 agcatggtta cttgctaaaa atggcgcttc agcatgattt gtttgttcgc gcctttaatg
+    24841 agaagcgtcg agttgttgtt cagcttcttt gccaggaaaa gaaaagccca ttccttccaa
+    24901 tgtgctacac gataacaaaa gagcacttaa aggttggtag attgcaatac atgagcgccc
+    24961 tatccacata caagcaatgc aagaaacttg atatttggcc tggttacgga tttggcgaaa
+    25021 cagagatgga actgcaagtt cctgagtatg agatgaagaa gtacgaagat agcacgaata
+    25081 gctaaaacgg tattaaatcg atggggtata gttacctcat cgacaacaaa gagagataga
+    25141 aatgaagact tcagagagta acaaaacagt tttacaggca ctatttaaag ctcgcacagg
+    25201 atttgcgaag gcagcaagag acaagcagaa cagtcaccta aagaatagat acgcaacact
+    25261 tgattccatg ctggaggctg taatcccagc acttgatgat aacgacttaa tgattatgca
+    25321 gagcatgtta gaaacatcaa ctgctgacaa tcttaacgta gagacgactc tctatcacgt
+    25381 ttctggcgag tgggttagct tcttcatgat tatgccaatc gttaagaaag acccgcaagg
+    25441 agtaggatct gcatttacat acgctcggcg ttactcacta gcggcggctt tgggaattag
+    25501 tcagtctgac gatgatgcgc agatggcagt taagagcgtc aaggactgga agcgcgatat
+    25561 tgagaaggca gaaactcgag aagagcttat cgaaatctac aaatcatgca aatcacaagc
+    25621 tgacacggca acgtggggta tagtagagaa agcgataata gataaacaag cagagatcaa
+    25681 aatggcttcc gcaagtggct tcaacccagc taagccaaag gaagttgcta aaaaagttgc
+    25741 aaacgcaact aatgaagtag tagaatcaca atcaatcgag cagttctaaa ctaaacgggg
+    25801 cttcggcccc aaaatcaaac gagaagagaa tataaaatgc atactttaac aggcgtaatt
+    25861 cgtaaggctc ctttcactaa agatggtcag aacgccaagg gtaactggaa gatgtacgct
+    25921 atcgaaatga gcgaatctta taaaacacga gatggagagc gtaagtatag taattatcga
+    25981 gctaccttct ttgctagcga ggcgcaaatt agctggtatg acgaagcatt tcaggaagga
+    26041 aaagttatct ctgtgagcgg cgattcatta gcggttaatg agcgcgaaca taatggcaag
+    26101 acatatatta cgcttgagtt gcagaatcct cgattgatgt ttagtcagcg aggaggtgaa
+    26161 tcagaacagc agcagcagcg acaacaagct caacagcaac agagacagca gccgcagcaa
+    26221 caaagccgat ttagtgatga agatgatatt ccgttttaat gcaaaagata aagccccttt
+    26281 cggggctttt ttattgtgac gttacatcac cattcaaact caaaaatact gattgttttg
+    26341 tcaaatcaac accaccttta agcgaatagt atcttgaagc gcaataatca gactcatctg
+    26401 aatagctgcc aacgtaaaca ccaaagccat atccagagca agctacatca ccagcgcctt
+    26461 gacctgaata catggttaca tagttaccag ctgttgttag tataggcctg acatcaatat
+    26521 ctatatactg agaatcaaat gaccttctaa ctctaaatcc agtattcagg tttaagatgc
+    26581 tccaccaaac cttaccagat acatcaaaac caagagcaat attgtaagta ccaccgttga
+    26641 ccattcttga tgagactggc aacacacctg ataaaactct tgtttcacct gatgctgata
+    26701 ttaacaatga gacactgtgt tctcctgatg ccatcacgtt atactgcaag taaagagcat
+    26761 tactattaac tccaaaacca gtccctatag ccataaggtt aaagtcttca gcaacagtta
+    26821 tggtcggcga tatattgcat gtagcggtga aacctagtga cgggtcaaat ccagtgcata
+    26881 taatcttatc tttatttgcc tgtgaaagcc ttagccaata ttgctgccca actgatgatg
+    26941 ccgctgcggc gaatactggt gtattagaga ccccatcaaa agctgaagtg tcgtttgctg
+    27001 gcttaattct tgtcttcctt ttgtctataa gtccgtttat cttcaggttt cctgaatact
+    27061 cagcaacata gttagtgtcc cctgagaaat ttgggccaaa gtaaccagat tcaacaaccc
+    27121 catcgatcac aacatcagat cttgagtcaa ggaatctgaa gttgccagcg gaagttggcc
+    27181 ttccatcgcc attgttagat acatagttaa gcccaacaaa accatagatt cttacagagc
+    27241 tatttgaaaa cgaaacgtta taatctctgt agtttgagtt tatgctgttc ctgttactat
+    27301 ttaatccatt aaataccaca tttctagagt ttacaattct aacaccgtca ccaccgcaat
+    27361 cctgcgcctc tatagctgac atggtgatgt tttggcagtt atcaatcagg atgccataag
+    27421 catcatcaag ctcattataa gccgaccaac ccgaccaaat aaacttaccg ccaacaatcc
+    27481 tacagtttcc ggcattccta agtattagac aatttcttcc acaggtgttt acctgtatgt
+    27541 tattccatgt gaagtctgtt gtttcgttaa tcaatccgtc tttttttatg tgctgaataa
+    27601 gaacatcatc aagaacagga gagtagttac cagcagcaac gaaaattccg taaacatcaa
+    27661 acccagcaat gtgagtgttt cttatcgtta agtcccttct agggtcagca ccagtgttga
+    27721 atgggtaatt ggttgataac ccagtcggag tagggatgta aatcccagca gtaccatcag
+    27781 taaacgccgt gtcttgctgg gctccagtgc cgtaaagagc aataccttca atatgaatga
+    27841 gcgagcaaga atcagaaacc tcaattaaag agccaattga tgaactaagc tgagttattc
+    27901 ttgacttgtg cttgccaaaa ccaattatag agcaagattt atttctcatt accaggtttg
+    27961 atgccatgta gtcgctatca agctttaatg ccagcccgga gtctaggatt tgctgtatct
+    28021 gtttcgttga gtctgatgtc gatgacttaa tggccccaag ttcgcaaggc gacagctccc
+    28081 cgctacagat tctttcccag taataaccgg tacttgattc aaaaaccaat cctgaagata
+    28141 atccatatga taaagatgac tccggcttac aaacaaagaa cccaccacca taaccaagac
+    28201 caccaatgta agaatcacaa tagacaacct ctaagtcata aattctggca gagtttgtca
+    28261 ttgctgatac tgattcaaac cttcttgtgt aatcctgttg aatccaaaaa ccaactccaa
+    28321 taccacctgt agactgtggt gatgagtttt gtggtatgga ttttggaacg ctaccagacc
+    28381 agtaataaac cgaaacatga ttgtcattaa agtaaattgc aggctgagtt cttgagttta
+    28441 tttctccacc atttgagaaa tcaactacaa gagcagatga cacagaagcc gcagcagagc
+    28501 ttgctattgt agctgaagag gaagccgagt tagcgctact ttcagctaac tgcctatcag
+    28561 aagatacctg atctttgtca gaagaaactt gagcagcatc aacagcaact tgctgagatt
+    28621 gcatgttgac attatttacg ctttgctgga aagaatcaga atcaaattga ttaaaagcat
+    28681 caactgccgc tgcaacctct gtttcacggg actgataata acgaagtgtc tcagcaacgt
+    28741 cctgagcaag accttggaca gtaattccgt catgagcaag gattgagtac tgagtcccag
+    28801 ctggcgcagt aaaaccttta tcattgaata cacgaatctc tgtatcgctt aaaatctcag
+    28861 cgatagtaac aatgcttgtc ggggtggtgt taaaaatcat tgttgcgcca actcggatta
+    28921 gtgttagtgg ttgcctccac gtggtgccaa caccagttac agttccgtca gctgcaagcg
+    28981 atgcagttcc agcgtcataa attgccatgt tatttctcct atttgataga tgaaacctat
+    29041 tgtatcagat taaatgcaat aaaaaaccct ccgaagaggg tgattgctat gaatgcttat
+    29101 ctatcagatc ttgcgggtta tataaccttc tttcaagccc catcttgaaa ttgccacctt
+    29161 taggtattac gacttttaga cctctatcat cagcaacata aagcgactcc ttttcatcag
+    29221 ctaagcaagc tatcctgcac tctttattcc tgagttcata agcaaccatt tctaagttgt
+    29281 ggtgagttag gcagtcgtaa gttgtccttt ttgtgcatgc cgatacatgt agtgcgttaa
+    29341 tccagccaac agtgaggtag atagctccat cactacattt acttaccgga acaaccgagc
+    29401 cgcgagtgta gtcttttgcg agatatgact cattaccctc ttcatctata aactttacgt
+    29461 tacaaggctc atctgataaa ccatcctcgt aaaccataaa gcattgctcg gctataattt
+    29521 cttctccaga cccctttatt cctattttgt attcccgttc agtaataatt gcttcaaatc
+    29581 tcgtaagctg tgtcatttct acagacttgg tgcgagatat taccttctcg attgattcaa
+    29641 tggatgcctg agcgccaaag ttatatctct gaactcggct cgctgctttg tttgccttca
+    29701 ctatgatttc gacgggagtc aaattaagcc agtcgccaag taaatttata gcttccgcaa
+    29761 atctaaggcc ggaacatttc ataacccatc ctattcctga gtcactgccg cacttagagc
+    29821 aaactgcggc cccattacct ttttcgcttc ctatttcgtc tgtaaacctg aatctgtcag
+    29881 taccaaagca ataagggcac ggcccgtgct tcttgctaag gtgtctatca ttccaaccaa
+    29941 gctcctttgc ataaaatgat ttccacaatc cagccatttt aggtattact tcattcttgt
+    30001 cgtaattcat ttttatttaa tccaataaaa aggttgtacc gattatggca caaccttaat
+    30061 ttttactctt tagcttttcg tgcttcttct ctttctttct taacctttcg ccatgattta
+    30121 cgctgcggct tggttgctaa ctcagcttct gtaacaactc gaagcatctg acgcttcttg
+    30181 catcgcagtg ttagaggctt gccgttaccg tcgaactgta aatcaggtcg gcagaatgta
+    30241 gccctgaacc cctcgccagt tcgcttatat cgattatgcg caagctgtgc gccgcgagct
+    30301 gaaatcattc cccgcttaca ccattcttct acagcctggc gcgtaacctt tagctgctta
+    30361 gctagattgg ccttgctgcc gtagaagtcc aatacaatct caaggcgcgc ccttaatcct
+    30421 gctctcactt catcctttag tacatagtaa cctgatggac gcttacgcgg cttcttgtct
+    30481 tctgtgcgaa ttgttccgtt gttaccatta agagtacgct tgtcaattga atccattttc
+    30541 tcacctcaat agcacttttt gttaaacatt ggtttagatg gctgttatta tatcgtcaat
+    30601 cgaacgaaca ttaaaggcat ttgatattat ggaaaaccga ttgaaaacaa tacaaaaaca
+    30661 gattgaagaa ttgggcgaag ataagattaa agagattcaa actaaattca cctcttctaa
+    30721 cggcatggtt ccgtatagct atcagtgtgt tatgtacaat gagattgcaa agcgcattag
+    30781 tcgctatgag catccattta tcgcaatggc ttcagtttct gctggtaaga ctctggtttt
+    30841 tggtatggtt gctaagcgtt gctctgagct tggcttgcct atgcttgttc ttgctcgtca
+    30901 ggcagagctg gttagccaga atgcttctga gatttctgat tacggggttc ctaactccat
+    30961 ttattgctct gggcttggaa taaaatcatc ttatttccct gtggtggttg gctctgaggg
+    31021 cacagtagtt ggcgggctta agaagtcact tggcgatttc tgtcctgcgg tagttgctat
+    31081 tgatgagtgt caccatattg atgaccagga catagcggag gcaattgata acaatgagac
+    31141 tgcgcaacag gcatcagata aggggcgtag ccagtatacg gtcatcatcc tgactttaat
+    31201 ggagcgctgc cgtgctaagt atggcaagaa tcttcgtatc tttggactga ctggttctcc
+    31261 tttccgtgga actacgccaa tagttgttga aaacaaaaag gagttgggat tttggcgtga
+    31321 gacggtcaca aatatcgata caaactacct ggtcgagttc ggttccgtgg ttccgacaaa
+    31381 ctttggtgct actgatggcg ttggttacga cctgtcagag tttgatgcat catctgaaga
+    31441 tggtgttcag gattacacta aagcccagct tgaagccatg gataaaaaga ttcaggcatc
+    31501 tggaacaatg acagcggaga taatgaagaa agtatggctt gccgcgaaaa acaggaatgg
+    31561 agttctggta acatgcgcag gtgagcgcca ttgccacgaa gccgcaagtt accttcctga
+    31621 aggtgaaaag ttctgcatta taactggaaa gactggcgag aagcagcgca aggagttgct
+    31681 tgataagtgc tttagcgggg agattaaata ttgctttcag gttcaggcgc taaccactgg
+    31741 cgtaaatgtg cctacatggg atacaagcgt tattctgcgt aagattggta gccttacgct
+    31801 cctggttcag ctacttggtc gaggaatgcg taagcttaag aagctccatg aagataaagg
+    31861 aatggtcaag aatgaccatt tggtactgga cttcgcagga acgatggact ctatggcatc
+    31921 attgtacttc aatccaattc ttgagcaggc tcaatatcag ctacgaaaga gtaatggcaa
+    31981 ggagactaag cagtgtccag tatgcggaac agagaacagc ttctttgctc gacgttgcat
+    32041 gcatattgat gagaataata atcgctgcga atatttctgg gttagtcgca catgtgaaga
+    32101 ccagaaagac ccacgaaccg gaaaggttat cgttaaaggc tgcggagttc agaatgacgt
+    32161 tgcagctaag atttgtaggg gttgcgattg cactttgctt gatccaaatc tcaacttaag
+    32221 cggcaaacat taccgcaaga acgactggtt tgatgttgtt gactttaagg ttgggctaac
+    32281 aaagaaccaa tcaggaatca tctacaacta catccttgat gatggcatgg gtgggacatt
+    32341 caaagctcat gaggttttct ttgtagagtc tgaccatcga gtatgtaaaa cgctctggtt
+    32401 gaacaatgga attaaaggtc acgtagtcga catgaacgct aagcgatata tggctgcata
+    32461 tcgcaatgct cgcaagatta tggagtatgc gcagtacatc catgccccta agagggtaac
+    32521 tcaccgcaag accgctaaag gtggcgataa tattgctaat aaggagttct aatggttaag
+    32581 gtttttcacg acaaaacaag cacggacaag gctaaagagg ttgttcacca aataaattca
+    32641 atagcttggg ttcgccacaa ccatccagag atatttgctt ttcacgtgaa gaatgaaggt
+    32701 ctcaagtcta tcggcacagc aatgaaggac aagcaggagg gagtaattaa gggtgtatca
+    32761 gatattctac tgattggacc aaatggcttt gccgcaatag agcttaagcg agcaataaaa
+    32821 tcagatagca aggtttcaaa ggagcaaaag gagttcctgg aaaaggtatc agaaacagga
+    32881 ggttacgcgg caatctgtta tgggtttgaa atgtttaagt tggcaattac agattatcta
+    32941 tcaaatggca cgaattgcta aagagatttc gcaaggatgc gatatagtta cttcatcgaa
+    33001 acgaagagag agaaacaaaa tgactactac ctacactgaa aagctgtaca agtcacgcaa
+    33061 aactggttat gaatatgaat tagcaatcac ccctgagggt tatattcttg atgatggaga
+    33121 cggttactca ttcgaagtta gcccaacata caaagatgat ttagagactg ttaaaaacgc
+    33181 attcggcgaa aaatttgatg aggtgtcaga ataatgaaat taacctttga taagcaatgg
+    33241 gaactctttc aggcaatggt ggcgcaggag ttgagtaaag ctggatataa aaatgatgtt
+    33301 tgggatttag cttggtgtct tgattatagt ttcgaagagg attatctgaa cactgatatc
+    33361 gaaacatggc gcgaccgaat gattgctgat atcgaagaaa tgaagaaaga ttgcccggag
+    33421 gatttttcat gattactgcg acttgcgtaa tgacgaacgg ctcattcacc ctgctcaatg
+    33481 agtatgaatt caaacttgac ccgattaatg accaggttga aatagttagc gatgacggat
+    33541 ttgcatggaa gttacataat gaatttgatg ggtactacgg gtgtaatgat gcgaaaggta
+    33601 agcatgtaag ttttcttgtt tatgagtaaa tagcactttt tgttaaaact aaaatacaag
+    33661 gatggattat attaattaca tcagcaaatg agagggttaa gagatgaaaa ttgtagacaa
+    33721 agagatgttc gagattgcgc agtctttcgc aaatgacgca gttaagactg gatctgaata
+    33781 ttgctggatg tgcgctcgag aatatttaaa aatggcttac ggcctatgat agttgaaagc
+    33841 ggacgcgccg ctgtatgggc gcattgtgga gaggcgggat tgcaggatga catcaagatg
+    33901 ataggtaaat actttgatat tgatgacata tctgtagttt tcaatgggaa gtttagttat
+    33961 atgaaccagc ggccacgcaa gtatgtaaga gttccagcaa cgcctagcct cgcaatgtat
+    34021 cgcgaggaag gtaagaagat atttaagaaa ggtgcgaaga aatgaattta cctggtctag
+    34081 attttgctga gagtaagtat caggttgtgt tttttggtga gaagccttat cggaagattc
+    34141 ctttctctga gtggattcct ccggactacc tcgatgtact ggtgcaaatt gagattggta
+    34201 aagctgagtt gatgtactat tcgccaggtt gcaatatgat gatgcctagt gagtattcac
+    34261 cagcaatttc tgctctagaa actgagtttc ttgattactg gctaaaagaa gtaaaatagc
+    34321 actttttgtt aaaaacatcg ccacggatgg cgtatagtgt gttcatcgaa acgagagacg
+    34381 cttcagatga aaacattact accgttgctg gcggtaccag taacctttat aatcatgtac
+    34441 ttcataatct gctaatagga aattaaataa tggctatcgc taaaatcacc aacgaagagt
+    34501 taaagcaaga actggctaac ggtatgacta acaaggcaat cgcagagaag tacggtatga
+    34561 atattcgtaa cgtagagctg cgtcgcagca agctggctaa ggctggggat ggtcacggtc
+    34621 gcgatgtgag taacctaatt cctcagggct acatggttaa aggtgtatct agccttgttg
+    34681 ataatgatgg caatgtgaag ttgcaatggg ttaagtcctc tattgatgca gagaagcttg
+    34741 aggagatgat gaatcaagcg cgagaggcat tctctagcga gctaccaaaa gaaaaagcag
+    34801 ttaaatctga aggtctgaat tttgatgaag atactttagc tatgtatcca gtatttgacc
+    34861 ttcacattgg cgcaatggcc cacaagcatg agtgcggaga aaactacgac acagcaacgg
+    34921 cagagaaagt aatgaacgat tattttgact acgccgtaca gaaatctcca aattcaaaga
+    34981 atgctgtact agtgctagga ggtgatctgc ttcattatga ttccttggaa gccaaaactc
+    35041 cagccagtgg tcacatcctg gacagtgaca gtcgctacgc caagattgtt tatgtttgca
+    35101 ttcgagcggt tcgccgcgca attcgaaaca tgcttagcaa acatgaaaac gtagaggtta
+    35161 aagttatatc tggtaatcat gatgaaagtg gtatggtttg gttgcgggct gcgcttgctg
+    35221 cattttatga ggaagagcca cgcgttagta ttgatgttag tcccgcggca atgatggtaa
+    35281 ctaagtttgg ttctacaatg cttggtttca ctcacgggca tcaaatgcgt aaagctgata
+    35341 ctcgcctttc ggttatggct actgactggc gacgtgactt tggtttaagt gattatgtat
+    35401 acacccactc aggccactgg cattcacaga agattacaga gacaaatctt ggtattgatg
+    35461 aggttcatgg tcagcttggt tcaccagatg catatagtgc gaatggcggg tggcgctcac
+    35521 aaaggcaggc tgcggtaatc atatatcata aagagtttgg tgaggttggt cgttttatct
+    35581 gtcgcccaga aatgtttaat aaatagcaca aatagtcaag aaactacccg cgaaagcggg
+    35641 tatttttgtt tcacacaact gaggaggtaa tatgaattgg aatgattttc tcgaatatag
+    35701 agatggaaag ctttactgga cagatccaca ctcaacaaaa tttaagccag gggatgaggc
+    35761 tggatgtagg catcataggg gttatcatta tataaggaga tataacaccg cgatgtcaag
+    35821 gcataggata gtattgacaa tgtttaatgg agagataccg gaaggcatgg agattgatca
+    35881 catagaccat gacgttgata atgatcggat tgaaaaccta agaatggtta caaggaggca
+    35941 gaacaatcaa aacaaaaagc tagatgaaag aaatactagc ggacatgttg gggttagttg
+    36001 gaacaagaag acaaacaaat ggagagcaat gataggtata aaggataatg acgggaagcg
+    36061 gaaaacggta tatgtttatt atggtgactc tttcgacgac gcggtattgg caaggaagaa
+    36121 agctgaagct gaatactcat ttcatgaaaa tcacggaaaa tagcactaat tgctaaaaca
+    36181 caaatcaaaa gatggggtat atttactcca tcaaaacaaa acgagaggat acaaagatgc
+    36241 ctaagttcac acaatcagat gcacagattg aagttaaaga tgttggtttt ggtaagacgt
+    36301 ttcgcattgc acaagcttat ggctctagcg aagaagatgt aaaagttgac actatcaatc
+    36361 ttactgctaa gaatgctcgt gaaattgcct acgcaatcct agcggcactt ggagagcgct
+    36421 aatgcttcaa acaattaaag ccgacatggt taaggtgggt gatgaagttt tgttcttaaa
+    36481 ctgcccaccg caggtagtta aggctacaag ccttgagtat taccctggct gtacgttcgt
+    36541 aatgattaag accatgggcg gtaactgctt cccaattaat gtaaacacac ttatttgcgt
+    36601 aaaccgttaa gagattatca aaatgactaa attattctgc gttagcaaca aatcaaaatc
+    36661 actgcctttc actgtaaaca acccttatag tggtgagtac cagggggatg gtaattacaa
+    36721 gatttatgga gatgacatga cttggatctt cgccccgatt gatggagaat tggtggaatt
+    36781 cattatcgca gactaactta taagaaacat caacttgaaa acaggcggcc tttaaggctg
+    36841 cctttttttc gtttatgtca aagtttaata tctggtatta tttaatcaaa tcaacttaaa
+    36901 gaggccgcaa catgaagcat ttctatgacg cagccgcctt gtccggtagc ggagtagcta
+    36961 tgggcggcgg cttatctgac aatacaatca tcggcattat tggcttaatc gtagccgtgt
+    37021 gctttggtat ctttggggca tggctgcgct ggagggacag taaggcgcta cacaaagcac
+    37081 ttgaggatgg agatatccgt gaggcaatga gaatcaggag taagtgatga gtataaagaa
+    37141 taaagttatt ggcggggtct taggctccgc tattgctata gctgtaccat tcctgaacaa
+    37201 gcatgagggc gttgagtata gtccatacaa agatgtagct ggggtgtgga ctatttgcgc
+    37261 agggattact ggccctgacg ttattcgtgg caaggtttac actcagcgag attgcgatgc
+    37321 actccttatg aagcacctgt caattcatcg ctccgctgtt gataaagccc tgaaggttga
+    37381 tgttccagtt agcaccaggg cggcgctgta cagtttttca tttaatgttg ggaccaatgc
+    37441 aatgcgcaac tcaactgtta tcagactcat gaatcgcggc gatattcgtg gtggatgtga
+    37501 ggcgctatca atgtggaata aaattagcgt tggtggcaag aaggttgtga gcaaaggcct
+    37561 ggttaacagg cgaaacgcgg agattaggtt atgcgtgtcg gaattataat tattgcaatc
+    37621 acattgctga ccggctgctc tgttatgtca gctatttctg atttattacc gagcaaggat
+    37681 ggcattgaag caacagcgca ggttggtgag tctaaccaga aaactggcgt tggattatcc
+    37741 aaccagacag acaaatctag ctcaacagag agcgatatgc gcaactcaac taacagagat
+    37801 gtagattcat caagccagaa aaagactgct gctacgggtc tctcagctaa cacaataaca
+    37861 gctgaaaaga ttgaaattca tagcactgaa aactctgggg ttgactcatt agtctggggt
+    37921 gttttggctg gattggtttc gggcatgata acttacttcg ctttaagatt tgcaagaaat
+    37981 aaaaaaggag cctaatggct cctttctttt atgcgaacaa ttggtcgtcc gtcatttctt
+    38041 ttatggtcat catctcatta gtgtacttat cgctctcacc cccaaggcat ctgaagctaa
+    38101 attcgaaagg tcgcttcgtg cttcctttgc tccagtaact gccattaact ccatcgatgt
+    38161 aaccttcagt catgcatctt gccagaaact cctttgacgc agatgatgca aagtaacgcg
+    38221 cattaactcc agctgcctta gccattcttt cacattcttt gtggcggtaa atgaataccg
+    38281 ccaggtgctg cctgttaaac ttttcgtagc tctcgcagaa cttgaacaca tcaaggatga
+    38341 acatttaatt accccaacag ccgtggattg atatatacct tgtcaccaat caggcaggta
+    38401 tagtttttat catcaagcat cggcaataag tggtctttaa ttttagccat aacaccagcc
+    38461 tgtgactcga aaggtcgaac cttacgcgca gcttcataaa gtgaacgcaa acccacaact
+    38521 cctttactgt tcttgccttg cttgataagg atatcaatta acttgttcat ctcagcgtta
+    38581 tcgccagcat gaccagctgc gttagctgag gataagtaag tcttactaag ttctccaaac
+    38641 atcaacaaag cctcttgcat ggtttccagt tcaatctccc tggacttctg cggactaccg
+    38701 ccatttgggt taaaccagtt acggatagtg tgaagaactg cagcaatgcg aattacctgt
+    38761 ttatccattt tacctaacgc gccgcgcagc attgtgtgtg aatacttacc gccatctgca
+    38821 aggtgtggct ccatttcctg tcgagcacgg ttaaggtgct tcattgctga gttactaata
+    38881 gtcaacttaa catcttgctc actcataatt tcatgaacaa gacggaagta atcagccttc
+    38941 aacgctccgt caatcggctc atatgttgac tcgccattat catcgacgaa aacacgctca
+    39001 ccaaggaatg acttttcacg cacaagcaag aaacgttcgg atacaccaat accgcgagca
+    39061 ccagcattca tgattgcgac tattgtttca tcctgcgcaa ttacagaaat acaccccata
+    39121 gcaataaagc tcatgttgtt ctctgcgttc gcacgcgcga tagatacgtt accagcatcc
+    39181 caggccttaa gcaccagttc gctgtttgtt ttctttgttc catcaccata ggtcatgccc
+    39241 agcagtgagt tgacgctcgt cgcctcatcc gagatgacag cgaagctacc ctgacgatgg
+    39301 ttaatgcgtg ccagaccttc gggagtagta tcagatacag ggaatacgat gtcgcaaagt
+    39361 ttctcgagct tatcttccag ctcctccttc tcctcaaaca aaccagccat ctcagaaggc
+    39421 gacttctcct gcttcatttc tttagccaga gccgacagct tggccataat ctttttacgg
+    39481 tcacgcttac ggagctcgtt tagtcgctca gtctctgcaa tcattggagc cagagacagc
+    39541 gagttaatgg cagatttacc agttgatgga ggctggctgg tcactacata cagtgatgtt
+    39601 ggttgttgag ttccgtgata ctcaaccgta aagcgaccta acatagctgc cgagatgcaa
+    39661 ccaaggaagt gcatataagc agatgattca ggaaactgaa cagaacgagc aatgttgctt
+    39721 gatagtttgc caactacatc atagtcgtta ccaagcgaga taacaggata cttgtcgcca
+    39781 gtagaatcaa tctcaaccgg agctttccag aatgatgcgc tctggcgata accgttcgca
+    39841 ttaatagcaa cacgtaaagg aggtaatcca tcctgagcgg caacagccat tacttgttca
+    39901 acagtcaatt tgtcatcatt aaaatcaaac attatcatct ctctctaaat gcccccgaag
+    39961 gggcttgatt atttacttga tacgaacttc aatcatctga cctttatgag gaagatacag
+    40021 ctttgcgcga cctctaatca ttacggtgat gatattctcc ttaaggtcaa cgtgaagtac
+    40081 tttgcggaac agaggcccca tttttaccat catgccaggt ttgatgtttt cgatagtagt
+    40141 catgatatcc attttttagc ccttttaatt tatttcgttt cgatgaagag aatatatcaa
+    40201 tttttgttgt taagttcttt agcaaaaagt gctattaaag accaaccaga catttgccaa
+    40261 ctacaacagc gattgcgccc atgaagccaa agaaaccaaa cttaattact tgttccatta
+    40321 ccgcatcaac tgctttagag atgtttttca ttttgttcac cttagttttt gtcttcttga
+    40381 tggaaacaaa tatacccgcc gaagcgggta ctgtcattag caaaaagtgc tattttttta
+    40441 agtgccctgg cgcatagcat tttccatcct tcttatgcaa aacccaccca gcatatttaa
+    40501 gttgccttgc acaatcagaa aagttctcgc ccgcagcgtc cgtatagtgt ggcataaaat
+    40561 aagaaccatc atcatttgac tcagttgagc acttcttaca gtcgcaataa acagcgatgg
+    40621 aataacctga aacaatcatt tgtaagccgc ctcaaactta tacatcccat aacccacatc
+    40681 aaagccaact tcttcatcac gcgtcaactg ccagccctcg ccgtcttcat cataaatata
+    40741 cccagcgtta cgaccaagtg atgaagtcat tgatacctgg taacgcttac ccttactgaa
+    40801 actcttcttg agtggtgact tgtggttcac gaaagtgcaa agcaaagtct tggtcttgac
+    40861 gtaacgaccc cggccagtga gattttgcca tttaccatga atcttgattt gctcaatacc
+    40921 atctttaacg cgagctttaa acatattgtt atctgagctg atccagtttt tagtgatagt
+    40981 ggtagccatt actattttcc tttttggttt gttattagtt agcgttatga cgttcgatat
+    41041 agtcgcggat tgtttcgcct acgcttttag cggcaccaaa agtgcccttt gcgtggcgtg
+    41101 aatcgcggta cgtctggaag aatttacgag cgatgtttgc gaacattgaa ccagtcacgc
+    41161 gagcatcacc gaaatttgtt tcgatagcgt tgctaatgcc atccttgaac tcattttcag
+    41221 tcatgaacat ctctgccatg ccagcagtct cgaaaaggtt agctaattca ttcatgttgt
+    41281 tatggtcttc ggctgtaaac aggttcatgt taatcatctt cgtgattcct tagtttcgtt
+    41341 tcgatgagat gaatatacaa taaaagcccc gaagggcttt agcaattcgt gctatttctt
+    41401 tgctgctttt gcaattgcct tctggacgat gttgaagctc tcaatcaaat cttctttgaa
+    41461 gtagtcacca acaggccaac ccttaccgct gtacttggct atggtttcta gatcgtaata
+    41521 gttcaagtca gatggcttta gcatttactt aacctcatca aaagttgcaa caccagggat
+    41581 aaacattcca accttccagc cagagatagc aatccatcca gaatcgtgct tgtgcggtcg
+    41641 ctcagagcca ttaatcaccc actcattcgg gattgtttta ccattaatga ttagaggctc
+    41701 agcgtcgtat acggagcctt ttatgaatgg tgttaataca ttcttatccg tgctttggat
+    41761 aacgttggtg cagcgaatct tcatgctacc acctcaattt cttcattact aacaacaaac
+    41821 ttttcacctt gaaagattgc aagagtacca tcaacatata catgatcctt taaactcatc
+    41881 atgtagaagc cttcaatctc gtaaacttcc acctcctcac caatctgata gccaagttcg
+    41941 gcaaggctca ttgaatcttc gtcgtaccta atttcgttgt tgataataat cgctttcatg
+    42001 tttcttctcc tctctgttga ttagcaaact atagccagtc atggtggatt tgtctttagc
+    42061 aaaaagtgct attcgtcaga tttatggatt gttgcaggca ttgcgatgat tagcatgact
+    42121 attacacata aagcaatatt tcatcgagtg caacaggttt attgattgtt gccagtttgg
+    42181 caatgatgga tggatggatt gaatgaaagg aggtctggat caaatagttg gttggtttta
+    42241 tcgctcgcgg agagacttct tttatatacg cgtagtccgc tgtctaccga ttgtcgaccg
+    42301 tatccacatt tacaatttat acgccttgat ataatccata tacactaaaa tatccttata
+    42361 tataaaggac ttagactatt attattatta tatatagtat tatgtatata tagcgtatca
+    42421 tctgtacgcc actatatagg ttggtttgct taaatttcta tttttattcc tacactgtag
+    42481 gaattgtact accttgtagg aaaatatagg aggatatagc tagaaccacc tcatctatat
+    42541 gtagacgcac gtagacgcct gtacacaccc agcaacgatg cggcatgcag ggcaaaaagc
+    42601 gtatcaattt taaaataaac aaaaaataca tttatataca cgtaaatctt tgctatagtc
+    42661 atttcatcga aacgaggcaa caaacaacaa tcaacgagag gaattatcat gagcaaaacg
+    42721 accttaggtg aagtaattcg attcatggct aaaaaggcac tccagtcaga agataaggag
+    42781 ttcaaggttc cagttcgaga tatttaccga caaattagag gtcatgatta cccggaaatg
+    42841 gagactgatg ataaaaccgg ggatattatc aaccttggag agcggaagtt gagtgagtta
+    42901 aagaactcat acattcataa tacattgtca cgaatgagag agttgcgtga ggctaagtat
+    42961 atcgcccgtt atcaattcat ctggattgat gcggatggtg aagataccac gccccgccag
+    43021 tatgatggcg atggtgctga taaatacctg ctaatccatc tcaccgaggg ggttaaggag
+    43081 ccaaaagcaa aacaaagaga gaaagaagaa aaggagcggg ctgttattga gaagttcaaa
+    43141 tctcgcttgc ttaagttatc acctaacgta ctggattttg aaggtgatga gctgactggc
+    43201 gcagttaagg ctatccgcat gtatcaagag atgatcaagg agtttaacta atgtttgatt
+    43261 tcgacgaaga taagttaact gatgaccagg tgatggaagt cgccaggcaa gataacctgc
+    43321 cgccacttcg tgtggcaatc aatactaatg gataccgcca atcattcaat ttctggccca
+    43381 gcgccgaaga gatgctgtgc gtcaagttga gctacaaata cggcgtagta gtgagcagga
+    43441 ttagccgcca gggctggaat ggagtggttg gcattcgatc tctatacgag gcaatccgaa
+    43501 aggtccagcc attcgtcggg cgcgaaggga ttatgcatga cctgacaaat aacatcatcc
+    43561 cagaactaca ggaggcggga attgtttgcc tcattggcga taagatttat gttcatccgg
+    43621 ccctggttgg gatggataag gacgacgtgc aaaactggtg cagccagtac cgatccgacg
+    43681 cgccacgctc acactacgtg ccaccgcaaa caacaatcca tggctatgat gccgatgagg
+    43741 tggagaaggc catacagttc taccggaaag cgaaagctct cctgaatggt gaatatagca
+    43801 caaattgcta aacaataaat tgggtagtca gctatgatta ccctatcaac aacaaagagg
+    43861 aaataaccat gaaagctgta attattgaag atttcgcagg cgctcgcaca gaggtgtcaa
+    43921 cctcagtaca ttacgaaggc atcgttagta ttgatatcaa cttcggtaac catggcgacg
+    43981 gatgtgcgct tgctcactat actgcctacc aagcgcgcaa actggcggcg gcgcttattc
+    44041 aggcggctga ggggattgag aatggtaagg gttacactgg tcggcgtagg agcgagtaaa
+    44101 ttcagtatca taattgaagc aaatgacaac taaacgatag gaagctaaca tgattaccat
+    44161 taacctttca gaagagcatg ctgccgagat tagggctata ctaatgcatt gccttagccg
+    44221 caagatgttt agcgcgtcag aatcgcttac agaggttgta aatcagattc gaaatcagga
+    44281 gtttgaagat atactgccgt gggaagagga cttggcctgg cttgagtacg agcagatttg
+    44341 cacggcacta tcaggctgcc aactggctag ccaatacaag tgacaatcta cgaacacaca
+    44401 ttcagcagca ggggtatcga tatgctcctg cattacgtag acgaacaata cgccatgttg
+    44461 atgcagagga cgcacggcgg cactataacg aggattgaga tatgtactac tatatgattc
+    44521 ctattgaaga tttaatgctt gattacagtc atggctacat tgcggtatgc gacgctgata
+    44581 caatgactgc atatgttgac tttgaatttg aggattgaga tatgagtaag tacgaaaaag
+    44641 agattattgg cctggacggc accaagacta cggttgatgt atatcgcgtc atcgcagcat
+    44701 ttggcgtaac ggacccggca ctacagcatg ccatcaaaaa ggtactgtgc agcggcattc
+    44761 gaacacgaca taaggattac cctaccgaca tcaatgaggc cattgtatcg cttcagaagg
+    44821 ccatagaatt ccatgatcaa aggggtgcac atgtccagga acttatagac aagtatcgca
+    44881 acggacctaa acattatctt gatagctgga gcaacaaata gcacaaattg ctaaacatcc
+    44941 atcgcaagga tgcgttacca ttactttatc gaaatgagac gaggaaagat taaatgtgtg
+    45001 gatatgatga gttgccaagt gaatggtgta aaaagatgat ggatgaggct aaagatgggg
+    45061 atgaagtaat ggcgtacttt gagttgatga acatgtggca tgagcgcgag gagaagaaat
+    45121 gaagatttac gtattcactg gcaacttatt ggcagccaac gattctgagg gtggagacgg
+    45181 caagcgagca attcatatgg ggagtaagaa acaaacaatg aggcgcatat ctattgatga
+    45241 agcaattaaa attggtagct tcgtttgctt gtgggtatgt gatggtgagc ttcaagcgga
+    45301 acaggttagg aatggttacg tatatactgg atatgatgaa tatgacgatg atagagagtt
+    45361 gtttcagcct gcattttatc tcgacgctga attttacatc gctggagaat aacccatgat
+    45421 atggattcac acgtactaca ctggcaagtt caatagcgta atgcacaaac gaatgtatga
+    45481 cagctatgaa tcagcaaagg cacagcaggc agtcctaggt ggcgatattc aatcttacaa
+    45541 gaaggcttaa tcatgttcgg acttactcaa ccacaattta atgcagttcg cgcccaagct
+    45601 aagaaactta acgaggcggt ggataagctg acaagcaagc agaagcagga taatgacatc
+    45661 atgaaggcga ttatctgtga gtttcatagc ccagtcagta caatcatcga gaagatgaag
+    45721 tttgtttggg ttgcaggcta tcttgctggt cgcgtaggta agcgtgaaga tggggagcag
+    45781 atttatgact aaatcactag ggaaagtcag atgtgttggg tcttacaatg ataagaagtt
+    45841 caaaactggt aaatcttaca gcattttgtc atcacccgca tatggttggg ttaaatgtga
+    45901 gtcagaagat gggtgtatag agatggttaa agatggcaat gacattgagt ttggttactt
+    45961 tgaggtattt tatgactgag ctatcaatct ggttcctggc tggcatgttg acgtggattt
+    46021 atttcgtcgt catggcttga cgaaaatgtt aaaagtggtt agtattaacc acgtagacgg
+    46081 caatgaccgt aacgctcatc gcggagatgc aagccgatag ccgggctgga taaagatacg
+    46141 aggcaaataa aaccgcagtt agacattgag tgcttagcat agcgcacgcc ttaatgcagt
+    46201 aagtcggact tgaccttccg aggattgtga aacctccccg cattcggtaa gcgggactca
+    46261 ttctagttct gctggcgtaa caggataacg cagagacctc ctaagtctca gttgctggtt
+    46321 cgagtccagc gcagaacgcc aatcaaccag caccatgtgc attgaggtaa atatgaaaat
+    46381 tgtaaccatc atcgttaaag acacaaatac aggcagcatc gctaagtaca atatcaaact
+    46441 taaagaaggt gaaaagagag agcaccttgg tttaatgaat ggtgtttaca catgcattaa
+    46501 tcttgaacat gacaaatcgc ttgataagca tgtatttgac aagatgctag agagcgcaat
+    46561 ggatgaataa ctacgaagtc cgtttaactt cccgcctaat gggcaggcaa tgcaaatctt
+    46621 gccagcaatc ctacgaaggt aggtttcttg ctaacggccc tgaagaagca gttgcagccg
+    46681 caaaggcagc atttaagatt gacctgacag ttcacaaagt cagcgttgat aaagtatccc
+    46741 tcgtttgaga ttggtcatct cgcaatgcag tacttcgccc tccttgtgag ggcttttttt
+    46801 cgtccatagt catggtacaa tgacttttaa aacaggagga atatcaa
+//
+

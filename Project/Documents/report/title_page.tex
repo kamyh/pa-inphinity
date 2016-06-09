@@ -1,0 +1,182 @@
+\documentclass[a4paper,11pt]{report}
+
+% General tools
+\usepackage{etoolbox}
+\usepackage{color}
+\usepackage[utf8]{inputenc}
+\usepackage{minted}
+% Fonts
+\usepackage[T1]{fontenc}
+
+% LaTeX modern fonts
+\usepackage{lmodern}
+
+% Sans serif
+%\usepackage{tgheros}
+
+% Serif
+%\usepackage[bitstream-charter]{mathdesign}
+
+% Monospace
+%\usepackage{sourcecodepro}
+
+% Language
+\usepackage[english]{babel}
+\usepackage{blindtext}
+\usepackage{url}
+
+% Page style
+\usepackage{fullpage} % page margins to 1.5cm
+\usepackage{fancyhdr} % headers and footers
+
+% Colors & graphics
+\usepackage[table]{xcolor}    % colors
+\usepackage[pdftex]{graphicx} % graphics importing
+
+% Misc
+\usepackage{titlesec} % section titles formatting
+\usepackage{minted}   % code highlighting
+\usepackage{lscape}   % landscape
+\usepackage{tikz}     % charts in LaTeX
+\usepackage{amsmath}  % better math
+\usepackage{float}    % floats
+\usepackage[small,justification=centering]{caption}
+\usepackage{microtype} % typographic improvements
+
+% Paragraphs
+\usepackage{parskip}
+\usepackage[defaultlines=3,all]{nowidow}
+
+% Chapter titles
+% Remove space before title
+\titlespacing{\chapter}{0pt}{*-4}{*3}
+% Remove "Chapter N" and use a sans-serif font
+\titleformat{\chapter}[hang]{\bf\huge}{\thechapter}{1pc}{}
+% Change chapter page style
+\patchcmd{\chapter}{plain}{fancy}{}{}
+
+% Tables
+\usepackage{multirow}
+
+% Cross-references
+\usepackage{hyperref}
+
+
+% Metadata for this report
+% ------------------------
+\newcommand{\School}{University of Applied Sciences Western Switzerland}
+\newcommand{\Faculty}{MSE - Software Engineering}
+\newcommand{\Place}{Lausanne}
+
+% Course
+
+\newcommand{\Title}{<Title>}
+
+% Supervisors (professors)
+\newcommand{\Supervisors}{Prof. Carlos Peña}
+
+% Students
+\newcommand{\Authors}{Déruaz Vincent}
+
+%TOOLS
+\newcommand{\todo}[1]{\textcolor{red}{TODO: #1}\PackageWarning{TODO:}{#1!}}
+
+\newcommand{\Course}{Pa \\ Inphinity}
+
+
+% Header and footer
+% -----------------
+\pagestyle{fancy}
+\lhead[]{\Course}
+\chead[]{}
+\rhead[]{\Place, \today}
+
+\setlength{\headheight}{14pt}
+\setlength{\headsep}{14pt}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+% Code styles for highlighting
+% ----------------------------
+
+% How to use (replace 'java' with language name):
+% - code blocks:
+%     \begin{javacode}
+%     CODE
+%     \end{javacode}
+% - files:
+%     full: \javafile{PATH}
+%     extract: \javafile[startline=x, endline=y]{PATH}
+% TODO: inline?
+
+% Java
+\newminted{java}{frame=single, framesep=6pt, breaklines=true, fontsize=\scriptsize}
+\newmintedfile{java}{frame=single, framesep=6pt, breaklines=true, fontsize=\scriptsize}
+
+% Scala
+\newminted{scala}{frame=single, framesep=6pt, breaklines=true, fontsize=\scriptsize}
+\newmintedfile{scala}{frame=single, framesep=6pt, breaklines=true, fontsize=\scriptsize}
+
+% Python
+\newminted{python}{frame=single, framesep=6pt, breaklines=true, fontsize=\scriptsize}
+\newmintedfile{python}{frame=single, framesep=6pt, breaklines=true, fontsize=\scriptsize}
+
+% Plain text
+\newminted{text}{frame=single, framesep=6pt, breaklines=true, breakanywhere, fontsize=\scriptsize}
+\newmintedfile{text}{frame=single, framesep=6pt, breaklines=true, breakanywhere, fontsize=\scriptsize}
+
+% Document
+% --------
+\begin{document}
+
+\begin{titlepage}
+\begin{flushright}
+\begin{minipage}{0.5\textwidth}
+\begin{flushleft}
+\includegraphics[width=0.9\textwidth]{./img/mse_logo}
+\end{flushleft}
+\end{minipage}%
+\begin{minipage}{0.5\textwidth}
+\begin{flushright}
+\includegraphics[width=0.6\textwidth]{./img/logo_hes-so}
+\end{flushright}
+\end{minipage}
+\begin{flushleft}
+\footnotesize
+Master of Science HES-SO in Engineering \\
+Av. de Provence 6 \\
+CH-1007 Lausanne
+\end{flushleft}
+~\\[0.5cm]
+
+\huge Master of Science HES-SO in Engineering\\[0.5cm]
+
+\large Orientation : Technologies de l’information et de la communication(TIC)\\[0.5cm]
+~\\[1cm]
+% Title
+{
+\Huge PA - Inphinity \\[1.5cm]
+}
+{
+Done by:\\
+\huge Déruaz Vincent\\[0.5cm]
+}
+{
+Under the supervision of: \\
+Prof. Carlos Peña \\
+of HEIG-VD
+}
+\vfill
+
+% Bottom of the page
+{Lausanne, HES-SO//Master, \today}
+
+\end{flushright}
+\end{titlepage}
+
+
+
+\end{document}
+
+
+
