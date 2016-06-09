@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{build\PYGZus{}tree}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,}\PYG{n}{pham}\PYG{p}{):}
+    \PYG{n}{genes} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{get\PYGZus{}genes\PYGZus{}from\PYGZus{}a\PYGZus{}pham}\PYG{p}{(}\PYG{n}{pham}\PYG{p}{)}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{create\PYGZus{}fasta}\PYG{p}{(}\PYG{n}{genes}\PYG{p}{)}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{align\PYGZus{}muscle}\PYG{p}{()}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{compute\PYGZus{}tree}\PYG{p}{()}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{prepare\PYGZus{}tree\PYGZus{}fig}\PYG{p}{()}
+\end{Verbatim}

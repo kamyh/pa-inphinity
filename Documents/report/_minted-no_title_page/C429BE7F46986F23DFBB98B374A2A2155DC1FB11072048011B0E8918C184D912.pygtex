@@ -1,0 +1,13 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{display\PYGZus{}scores}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+    \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Display Scores\PYGZsq{}}\PYG{p}{)}
+
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{leaves} \PYG{o}{=} \PYG{p}{[}\PYG{n+nb}{str}\PYG{p}{(}\PYG{n}{cladit}\PYG{p}{)} \PYG{k}{for} \PYG{n}{k}\PYG{p}{,}\PYG{n}{cladit} \PYG{o+ow}{in} \PYG{n+nb}{enumerate}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{tree}\PYG{o}{.}\PYG{n}{get\PYGZus{}terminals}\PYG{p}{())]}
+    \PYG{k}{for} \PYG{n}{l1}\PYG{p}{,}\PYG{n}{leave1} \PYG{o+ow}{in} \PYG{n+nb}{enumerate}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{leaves}\PYG{p}{):}
+        \PYG{k}{for} \PYG{n}{l2}\PYG{p}{,}\PYG{n}{leave2} \PYG{o+ow}{in} \PYG{n+nb}{enumerate}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{leaves}\PYG{p}{):}
+            \PYG{n}{distance} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{tree}\PYG{o}{.}\PYG{n}{distance}\PYG{p}{(}\PYG{n}{leave1}\PYG{p}{,}\PYG{n}{leave2}\PYG{p}{)}
+            \PYG{k}{if} \PYG{n}{distance} \PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{0}\PYG{p}{:}
+                \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZsq{}}\PYG{p}{)}
+                \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+si}{\PYGZpc{}s}\PYG{l+s+s1}{ \PYGZhy{} }\PYG{l+s+si}{\PYGZpc{}s}\PYG{l+s+s1}{\PYGZsq{}} \PYG{o}{\PYGZpc{}} \PYG{p}{(}\PYG{n}{leave1}\PYG{p}{,}\PYG{n}{leave2}\PYG{p}{))}
+                \PYG{k}{print}\PYG{p}{(}\PYG{n}{distance}\PYG{p}{)}
+\end{Verbatim}

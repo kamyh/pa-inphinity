@@ -11,6 +11,14 @@ sudo source activate phamerator
 
 sudo apt-get install pyro clustalw python-biopython mysql-server python-mysqldb python-pygoocanvas
 
+sudo apt-get install python-glade2 &&
+sudo apt-get install easy_install &&
+sudo apt-get install python-setuptools &&
+sudo easy_install weblogo &&
+sudo apt-get install python-webkit &&
+sudo apt-get install python-webkit-dev &&
+sudo apt-get install python-gconf
+
 sudo apt-get install gcc &&
 sudo apt-get install python-dev &&
 sudo python setup.py install
@@ -23,14 +31,6 @@ tar -xzvf biopython-1.50.tar.gz &&
 cd biopython-1.50/
 
 sudo python setup.py install
-
-sudo apt-get install python-glade2 &&
-sudo apt-get install easy_install &&
-sudo apt-get install python-setuptools &&
-sudo easy_install weblogo &&
-sudo apt-get install python-webkit &&
-sudo apt-get install python-webkit-dev &&
-sudo apt-get install python-gconf
 
 cd ../phamerator-1.1/phamerator
 sudo ./Phamerator

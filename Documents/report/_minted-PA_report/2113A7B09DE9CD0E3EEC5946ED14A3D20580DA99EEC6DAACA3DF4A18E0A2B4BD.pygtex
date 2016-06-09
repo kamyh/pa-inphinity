@@ -1,6 +1,5 @@
 \begin{Verbatim}[commandchars=\\\{\}]
 \PYG{k}{def} \PYG{n+nf}{get\PYGZus{}host\PYGZus{}from\PYGZus{}genbank}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{genome\PYGZus{}id}\PYG{p}{):}
-
     \PYG{k}{try}\PYG{p}{:}
         \PYG{n}{record} \PYG{o}{=} \PYG{n}{Entrez}\PYG{o}{.}\PYG{n}{efetch}\PYG{p}{(}\PYG{n}{db}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}nuccore\PYGZdq{}}\PYG{p}{,} \PYG{n+nb}{id}\PYG{o}{=}\PYG{n}{genome\PYGZus{}id}\PYG{p}{,} \PYG{n}{rettype}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}gb\PYGZdq{}}\PYG{p}{,} \PYG{n}{retmode}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}text\PYGZdq{}}\PYG{p}{)}
 
@@ -8,10 +7,7 @@
         \PYG{k}{with} \PYG{n+nb}{open}\PYG{p}{(}\PYG{n}{filename}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}w\PYGZsq{}}\PYG{p}{)} \PYG{k}{as} \PYG{n}{f}\PYG{p}{:}
             \PYG{n}{f}\PYG{o}{.}\PYG{n}{write}\PYG{p}{(}\PYG{n}{record}\PYG{o}{.}\PYG{n}{read}\PYG{p}{())}
         \PYG{n}{parsed\PYGZus{}gb\PYGZus{}file} \PYG{o}{=} \PYG{n+nb}{next}\PYG{p}{(}\PYG{n}{SeqIO}\PYG{o}{.}\PYG{n}{parse}\PYG{p}{(}\PYG{n}{filename}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}genbank\PYGZdq{}}\PYG{p}{))}
-
-        \PYG{c+c1}{\PYGZsh{}print(parsed\PYGZus{}gb\PYGZus{}file)}
         \PYG{k}{return} \PYG{n}{parsed\PYGZus{}gb\PYGZus{}file}\PYG{o}{.}\PYG{n}{annotations}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}source\PYGZdq{}}\PYG{p}{]}
-
     \PYG{k}{except}\PYG{p}{:}
         \PYG{k}{return} \PYG{l+s+s1}{\PYGZsq{}Not Found\PYGZsq{}}
 
