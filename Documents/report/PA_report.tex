@@ -59,7 +59,7 @@
 \usepackage{multirow}
 
 % Cross-references
-\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
 
 
 % Metadata for this report
@@ -174,6 +174,27 @@ of HEIG-VD
 \end{flushright}
 \end{titlepage}
 
+\newpage
+\mbox{}
+
+\vspace{0.5cm}
+{
+\huge Accepted by HES SO//Master (Suisse, Lausanne) \\
+\huge On a proposal from\\
+\huge Prof. Carlos Peña, Pa advisor
+}
+
+\vspace{8cm}
+\textbf{Advisor} \\
+Prof. Carlos Peña \\
+of HEIG-VD
+
+\vspace{3cm}
+\textbf{MRU responsable} \\
+Prof. Eduardo Sanchez \\
+of HEIG-VD
+\newpage
+
 \tableofcontents
 
 
@@ -208,13 +229,13 @@ Before entering in the project content, let's say some words about genomic. Almo
 \begin{minipage}{.5\textwidth}
   \centering
   \includegraphics[width=.8\linewidth]{img/chromosome}
-  \captionof{figure}{A figure}
+  \captionof{figure}{DNA visualisation}
   \label{fig:test1}
 \end{minipage}%
 \begin{minipage}{.5\textwidth}
   \centering
   \includegraphics[width=.7\linewidth]{img/geneticcode}
-  \captionof{figure}{Another figure}
+  \captionof{figure}{Codons to proteins}
   \label{fig:test2}
 \end{minipage}
 \end{figure}
@@ -344,7 +365,7 @@ Normally your Phamerator should start at the end (Fig 3.4).
 \begin{figure}[H] 
 	\begin{center}
 		\includegraphics[scale=0.3]{img/phamerator_1}
-		\caption{phamerator interface}
+		\caption{phamerator interface 1}
 	\end{center}
 \end{figure}
 
@@ -355,7 +376,7 @@ Phamerator starts with a default database, \textit{SEA - phamerator.csm.jmu.edu}
 \begin{figure}[H] 
 	\begin{center}
 		\includegraphics[scale=0.3]{img/phamerator_2}
-		\caption{phamerator interface}
+		\caption{phamerator interface 2}
 	\end{center}
 \end{figure}
 
@@ -364,7 +385,7 @@ As you can see on figure 3.5, you can choose to display information about phages
 \begin{figure}[H] 
 	\begin{center}
 		\includegraphics[scale=0.45]{img/12859_2011_Article_4954_Fig8_HTML}
-		\caption{phamerator interface}
+		\caption{phamerator interface 3}
 	\end{center}
 \end{figure}
 
@@ -426,7 +447,7 @@ We use the default database from phamerator for this phase of the project in ord
 \begin{figure}[H] 
 	\begin{center}
 		\includegraphics[scale=0.52]{img/12859_2011_Article_4954_Fig1_HTML}
-		\caption{Docker harchitecture}
+		\caption{Phamerator database architecturea}
 	\end{center}
 \end{figure}
 
@@ -575,7 +596,7 @@ The FASTA file should look like figure 3.16. A gene takes two lines. First the g
 \begin{figure}[H] 
 	\begin{center}
 		\includegraphics[scale=0.6]{img/fasta}
-		\caption{PhamDb database creation}
+		\caption{FASTA file}
 	\end{center}
 \end{figure}
 
@@ -607,7 +628,7 @@ def align_muscle(self):
         self.print_(muscle_align)
 
 \end{minted}
-\caption{FASTA creation function}
+\caption{Muscle alignment}
 \end{figure}
 
 MUSCLE takes our generated FASTA file to produce a .aln file who will contain the alignments.
@@ -645,7 +666,7 @@ def compute_tree(self):
     self.tree = Phylo.read('%stree.tre' % (self.out_dir), 'newick')
 
 \end{minted}
-\caption{FASTA creation function}
+\caption{Tree creation}
 \end{figure}
 
 \textbf{Note:} As for MUSCLE utilisation, maybe some modification to the call of FastTree can be used to improve the solution.
@@ -655,7 +676,7 @@ The following figure (3.19) show that we now have a file with our tree. Every ge
 \begin{figure}[H] 
 	\begin{center}
 		\includegraphics[scale=0.6]{img/tree}
-		\caption{PhamDb database creation}
+		\caption{Tree score}
 	\end{center}
 \end{figure}
 
@@ -666,7 +687,7 @@ The function \textit{compute\_tree()} set an attribut, \textit{self.tree}, to \t
 \begin{figure}[H] 
 	\begin{center}
 		\includegraphics[scale=0.28]{img/tree_fig}
-		\caption{PhamDb database creation}
+		\caption{Phylogenetic tree}
 	\end{center}
 \end{figure}
 \newpage
@@ -691,7 +712,7 @@ inphinity.build_tree('2799')
 inphinity.print_informations_on_phages(inphinity.leaves)
 
 \end{minted}
-\caption{FASTA creation function}
+\caption{Information display function}
 \end{figure}
 
 We will discuss the content of those information in section 4.1. The avalaible information is the phage gene id who's been used to build the tree, the phage identification number, the phage name, the phage access identifier on Genbank and the phage host strain.
@@ -734,7 +755,7 @@ def get_informations_from_phage_db(self, phage_name):
     return host
 
 \end{minted}
-\caption{FASTA creation function}
+\caption{Data completion functions}
 \end{figure}
 
 \chapter{Results \& Analyse}
@@ -773,7 +794,7 @@ def display_scores(self):
                 print(distance)
 
 \end{minted}
-\caption{FASTA creation function}
+\caption{Score display function}
 \end{figure}
 
 For pham \textit{2799} we can split the pham into parts using those distances. On figure 3.20 those parts are colored differently depending on their belonging.
@@ -855,7 +876,7 @@ After adding more phages, we can make a script to iterate on all generated phams
 \begin{figure}[H] 
 	\begin{center}
 		\includegraphics[scale=0.7]{img/tree_fig_4}
-		\caption{PhamDb database creation}
+		\caption{Tree sub-selection}
 	\end{center}
 \end{figure}
 
